@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '14.0'
+
+target 'MLYSDK_Example' do
+  pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
+  pod 'SnapKit', '~> 5.6.0'
+end
