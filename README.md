@@ -46,8 +46,7 @@ self.view.addSubview(self.playerViewController.view)
 MLYDriver.deactivate()
 var options: MLYDriverOptions {
     let options = MLYDriverOptions()
-    options.client.id = "input id"
-    options.client.key = "input key"
+    options.client.id = "input id" 
     return options
 }
 do {
@@ -56,12 +55,6 @@ do {
     print(error)
 }
 ```
- 
-### 3  ###
-
-```swift  
-MLYAVPlayerPlugin.adapt(playerLayer: playerLayer)
-``` 
 
 ### playVideo  ###
 
@@ -69,6 +62,7 @@ MLYAVPlayerPlugin.adapt(playerLayer: playerLayer)
 func playVideo() {
     do {
         let url = try ProxyURLModifier.replace("media url")
+        MLYAVPlayerPlugin.adapt(playerLayer: playerLayer)
         playerItem = AVPlayerItem(url: url)
         playerItem?.preferredForwardBufferDuration = 15
         player?.replaceCurrentItem(with: playerItem)
