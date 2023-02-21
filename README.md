@@ -56,7 +56,7 @@ do {
 }
 ```
 
-### playVideo  ###
+### 3 playVideo  ###
 
 ```swift 
 func playVideo() {

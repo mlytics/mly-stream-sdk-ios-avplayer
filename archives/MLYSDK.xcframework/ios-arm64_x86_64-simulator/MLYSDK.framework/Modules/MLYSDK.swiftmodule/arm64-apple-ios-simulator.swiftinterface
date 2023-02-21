@@ -25,10 +25,7 @@ public class MLYAVPlayerAdapter {
 public class MLYDriverOptions {
   public var client: MLYSDK.MLYClientOptions
   public var server: MLYSDK.MLYServerOptions
-  public var debug: Swift.Bool {
-    get
-    set
-  }
+  public var debug: Swift.Bool
   public init()
   @objc deinit
 }
@@ -67,6 +64,7 @@ public struct MLYServerSetting {
   required public init(from decoder: Swift.Decoder) throws
 }
 public class MLYDriver {
+  public static let VERSION: Swift.String
   public init()
   public static func initialize(options: MLYSDK.MLYDriverOptions?) throws
   public static func activate() throws
