@@ -40,15 +40,7 @@ self.addChild(self.playerViewController)
 self.view.addSubview(self.playerViewController.view)
 ``` 
 
-### 2 - plugin  ###
-
-```swift    
-var plugin: MLYAVPlayerPlugin = .init()
-
-self.plugin.adapt(self.playerViewController)
-```
-
-### 3 initialize  MLYDriver ###
+### 2 initialize  MLYDriver ###
 
 ```swift 
 var options: MLYDriverOptions {
@@ -61,23 +53,26 @@ do {
 } catch {
     print(error)
 }
-
-
 ```
+
+### 3 - plugin  ###
+
+```swift    
+var plugin: MLYAVPlayerPlugin = .init()
+
+self.plugin.adapt(self.playerViewController)
+```
+
+
 ### 4 Play Video  ###
 
 ```swift 
 func playVideo() {
-    do {
-        let url = try ProxyURLModifier.replace("media url")
-        MLYAVPlayerPlugin.adapt(playerLayer: playerLayer)
-        playerItem = AVPlayerItem(url: url)
-        playerItem?.preferredForwardBufferDuration = 15
-        player?.replaceCurrentItem(with: playerItem)
-        player?.play()
-    } catch {
-        print(error)
-    }
+    let url = URL(string: play_m3u8)!
+    self.playerItem = AVPlayerItem(url: url)
+    self.playerItem.preferredForwardBufferDuration = 15
+    self.player.replaceCurrentItem(with: self.playerItem)
+    self.player.play()
 }
 ```
 
