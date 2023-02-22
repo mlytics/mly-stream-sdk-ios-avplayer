@@ -40,10 +40,17 @@ self.addChild(self.playerViewController)
 self.view.addSubview(self.playerViewController.view)
 ``` 
 
-### 2 - init  ###
+### 2 - plugin  ###
 
-```swift   
-MLYDriver.deactivate()
+```swift    
+var plugin: MLYAVPlayerPlugin = .init()
+
+self.plugin.adapt(self.playerViewController)
+```
+
+### 3 initialize  MLYDriver ###
+
+```swift 
 var options: MLYDriverOptions {
     let options = MLYDriverOptions()
     options.client.id = "input id" 
@@ -54,9 +61,10 @@ do {
 } catch {
     print(error)
 }
-```
 
-### 3 playVideo  ###
+
+```
+### 4 Play Video  ###
 
 ```swift 
 func playVideo() {
