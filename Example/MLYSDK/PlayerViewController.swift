@@ -9,7 +9,8 @@ class PlayerViewController: UIViewController {
     var playerViewController: AVPlayerViewController!
     var playerItem: AVPlayerItem!
     var playButton: UIButton!
-    public var driver = MLYDriver()
+
+    var plugin: MLYAVPlayerPlugin = .init()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,20 +34,16 @@ class PlayerViewController: UIViewController {
         self.view.layoutIfNeeded()
 
         self.startDriver()
+        self.plugin.adapt(self.playerViewController)
     }
 
     @objc func playVideo() {
-        print("playVideo")
-        do {
-            let url = try ProxyURLModifier.replace(play_m3u8)
-            MLYAVPlayerPlugin.adapt(playerViewController: self.playerViewController)
-            self.playerItem = AVPlayerItem(url: url)
-            self.playerItem.preferredForwardBufferDuration = 15
-            self.player.replaceCurrentItem(with: self.playerItem)
-            self.player.play()
-        } catch {
-            print(error)
-        }
+        debugPrint("PlayVideo")
+        let url = URL(string: play_m3u8)!
+        self.playerItem = AVPlayerItem(url: url)
+        self.playerItem.preferredForwardBufferDuration = 15
+        self.player.replaceCurrentItem(with: self.playerItem)
+        self.player.play()
     }
 
     @objc func startDriver() {
