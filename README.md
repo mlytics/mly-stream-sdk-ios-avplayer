@@ -40,7 +40,7 @@ self.addChild(self.playerViewController)
 self.view.addSubview(self.playerViewController.view)
 ``` 
 
-### 2 initialize  MLYDriver ###
+### 2 - initialize  MLYDriver ###
 
 ```swift 
 var options: MLYDriverOptions {
@@ -64,7 +64,7 @@ self.plugin.adapt(self.playerViewController)
 ```
 
 
-### 4 Play Video  ###
+### 4 - Play Video  ###
 
 ```swift 
 func playVideo() {
