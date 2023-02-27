@@ -240,33 +240,6 @@
           },
           {
             "kind": "Function",
-            "name": "play",
-            "printedName": "play(url:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MLYSDK@objc(cs)MLYAVPlayerPlugin(im)playWithUrl:",
-            "mangledName": "$s6MLYSDK17MLYAVPlayerPluginC4play3urly10Foundation3URLV_tF",
-            "moduleName": "MLYSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "notifyPlayerItemNewAccessLogEntry",
             "printedName": "notifyPlayerItemNewAccessLogEntry()",
             "children": [
@@ -3773,13 +3746,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/kernel\/service\/filer\/seeker\/DownloaderAgent.swift",
-      "kind": "Array",
-      "offset": 946,
-      "length": 15,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/kernel\/core\/infra\/DownloadStats.swift",
       "kind": "IntegerLiteral",
       "offset": 1058,
@@ -4846,14 +4812,21 @@
     {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/kernel\/core\/servant\/MCDNComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 8827,
+      "offset": 6271,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/kernel\/core\/servant\/MCDNComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8889,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/kernel\/core\/servant\/MCDNComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 8890,
+      "offset": 8952,
       "length": 1,
       "value": "1"
     },
@@ -7198,7 +7171,7 @@
     {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/util\/Queue.swift",
       "kind": "IntegerLiteral",
-      "offset": 728,
+      "offset": 852,
       "length": 1,
       "value": "0"
     },

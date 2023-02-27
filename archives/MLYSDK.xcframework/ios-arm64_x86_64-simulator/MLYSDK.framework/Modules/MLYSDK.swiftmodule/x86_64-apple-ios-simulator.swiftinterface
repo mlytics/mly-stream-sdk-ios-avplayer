@@ -20,7 +20,6 @@ import _StringProcessing
   @objc override dynamic public init()
   @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController? = nil)
   @objc public func buildPlayerItem(url: Foundation.URL) throws -> AVFoundation.AVPlayerItem
-  @objc public func play(url: Foundation.URL)
   @objc deinit
   @objc public func notifyPlayerItemNewAccessLogEntry()
 }

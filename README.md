@@ -26,7 +26,8 @@ or
 pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
 ```
 
-## Usage
+
+## Usage Swift
 
 ### 1 - Prepare  ###
  
@@ -72,6 +73,53 @@ func playVideo() {
     self.player.play()
 }
 ```
+
+
+## Usage Objective-C
+
+### 1 - Prepare  ###
+ 
+```objective-c
+_avplayer = [[AVPlayer alloc] init];
+_avplayerController = [AVPlayerViewController new];
+_avplayerController.showsPlaybackControls = true;
+_avplayerController.view.backgroundColor = UIColor.darkGrayColor;
+_avplayerController.player = _avplayer;
+
+[self addChildViewController:_avplayerController];
+[[self view] addSubview:_avplayerController.view];
+``` 
+
+### 2 - initialize  MLYDriver ###
+```objective-c 
+do {
+    try MLYDriver.initialize { options in
+        options.client.id = client_id 
+    }
+} catch {
+    print(error)
+}
+```
+
+### 3 - plugin  ###
+
+```objective-c    
+_plugin = [MLYAVPlayerPlugin alloc];
+[_plugin adapt:_avplayerController];
+```
+
+
+### 4 - Play Video  ###
+
+```objective-c 
+func playVideo() {
+    NSURL *url = [NSURL URLWithString:@"url"];
+    AVPlayerItem *item = [AVPlayerItem playerItemWithURL:url];
+    [_avplayer replaceCurrentItemWithPlayerItem:item];
+    [_avplayer play];
+}
+```
+
 
 ## License
 
