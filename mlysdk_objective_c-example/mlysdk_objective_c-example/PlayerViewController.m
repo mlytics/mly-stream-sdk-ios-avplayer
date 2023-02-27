@@ -21,6 +21,9 @@
         [_plugin adapt:_avplayerController];
     }];
     
+    if(error != nil){
+        NSLog(@"MLYDriver initialize err:%@",error.description);
+    }
     NSURL *url = [NSURL URLWithString:@"https://vsp-stream.s3.ap-northeast-1.amazonaws.com/HLS/raw/SpaceX.m3u8"];
     AVPlayerItem *item = [AVPlayerItem playerItemWithURL:url];
     [_avplayer replaceCurrentItemWithPlayerItem:item];

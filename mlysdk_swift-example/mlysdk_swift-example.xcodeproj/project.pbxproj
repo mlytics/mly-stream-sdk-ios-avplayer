@@ -356,6 +356,7 @@
 				DEVELOPMENT_TEAM = BXKWR2LZDX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mlysdk_swift-example/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MLYSDK_Example;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -366,7 +367,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.mlysdk-swift.mlysdk-swift-example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MLYSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -385,6 +386,7 @@
 				DEVELOPMENT_TEAM = BXKWR2LZDX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mlysdk_swift-example/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MLYSDK_Example;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -395,7 +397,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.mlysdk-swift.mlysdk-swift-example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MLYSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

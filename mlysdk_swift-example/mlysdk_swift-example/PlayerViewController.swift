@@ -27,7 +27,7 @@ class PlayerViewController: UIViewController {
             }
             self.plugin.adapt(self.playerViewController)
         } catch {
-            print(error)
+            print("MLYDriver initialize err: \(error)")
         }
 
         let url = URL(string: "https://vsp-stream.s3.ap-northeast-1.amazonaws.com/HLS/raw/SpaceX.m3u8")!

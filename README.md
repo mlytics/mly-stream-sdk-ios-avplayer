@@ -92,13 +92,10 @@ _avplayerController.player = _avplayer;
 
 ### 2 - initialize  MLYDriver ###
 ```objective-c 
-do {
-    try MLYDriver.initialize { options in
-        options.client.id = client_id 
-    }
-} catch {
-    print(error)
-}
+NSError *error = nil;
+[MLYDriver initializeAndReturnError:  &error :^(MLYDriverOptions * option) {
+    [[option client] setId:@"client_id"]; 
+}];
 ```
 
 ### 3 - plugin  ###
