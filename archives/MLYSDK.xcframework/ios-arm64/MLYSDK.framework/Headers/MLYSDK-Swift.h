@@ -260,6 +260,7 @@ SWIFT_CLASS("_TtC6MLYSDK17MLYAVPlayerPlugin")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)adapt:(AVPlayerViewController * _Nullable)playerViewController;
 - (AVPlayerItem * _Nullable)buildPlayerItemWithUrl:(NSURL * _Nonnull)url error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (void)playWithUrl:(NSURL * _Nonnull)url;
 - (void)notifyPlayerItemNewAccessLogEntry;
 @end
 

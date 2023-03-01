@@ -20,6 +20,7 @@ import _StringProcessing
   @objc override dynamic public init()
   @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController? = nil)
   @objc public func buildPlayerItem(url: Foundation.URL) throws -> AVFoundation.AVPlayerItem
+  @objc public func play(url: Foundation.URL)
   @objc deinit
   @objc public func notifyPlayerItemNewAccessLogEntry()
 }
@@ -92,7 +93,7 @@ public class MLYAVPlayerAdapter {
 }
 public enum ProxyURLModifierError : Swift.Error {
   case IllegalURLFormat
-  case ExceptionInInitializerError
+  case DriverStateError
   public static func == (a: MLYSDK.ProxyURLModifierError, b: MLYSDK.ProxyURLModifierError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
