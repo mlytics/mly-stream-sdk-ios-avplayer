@@ -2,13 +2,13 @@
 workspace 'mly-stream-sdk.xcworkspace'
 
 
-project 'mlysdk_swift-example'
+project 'swift-demo'
 
 
-target 'mlysdk_swift-example' do 
+target 'swift-demo' do 
 use_frameworks!
 platform :ios, '14.0'
-project 'mlysdk_swift-example/mlysdk_swift-example.xcodeproj'
+project 'examples/swift-demo/swift-demo.xcodeproj'
 
 pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
 pod 'SnapKit', '~> 5.6.0'
@@ -16,10 +16,10 @@ end
 
 
 
-target 'mlysdk_objective_c-example' do 
+target 'objective-c-demo' do 
 use_frameworks!
 platform :ios, '14.0'
-project 'mlysdk_objective_c-example/mlysdk_objective_c-example.xcodeproj'
+project 'examples/objective-c-demo/objective-c-demo.xcodeproj'
 
 pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
 end

@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -17,13 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2023 MLYSDK. All rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="6Vi-NE-gSn">
-                                <rect key="frame" x="20" y="797" width="352" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2023 MLYSDK. All rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Gd6-N2-dBU">
+                                <rect key="frame" x="8" y="797" width="377" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MLYSDK" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="7Y2-xY-3CY">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MLYSDK" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="22X-0o-tY4">
                                 <rect key="frame" x="125.33333333333333" y="404.66666666666669" width="142.66666666666669" height="43"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" systemColor="darkTextColor"/>
@@ -33,11 +32,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6Vi-NE-gSn" secondAttribute="bottom" id="7y9-Kf-4Jy"/>
-                            <constraint firstItem="7Y2-xY-3CY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="FYE-jn-jfx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Vi-NE-gSn" secondAttribute="trailing" constant="21" id="RFi-xy-tec"/>
-                            <constraint firstItem="6Vi-NE-gSn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jo5-ge-CAY"/>
-                            <constraint firstItem="7Y2-xY-3CY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="o82-5q-nkv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gd6-N2-dBU" secondAttribute="trailing" constant="8" id="7by-er-cys"/>
+                            <constraint firstItem="Gd6-N2-dBU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="GDd-m2-hZs"/>
+                            <constraint firstItem="22X-0o-tY4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TFd-PK-ZfK"/>
+                            <constraint firstItem="Gd6-N2-dBU" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dTD-Vx-Kmc"/>
+                            <constraint firstItem="22X-0o-tY4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wZP-U3-fgv"/>
                         </constraints>
                     </view>
                 </viewController>

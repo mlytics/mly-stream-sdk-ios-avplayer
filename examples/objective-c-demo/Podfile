@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '14.0'
+
+target 'objective-c-demo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for objective-c-demo
+pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
+end
