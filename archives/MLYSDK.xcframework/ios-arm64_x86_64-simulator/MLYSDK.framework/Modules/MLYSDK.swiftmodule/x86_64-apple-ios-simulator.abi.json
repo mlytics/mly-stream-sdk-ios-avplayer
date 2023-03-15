@@ -2591,6 +2591,59 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "MLYSERSION",
+            "printedName": "MLYSERSION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYDriver(cpy)MLYSERSION",
+            "mangledName": "$s6MLYSDK9MLYDriverC10MLYSERSIONSSvpZ",
+            "moduleName": "MLYSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYDriver(cm)MLYSERSION",
+                "mangledName": "$s6MLYSDK9MLYDriverC10MLYSERSIONSSvgZ",
+                "moduleName": "MLYSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -7149,14 +7202,14 @@
     {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "StringLiteral",
-      "offset": 3790,
+      "offset": 3796,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "FloatLiteral",
-      "offset": 3825,
+      "offset": 3831,
       "length": 3,
       "value": "0.0"
     },
@@ -7169,22 +7222,29 @@
     },
     {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/MLYDriver.swift",
+      "kind": "StringLiteral",
+      "offset": 143,
+      "length": 8,
+      "value": "\"0.1.21\""
+    },
+    {
+      "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/MLYDriver.swift",
       "kind": "BooleanLiteral",
-      "offset": 1090,
+      "offset": 1134,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/MLYDriver.swift",
       "kind": "BooleanLiteral",
-      "offset": 1119,
+      "offset": 1163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/MLYDriver.swift",
       "kind": "BooleanLiteral",
-      "offset": 1147,
+      "offset": 1191,
       "length": 4,
       "value": "true"
     },
@@ -7310,7 +7370,7 @@
     {
       "filePath": "\/Users\/vip\/Downloads\/Github\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/kernel\/core\/utility\/ProxyURLModifier.swift",
       "kind": "StringLiteral",
-      "offset": 119,
+      "offset": 151,
       "length": 8,
       "value": "\"origin\""
     },

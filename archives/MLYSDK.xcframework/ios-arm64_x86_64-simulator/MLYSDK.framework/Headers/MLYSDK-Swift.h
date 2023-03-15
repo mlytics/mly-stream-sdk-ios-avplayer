@@ -278,6 +278,8 @@ SWIFT_CLASS("_TtC6MLYSDK9MLYDriver")
 @interface MLYDriver : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull VERSION;)
 + (NSString * _Nonnull)VERSION SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull MLYSERSION;)
++ (NSString * _Nonnull)MLYSERSION SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 + (BOOL)initializeWithOptions:(MLYDriverOptions * _Nonnull)options error:(NSError * _Nullable * _Nullable)error;
 + (BOOL)initializeAndReturnError:(NSError * _Nullable * _Nullable)error :(SWIFT_NOESCAPE void (^ _Nonnull)(MLYDriverOptions * _Nonnull))callback;
@@ -599,6 +601,8 @@ SWIFT_CLASS("_TtC6MLYSDK9MLYDriver")
 @interface MLYDriver : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull VERSION;)
 + (NSString * _Nonnull)VERSION SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull MLYSERSION;)
++ (NSString * _Nonnull)MLYSERSION SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 + (BOOL)initializeWithOptions:(MLYDriverOptions * _Nonnull)options error:(NSError * _Nullable * _Nullable)error;
 + (BOOL)initializeAndReturnError:(NSError * _Nullable * _Nullable)error :(SWIFT_NOESCAPE void (^ _Nonnull)(MLYDriverOptions * _Nonnull))callback;
