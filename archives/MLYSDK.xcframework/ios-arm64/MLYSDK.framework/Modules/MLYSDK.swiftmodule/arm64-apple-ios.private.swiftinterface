@@ -17,38 +17,39 @@ import _Concurrency
 import _StringProcessing
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYAVPlayerPlugin : ObjectiveC.NSObject {
   public var adapter: MLYSDK.MLYAVPlayerAdapter?
-  @objc override dynamic public init()
-  @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController? = nil)
-  @objc public func buildPlayerItem(url: Foundation.URL) throws -> AVFoundation.AVPlayerItem
+  @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController)
+  @objc public func buildAssetPlayerItem(url: Foundation.URL) throws -> AVFoundation.AVPlayerItem
   @objc public func play(url: Foundation.URL)
-  @objc deinit
   @objc public func notifyPlayerItemNewAccessLogEntry()
-}
-public class MLYAVPlayerAdapter {
-  public init(_ playerLayer: AVFoundation.AVPlayerLayer? = nil, _ playerViewController: AVKit.AVPlayerViewController? = nil)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @objcMembers public class MLYDriverOptions : ObjectiveC.NSObject {
-  @objc public var client: MLYSDK.MLYClientOptions
-  @objc public var server: MLYSDK.MLYServerOptions
-  @objc public var debug: Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class MLYClientOptions : ObjectiveC.NSObject {
-  @objc public var id: Swift.String?
-  @objc override dynamic public init()
+@_hasMissingDesignatedInitializers public class MLYAVPlayerAdapter {
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class MLYServerOptions : ObjectiveC.NSObject {
-  @objc public var host: MLYSDK.MLYServerSetting
-  @objc override dynamic public init()
+@_hasMissingDesignatedInitializers public class AVPlayerTool {
+  public static func bufferedTime(currentItem: AVFoundation.AVPlayerItem?) -> Swift.Double
+  public static func isLive(player: AVFoundation.AVPlayer) -> Swift.Bool
+  public static func getToTalBufferedDuration(player: AVFoundation.AVPlayer) -> Swift.Double
+  public static func sync(player: AVFoundation.AVPlayer, syncThreshold: Swift.Double, syncDuration: Swift.Double)
+  public static func checkSync(player: AVFoundation.AVPlayer, syncThreshold: Swift.Double, syncDuration: Swift.Double)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class MLYServerSetting : ObjectiveC.NSObject {
-  @objc public var fqdn: Swift.String?
-  @objc override dynamic public init()
+public class MLYDriverOptions {
+  public var client: MLYSDK.MLYClientOptions
+  public var server: MLYSDK.MLYServerOptions
+  public var debug: Swift.Bool
+  public init()
   @objc deinit
+}
+public struct MLYClientOptions {
+  public var id: Swift.String?
+}
+public struct MLYServerOptions {
+  public var host: MLYSDK.MLYServerSetting
+}
+public struct MLYServerSetting {
+  public var fqdn: Swift.String?
 }
 @_hasMissingDesignatedInitializers public class Point : Swift.Codable, Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -61,8 +62,11 @@ public class MLYAVPlayerAdapter {
   required public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class MLYChart {
-  public static var chart: [Swift.String : [MLYSDK.MLYCharPoint]]
-  public static var chartScore: [Swift.String : [MLYSDK.MLYCharPoint]]
+  public static let shared: MLYSDK.MLYChart
+  public var chart: [Swift.String : [MLYSDK.MLYCharPoint]]
+  public var chartScore: [Swift.String : [MLYSDK.MLYCharPoint]]
+  public func addDelegate()
+  public func didDelegate()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MLYCharPoint : Swift.Codable, Swift.CustomStringConvertible {
@@ -75,17 +79,21 @@ public class MLYAVPlayerAdapter {
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class MLYDriver : ObjectiveC.NSObject {
-  @objc public static let VERSION: Swift.String
-  @objc public static let MLYSERSION: Swift.String
-  @objc override dynamic public init()
-  @objc public static func initialize(options: MLYSDK.MLYDriverOptions) throws
-  @objc public static func initialize(_ callback: (MLYSDK.MLYDriverOptions) -> ()) throws
+public class MLYData {
+  public init()
   #if compiler(>=5.3) && $AsyncAwait
-  @objc public static func ready() async
+  public static func getClientPeer() async -> Swift.String
   #endif
-  @objc public static func activate() throws
-  @objc public static func deactivate()
+  @objc deinit
+}
+public class MLYDriver {
+  public static let VERSION: Swift.String
+  public init()
+  public static func initialize(_ closure: (MLYSDK.MLYDriverOptions) -> ()) throws
+  public static func activate() throws
+  public static func deactivate()
+  public static func test1()
+  public static func test2()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ProxyURLModifier {
@@ -94,7 +102,7 @@ public class MLYAVPlayerAdapter {
 }
 public enum ProxyURLModifierError : Swift.Error {
   case IllegalURLFormat
-  case DriverStateError
+  case ExceptionInInitializerError
   public static func == (a: MLYSDK.ProxyURLModifierError, b: MLYSDK.ProxyURLModifierError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
