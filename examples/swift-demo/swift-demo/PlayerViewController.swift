@@ -20,17 +20,17 @@ class PlayerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
-
         do {
             try MLYDriver.initialize { options in
-                options.client.id = "cegh8d9j11u91ba1u600"
+                options.client.id = DemoConfig.defaultConfig.id
+                options.server.host.fqdn = DemoConfig.defaultConfig.server
+                options.debug = true
             }
             self.plugin.adapt(self.playerViewController)
         } catch {
-            print("MLYDriver initialize err: \(error)")
+            print(error)
         }
-
-        let url = URL(string: "https://vsp-stream.s3.ap-northeast-1.amazonaws.com/HLS/raw/SpaceX.m3u8")!
+        let url = URL(string: DemoConfig.defaultConfig.url)!
         let playerItem = AVPlayerItem(url: url)
         self.player.replaceCurrentItem(with: playerItem)
         self.player.play()

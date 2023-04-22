@@ -13,7 +13,7 @@
     [super viewDidLoad];
     [self setupUI];
     
-    _plugin = [MLYAVPlayerPlugin alloc];
+    _plugin = [[MLYAVPlayerPlugin alloc] init];
     NSError *error = nil;
     
     [MLYDriver initializeAndReturnError:  &error :^(MLYDriverOptions * option) {
