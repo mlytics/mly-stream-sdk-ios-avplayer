@@ -7584,162 +7584,176 @@
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 53,
+      "value": "\"MLYAVPlayerPlugin duration_value: \""
+    },
+    {
+      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 516,
+      "offset": 592,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 545,
+      "offset": 621,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 577,
+      "offset": 653,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 741,
+      "offset": 817,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "FloatLiteral",
-      "offset": 759,
+      "offset": 835,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "FloatLiteral",
-      "offset": 1002,
+      "offset": 1078,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1936,
+      "offset": 2081,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1948,
+      "offset": 2093,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "FloatLiteral",
-      "offset": 1990,
+      "offset": 2135,
       "length": 3,
       "value": "1.6"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "StringLiteral",
-      "offset": 2293,
+      "offset": 2477,
       "length": 14,
       "value": "\"asset change\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3225,
+      "offset": 3409,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3286,
+      "offset": 3470,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3346,
+      "offset": 3530,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3426,
+      "offset": 3610,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3477,
+      "offset": 3661,
       "length": 3,
       "value": "512"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3483,
+      "offset": 3667,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3934,
+      "offset": 4118,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4230,
+      "offset": 4414,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "FloatLiteral",
-      "offset": 4352,
+      "offset": 4536,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "FloatLiteral",
-      "offset": 4379,
+      "offset": 4563,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4426,
+      "offset": 4610,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "StringLiteral",
-      "offset": 4461,
+      "offset": 4645,
       "length": 22,
       "value": "\"---- \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-avplayer\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/avplayer.swift",
       "kind": "StringLiteral",
-      "offset": 4482,
+      "offset": 4666,
       "length": 2,
       "value": "\"\""
     },
