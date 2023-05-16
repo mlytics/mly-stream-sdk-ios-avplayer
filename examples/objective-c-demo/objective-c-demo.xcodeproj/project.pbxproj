@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1AA580691249FEDB88901F06 /* Pods-objective-c-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.release.xcconfig"; path = "Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.release.xcconfig"; sourceTree = "<group>"; };
+		1AA580691249FEDB88901F06 /* Pods-objective-c-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.release.xcconfig"; path = "../examples/objective-c-demo/Pods/Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.release.xcconfig"; sourceTree = "<group>"; };
 		28F230C229AF017400D3B6BA /* objective-c-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objective-c-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F230C529AF017400D3B6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28F230C629AF017400D3B6BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,7 +29,7 @@
 		28F230D629AF017500D3B6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F230D729AF017500D3B6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E003F617346D0AE4C7CD616 /* Pods_objective_c_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objective_c_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17810FDC48C25D8F2E84585 /* Pods-objective-c-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.debug.xcconfig"; path = "Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B17810FDC48C25D8F2E84585 /* Pods-objective-c-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.debug.xcconfig"; path = "../examples/objective-c-demo/Pods/Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
