@@ -286,7 +286,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC6MLYSDK17MLYAVPlayerPlugin")
 @interface MLYAVPlayerPlugin : NSObject
-- (void)keepLatency:(double)latency;
 - (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController;
 - (void)deactivate;
 - (void)proxyPlayWithUrl:(NSURL * _Nonnull)url;

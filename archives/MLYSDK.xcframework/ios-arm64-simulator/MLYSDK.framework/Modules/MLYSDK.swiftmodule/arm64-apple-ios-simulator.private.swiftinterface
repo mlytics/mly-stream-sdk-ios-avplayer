@@ -19,7 +19,6 @@ import WebRTC
 import _Concurrency
 import _StringProcessing
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYAVPlayerPlugin : ObjectiveC.NSObject {
-  @objc public func keepLatency(_ latency: Swift.Double = 0)
   @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController)
   @objc public func deactivate()
   @objc deinit
