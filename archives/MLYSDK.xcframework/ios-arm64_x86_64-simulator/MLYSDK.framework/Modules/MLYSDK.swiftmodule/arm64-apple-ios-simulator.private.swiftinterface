@@ -11,6 +11,7 @@ import Foundation
 import GCDWebServer
 @_exported import MLYSDK
 import MUXSDKStats
+import Network
 import Sentry
 import Swift
 import SwiftCentrifuge
@@ -19,6 +20,7 @@ import WebRTC
 import _Concurrency
 import _StringProcessing
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYAVPlayerPlugin : ObjectiveC.NSObject {
+  @objc public var playWhenReady: Swift.Bool
   @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController)
   @objc public func deactivate()
   @objc deinit
