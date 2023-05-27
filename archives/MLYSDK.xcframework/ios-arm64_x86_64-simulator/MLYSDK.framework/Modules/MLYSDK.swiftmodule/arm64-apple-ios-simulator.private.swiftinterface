@@ -16,6 +16,7 @@ import Sentry
 import Swift
 import SwiftCentrifuge
 import SwiftProtobuf
+import UIKit
 import WebRTC
 import _Concurrency
 import _StringProcessing
@@ -91,6 +92,7 @@ public class MLYChart {
   public var otherPeerID: Swift.String?
   public var webrtcState: Swift.Bool
   public var centrifugeState: Swift.Bool
+  public var isTS: Swift.Bool
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYDriver : ObjectiveC.NSObject {
@@ -102,6 +104,24 @@ public class MLYChart {
   @objc public static func deactivate()
   @objc public static func test1()
   @objc public static func test2()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class MLYPlayerManger : ObjectiveC.NSObject {
+  @objc public static var player: AVFoundation.AVPlayer?
+  @objc public static var vc: AVKit.AVPlayerViewController?
+  @objc public static var plugin: MLYSDK.MLYAVPlayerPlugin?
+  public var autoplay: Swift.Bool?
+  @objc public var url: Foundation.URL?
+  @objc public func view() -> UIKit.UIView
+  @objc public func src(_ src: Swift.String)
+  @objc public func play()
+  @objc public func controls(_ controls: Swift.Bool)
+  @objc public func autoplay(_ autoplay: Swift.Bool)
+  @objc public func muted(_ muted: Swift.Bool)
+  @objc public func playWith(_ src: Swift.String)
+  @objc public func pause()
+  @objc public func stop()
+  @objc override dynamic public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ProxyURLModifier {

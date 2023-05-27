@@ -327,6 +327,33 @@ SWIFT_CLASS("_TtC6MLYSDK16MLYDriverOptions")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class AVPlayer;
+@class UIView;
+
+SWIFT_CLASS("_TtC6MLYSDK15MLYPlayerManger")
+@interface MLYPlayerManger : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AVPlayer * _Nullable player;)
++ (AVPlayer * _Nullable)player SWIFT_WARN_UNUSED_RESULT;
++ (void)setPlayer:(AVPlayer * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AVPlayerViewController * _Nullable vc;)
++ (AVPlayerViewController * _Nullable)vc SWIFT_WARN_UNUSED_RESULT;
++ (void)setVc:(AVPlayerViewController * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) MLYAVPlayerPlugin * _Nullable plugin;)
++ (MLYAVPlayerPlugin * _Nullable)plugin SWIFT_WARN_UNUSED_RESULT;
++ (void)setPlugin:(MLYAVPlayerPlugin * _Nullable)value;
+@property (nonatomic, copy) NSURL * _Nullable url;
+- (UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
+- (void)src:(NSString * _Nonnull)src;
+- (void)play;
+- (void)controls:(BOOL)controls;
+- (void)autoplay:(BOOL)autoplay;
+- (void)muted:(BOOL)muted;
+- (void)playWith:(NSString * _Nonnull)src;
+- (void)pause;
+- (void)stop;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class MLYServerSetting;
 
 SWIFT_CLASS("_TtC6MLYSDK16MLYServerOptions")
@@ -676,6 +703,33 @@ SWIFT_CLASS("_TtC6MLYSDK16MLYDriverOptions")
 @property (nonatomic, strong) MLYClientOptions * _Nonnull client;
 @property (nonatomic, strong) MLYServerOptions * _Nonnull server;
 @property (nonatomic) BOOL debug;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class AVPlayer;
+@class UIView;
+
+SWIFT_CLASS("_TtC6MLYSDK15MLYPlayerManger")
+@interface MLYPlayerManger : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AVPlayer * _Nullable player;)
++ (AVPlayer * _Nullable)player SWIFT_WARN_UNUSED_RESULT;
++ (void)setPlayer:(AVPlayer * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AVPlayerViewController * _Nullable vc;)
++ (AVPlayerViewController * _Nullable)vc SWIFT_WARN_UNUSED_RESULT;
++ (void)setVc:(AVPlayerViewController * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) MLYAVPlayerPlugin * _Nullable plugin;)
++ (MLYAVPlayerPlugin * _Nullable)plugin SWIFT_WARN_UNUSED_RESULT;
++ (void)setPlugin:(MLYAVPlayerPlugin * _Nullable)value;
+@property (nonatomic, copy) NSURL * _Nullable url;
+- (UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
+- (void)src:(NSString * _Nonnull)src;
+- (void)play;
+- (void)controls:(BOOL)controls;
+- (void)autoplay:(BOOL)autoplay;
+- (void)muted:(BOOL)muted;
+- (void)playWith:(NSString * _Nonnull)src;
+- (void)pause;
+- (void)stop;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
