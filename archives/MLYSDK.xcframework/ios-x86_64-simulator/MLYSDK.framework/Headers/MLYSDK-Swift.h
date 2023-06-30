@@ -282,13 +282,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @class AVPlayerViewController;
-@class NSString;
 @class NSURL;
 
 SWIFT_CLASS("_TtC6MLYSDK17MLYAVPlayerPlugin")
 @interface MLYAVPlayerPlugin : NSObject
 @property (nonatomic) BOOL playWhenReady;
-- (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController environmentKey:(NSString * _Nullable)environmentKey;
+- (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController;
 - (void)deactivate;
 - (void)proxyPlayWithUrl:(NSURL * _Nonnull)url;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -298,12 +297,13 @@ SWIFT_CLASS("_TtC6MLYSDK17MLYAVPlayerPlugin")
 
 SWIFT_CLASS("_TtC6MLYSDK18MLYAliPlayerPlugin")
 @interface MLYAliPlayerPlugin : NSObject
-- (void)adaptWithMuxModel:(MLYMuxModel * _Null_unspecified)muxModel environmentKey:(NSString * _Nullable)environmentKey;
-- (void)proxyPlayWithUrl:(NSURL * _Nonnull)url environmentKey:(NSString * _Nullable)environmentKey;
+- (void)adaptWithMuxModel:(MLYMuxModel * _Null_unspecified)muxModel;
+- (void)proxyPlayWithUrl:(NSURL * _Nonnull)url;
 - (void)deactivate;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSString;
 
 SWIFT_CLASS("_TtC6MLYSDK16MLYClientOptions")
 @interface MLYClientOptions : NSObject

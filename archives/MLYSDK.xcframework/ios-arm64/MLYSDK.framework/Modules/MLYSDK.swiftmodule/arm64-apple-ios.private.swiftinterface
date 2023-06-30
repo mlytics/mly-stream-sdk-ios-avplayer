@@ -61,15 +61,15 @@ import _StringProcessing
   required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYAliPlayerPlugin : ObjectiveC.NSObject {
-  @objc public func adapt(muxModel: MuxStatsAliPlayer.MLYMuxModel!, environmentKey: Swift.String? = nil)
-  @objc public func proxyPlay(url: Foundation.URL, environmentKey: Swift.String?)
+  @objc public func adapt(muxModel: MuxStatsAliPlayer.MLYMuxModel!)
+  @objc public func proxyPlay(url: Foundation.URL)
   @objc public func deactivate()
   @objc deinit
   @objc override dynamic public init()
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYAVPlayerPlugin : ObjectiveC.NSObject {
   @objc public var playWhenReady: Swift.Bool
-  @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController, environmentKey: Swift.String? = nil)
+  @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController)
   @objc public func deactivate()
   @objc deinit
   @objc public func proxyPlay(url: Foundation.URL)

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062053C92A4E94A9001F5D1B /* AliPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062053C82A4E94A9001F5D1B /* AliPlayerViewController.swift */; };
+		062053CB2A4E957E001F5D1B /* HomeNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062053CA2A4E957E001F5D1B /* HomeNavViewController.swift */; };
+		062053CD2A4E9926001F5D1B /* License.crt in Resources */ = {isa = PBXBuildFile; fileRef = 062053CC2A4E9926001F5D1B /* License.crt */; };
 		28F230A629AF014C00D3B6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F230A529AF014C00D3B6BA /* AppDelegate.swift */; };
 		28F230AA29AF014C00D3B6BA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F230A929AF014C00D3B6BA /* PlayerViewController.swift */; };
 		28F230AD29AF014C00D3B6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F230AB29AF014C00D3B6BA /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		062053C82A4E94A9001F5D1B /* AliPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliPlayerViewController.swift; sourceTree = "<group>"; };
+		062053CA2A4E957E001F5D1B /* HomeNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavViewController.swift; sourceTree = "<group>"; };
+		062053CC2A4E9926001F5D1B /* License.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.crt; sourceTree = "<group>"; };
 		28F230A229AF014C00D3B6BA /* swift-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F230A529AF014C00D3B6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28F230A929AF014C00D3B6BA /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
@@ -23,8 +29,8 @@
 		28F230AE29AF014D00D3B6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F230B129AF014D00D3B6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28F230B329AF014D00D3B6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEF4D2F55DAEA544E2457E9D /* Pods-swift-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-demo.debug.xcconfig"; path = "../examples/swift-demo/Pods/Target Support Files/Pods-swift-demo/Pods-swift-demo.debug.xcconfig"; sourceTree = "<group>"; };
-		D92BCA699AE436044B6243EA /* Pods-swift-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-demo.release.xcconfig"; path = "../examples/swift-demo/Pods/Target Support Files/Pods-swift-demo/Pods-swift-demo.release.xcconfig"; sourceTree = "<group>"; };
+		AEF4D2F55DAEA544E2457E9D /* Pods-swift-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-demo.debug.xcconfig"; path = "Target Support Files/Pods-swift-demo/Pods-swift-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D92BCA699AE436044B6243EA /* Pods-swift-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-demo.release.xcconfig"; path = "Target Support Files/Pods-swift-demo/Pods-swift-demo.release.xcconfig"; sourceTree = "<group>"; };
 		E68CA71FFB6284A326970E73 /* Pods_swift_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,7 +75,10 @@
 		28F230A429AF014C00D3B6BA /* swift-demo */ = {
 			isa = PBXGroup;
 			children = (
+				062053CC2A4E9926001F5D1B /* License.crt */,
 				28F230A529AF014C00D3B6BA /* AppDelegate.swift */,
+				062053CA2A4E957E001F5D1B /* HomeNavViewController.swift */,
+				062053C82A4E94A9001F5D1B /* AliPlayerViewController.swift */,
 				28F230A929AF014C00D3B6BA /* PlayerViewController.swift */,
 				28F230AB29AF014C00D3B6BA /* Main.storyboard */,
 				28F230AE29AF014D00D3B6BA /* Assets.xcassets */,
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F230B229AF014D00D3B6BA /* LaunchScreen.storyboard in Resources */,
+				062053CD2A4E9926001F5D1B /* License.crt in Resources */,
 				28F230AF29AF014D00D3B6BA /* Assets.xcassets in Resources */,
 				28F230AD29AF014C00D3B6BA /* Main.storyboard in Resources */,
 			);
@@ -206,6 +216,8 @@
 			files = (
 				28F230AA29AF014C00D3B6BA /* PlayerViewController.swift in Sources */,
 				28F230A629AF014C00D3B6BA /* AppDelegate.swift in Sources */,
+				062053C92A4E94A9001F5D1B /* AliPlayerViewController.swift in Sources */,
+				062053CB2A4E957E001F5D1B /* HomeNavViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

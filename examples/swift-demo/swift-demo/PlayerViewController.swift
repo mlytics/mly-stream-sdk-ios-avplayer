@@ -22,13 +22,13 @@ class PlayerViewController: UIViewController {
         self.setupUI()
         do {
             try MLYDriver.initialize { options in
-                options.client.id = "cegh8d9j11u91ba1u600"
+                options.client.id = clientID
             }
-            self.plugin.adapt(self.playerViewController)
+            self.plugin.adapt(self.playerViewController, environmentKey: "vr07dh2s7p5fkre80ik5flamn")
         } catch {
             print(error)
         }
-        let url = URL(string: "https://vsp-stream.s3.ap-northeast-1.amazonaws.com/HLS/raw/SpaceX.m3u8")!
+        let url = URL(string: videoURL)!
         let playerItem = AVPlayerItem(url: url)
         self.player.replaceCurrentItem(with: playerItem)
         self.player.play()

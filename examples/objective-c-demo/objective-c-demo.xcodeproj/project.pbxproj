@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062053CF2A4E994F001F5D1B /* License.crt in Resources */ = {isa = PBXBuildFile; fileRef = 062053CE2A4E994F001F5D1B /* License.crt */; };
+		062053D22A4E9FA8001F5D1B /* HomeNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062053D12A4E9FA8001F5D1B /* HomeNavViewController.m */; };
+		062053D52A4EA184001F5D1B /* AliPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062053D42A4EA184001F5D1B /* AliPlayerViewController.m */; };
 		28F230C729AF017400D3B6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F230C629AF017400D3B6BA /* AppDelegate.m */; };
 		28F230CD29AF017400D3B6BA /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F230CC29AF017400D3B6BA /* PlayerViewController.m */; };
 		28F230D029AF017400D3B6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F230CE29AF017400D3B6BA /* Main.storyboard */; };
@@ -17,7 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1AA580691249FEDB88901F06 /* Pods-objective-c-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.release.xcconfig"; path = "../examples/objective-c-demo/Pods/Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.release.xcconfig"; sourceTree = "<group>"; };
+		062053CE2A4E994F001F5D1B /* License.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.crt; sourceTree = "<group>"; };
+		062053D02A4E9FA8001F5D1B /* HomeNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeNavViewController.h; sourceTree = "<group>"; };
+		062053D12A4E9FA8001F5D1B /* HomeNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeNavViewController.m; sourceTree = "<group>"; };
+		062053D32A4EA184001F5D1B /* AliPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliPlayerViewController.h; sourceTree = "<group>"; };
+		062053D42A4EA184001F5D1B /* AliPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliPlayerViewController.m; sourceTree = "<group>"; };
+		1AA580691249FEDB88901F06 /* Pods-objective-c-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.release.xcconfig"; path = "Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.release.xcconfig"; sourceTree = "<group>"; };
 		28F230C229AF017400D3B6BA /* objective-c-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objective-c-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F230C529AF017400D3B6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28F230C629AF017400D3B6BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,7 +37,7 @@
 		28F230D629AF017500D3B6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F230D729AF017500D3B6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E003F617346D0AE4C7CD616 /* Pods_objective_c_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objective_c_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17810FDC48C25D8F2E84585 /* Pods-objective-c-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.debug.xcconfig"; path = "../examples/objective-c-demo/Pods/Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B17810FDC48C25D8F2E84585 /* Pods-objective-c-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.debug.xcconfig"; path = "Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +73,15 @@
 		28F230C429AF017400D3B6BA /* objective-c-demo */ = {
 			isa = PBXGroup;
 			children = (
+				062053CE2A4E994F001F5D1B /* License.crt */,
 				28F230C529AF017400D3B6BA /* AppDelegate.h */,
 				28F230C629AF017400D3B6BA /* AppDelegate.m */,
+				062053D02A4E9FA8001F5D1B /* HomeNavViewController.h */,
+				062053D12A4E9FA8001F5D1B /* HomeNavViewController.m */,
 				28F230CB29AF017400D3B6BA /* PlayerViewController.h */,
 				28F230CC29AF017400D3B6BA /* PlayerViewController.m */,
+				062053D32A4EA184001F5D1B /* AliPlayerViewController.h */,
+				062053D42A4EA184001F5D1B /* AliPlayerViewController.m */,
 				28F230CE29AF017400D3B6BA /* Main.storyboard */,
 				28F230D129AF017500D3B6BA /* Assets.xcassets */,
 				28F230D329AF017500D3B6BA /* LaunchScreen.storyboard */,
@@ -156,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F230D529AF017500D3B6BA /* LaunchScreen.storyboard in Resources */,
+				062053CF2A4E994F001F5D1B /* License.crt in Resources */,
 				28F230D229AF017500D3B6BA /* Assets.xcassets in Resources */,
 				28F230D029AF017400D3B6BA /* Main.storyboard in Resources */,
 			);
@@ -213,6 +227,8 @@
 				28F230CD29AF017400D3B6BA /* PlayerViewController.m in Sources */,
 				28F230C729AF017400D3B6BA /* AppDelegate.m in Sources */,
 				28F230D829AF017500D3B6BA /* main.m in Sources */,
+				062053D52A4EA184001F5D1B /* AliPlayerViewController.m in Sources */,
+				062053D22A4E9FA8001F5D1B /* HomeNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

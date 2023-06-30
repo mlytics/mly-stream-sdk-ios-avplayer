@@ -2160,7 +2160,7 @@
           {
             "kind": "Function",
             "name": "adapt",
-            "printedName": "adapt(muxModel:environmentKey:)",
+            "printedName": "adapt(muxModel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2180,30 +2180,14 @@
                   }
                 ],
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MLYSDK@objc(cs)MLYAliPlayerPlugin(im)adaptWithMuxModel:environmentKey:",
-            "mangledName": "$s6MLYSDK18MLYAliPlayerPluginC5adapt8muxModel14environmentKeyy011MuxStatsAliC006MLYMuxG0CSg_SSSgtF",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYAliPlayerPlugin(im)adaptWithMuxModel:",
+            "mangledName": "$s6MLYSDK18MLYAliPlayerPluginC5adapt8muxModely011MuxStatsAliC006MLYMuxG0CSg_tF",
             "moduleName": "MLYSDK",
             "declAttributes": [
               "AccessControl",
-              "RawDocComment",
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
@@ -2211,7 +2195,7 @@
           {
             "kind": "Function",
             "name": "proxyPlay",
-            "printedName": "proxyPlay(url:environmentKey:)",
+            "printedName": "proxyPlay(url:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2223,25 +2207,11 @@
                 "name": "URL",
                 "printedName": "Foundation.URL",
                 "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MLYSDK@objc(cs)MLYAliPlayerPlugin(im)proxyPlayWithUrl:environmentKey:",
-            "mangledName": "$s6MLYSDK18MLYAliPlayerPluginC9proxyPlay3url14environmentKeyy10Foundation3URLV_SSSgtF",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYAliPlayerPlugin(im)proxyPlayWithUrl:",
+            "mangledName": "$s6MLYSDK18MLYAliPlayerPluginC9proxyPlay3urly10Foundation3URLV_tF",
             "moduleName": "MLYSDK",
             "declAttributes": [
               "AccessControl",
@@ -2492,7 +2462,7 @@
           {
             "kind": "Function",
             "name": "adapt",
-            "printedName": "adapt(_:environmentKey:)",
+            "printedName": "adapt(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2504,26 +2474,11 @@
                 "name": "AVPlayerViewController",
                 "printedName": "AVKit.AVPlayerViewController",
                 "usr": "c:objc(cs)AVPlayerViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MLYSDK@objc(cs)MLYAVPlayerPlugin(im)adapt:environmentKey:",
-            "mangledName": "$s6MLYSDK17MLYAVPlayerPluginC5adapt_14environmentKeyySo22AVPlayerViewControllerC_SSSgtF",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYAVPlayerPlugin(im)adapt:",
+            "mangledName": "$s6MLYSDK17MLYAVPlayerPluginC5adaptyySo22AVPlayerViewControllerCF",
             "moduleName": "MLYSDK",
             "declAttributes": [
               "AccessControl",
@@ -17613,7 +17568,7 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAliPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 1957,
+      "offset": 1784,
       "length": 41,
       "value": "\"MLYAliPlayerPlugin: deactivate() deinit\""
     },
@@ -17753,105 +17708,105 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 2597,
+      "offset": 2494,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 2674,
+      "offset": 2571,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 2961,
+      "offset": 2858,
       "length": 3,
       "value": "1.6"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3293,
+      "offset": 3190,
       "length": 14,
       "value": "\"asset change\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 4447,
+      "offset": 4308,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 4508,
+      "offset": 4369,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 4568,
+      "offset": 4429,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 4648,
+      "offset": 4509,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 5013,
+      "offset": 4874,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 5309,
+      "offset": 5170,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 5431,
+      "offset": 5292,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 5458,
+      "offset": 5319,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 5505,
+      "offset": 5366,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 5540,
+      "offset": 5401,
       "length": 22,
       "value": "\"---- \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/driver\/pheripheral\/player\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 5561,
+      "offset": 5422,
       "length": 2,
       "value": "\"\""
     },
@@ -18250,70 +18205,70 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 497,
+      "offset": 453,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 2835,
+      "offset": 2738,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4061,
+      "offset": 3964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4115,
+      "offset": 4018,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4168,
+      "offset": 4071,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4222,
+      "offset": 4125,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4275,
+      "offset": 4178,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4329,
+      "offset": 4232,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4382,
+      "offset": 4285,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxAliComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4436,
+      "offset": 4339,
       "length": 1,
       "value": "3"
     },
@@ -18327,70 +18282,70 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 530,
+      "offset": 501,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 1730,
+      "offset": 1683,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3646,
+      "offset": 3599,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3700,
+      "offset": 3653,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3753,
+      "offset": 3706,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3807,
+      "offset": 3760,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3860,
+      "offset": 3813,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3914,
+      "offset": 3867,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3967,
+      "offset": 3920,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-aliplayer-mux\/Sources\/MLYSDK\/Classes\/vendor\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4021,
+      "offset": 3974,
       "length": 1,
       "value": "3"
     },

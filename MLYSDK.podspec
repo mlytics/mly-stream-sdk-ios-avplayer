@@ -1,7 +1,7 @@
  
 Pod::Spec.new do |s|
   s.name                    = 'MLYSDK'
-  s.version                 = '0.1.28'
+  s.version                 = '0.1.29'
   s.summary                 = 'MLYSDK'
   s.description             =  'MLYSDK'                     
   s.homepage                = 'https://github.com/mlytics/mly-stream-sdk-avplayer' 
