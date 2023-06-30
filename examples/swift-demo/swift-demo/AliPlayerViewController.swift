@@ -27,7 +27,7 @@ class AliPlayerViewController: UIViewController {
         self.mlyPlayer = MLYAliPlayer(view: self.view, playerView: playerView, videoURL: videoURL)
         self.player = self.mlyPlayer.player
         let muxModel = self.mlyPlayer.getMuxConfigModel()
-        self.plugin.adapt(muxModel: muxModel,environmentKey: "8b6qt5193roge01u0nhgdpetb")
+        self.plugin.adapt(muxModel: muxModel)
     }
     
     override func viewDidDisappear(_ animated: Bool) {

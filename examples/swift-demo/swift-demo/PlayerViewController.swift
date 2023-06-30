@@ -24,7 +24,7 @@ class PlayerViewController: UIViewController {
             try MLYDriver.initialize { options in
                 options.client.id = clientID
             }
-            self.plugin.adapt(self.playerViewController, environmentKey: "vr07dh2s7p5fkre80ik5flamn")
+            self.plugin.adapt(self.playerViewController)
         } catch {
             print(error)
         }
