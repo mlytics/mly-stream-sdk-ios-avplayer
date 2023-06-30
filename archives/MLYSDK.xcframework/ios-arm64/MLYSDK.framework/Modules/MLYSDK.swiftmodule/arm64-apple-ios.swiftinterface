@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
+import AliyunPlayer
 import CommonCrypto
 import CoreTelephony
 import CryptoKit
@@ -11,6 +12,8 @@ import Foundation
 import GCDWebServer
 @_exported import MLYSDK
 import MUXSDKStats
+import MuxCore
+import MuxStatsAliPlayer
 import Network
 import Sentry
 import Swift
@@ -20,14 +23,6 @@ import UIKit
 import WebRTC
 import _Concurrency
 import _StringProcessing
-@objc @_inheritsConvenienceInitializers @objcMembers public class MLYAVPlayerPlugin : ObjectiveC.NSObject {
-  @objc public var playWhenReady: Swift.Bool
-  @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController)
-  @objc public func deactivate()
-  @objc deinit
-  @objc public func proxyPlay(url: Foundation.URL)
-  @objc override dynamic public init()
-}
 @_hasMissingDesignatedInitializers public class AVPlayerTool {
   public static func remainBufferedTime(_ currentItem: AVFoundation.AVPlayerItem?, _ currentTime: CoreMedia.CMTime) -> Swift.Double
   public static func maxLoadedTime(_ currentItem: AVFoundation.AVPlayerItem?, _ currentTime: CoreMedia.CMTime) -> CoreMedia.CMTime
@@ -65,6 +60,21 @@ import _StringProcessing
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers @objcMembers public class MLYAliPlayerPlugin : ObjectiveC.NSObject {
+  @objc public func adapt(muxModel: MuxStatsAliPlayer.MLYMuxModel!, environmentKey: Swift.String? = nil)
+  @objc public func proxyPlay(url: Foundation.URL, environmentKey: Swift.String?)
+  @objc public func deactivate()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class MLYAVPlayerPlugin : ObjectiveC.NSObject {
+  @objc public var playWhenReady: Swift.Bool
+  @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController, environmentKey: Swift.String? = nil)
+  @objc public func deactivate()
+  @objc deinit
+  @objc public func proxyPlay(url: Foundation.URL)
+  @objc override dynamic public init()
+}
 public class MLYChart {
   public init()
   public var chart: [Swift.String : [MLYSDK.MLYCharPoint]]
@@ -83,16 +93,16 @@ public class MLYChart {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class MLYData {
-  public static var instance: MLYSDK.MLYData
-  public var token: Swift.String?
-  public var peerID: Swift.String?
-  public var swarmID: Swift.String?
-  public var swarmUserCount: Swift.Int?
-  public var otherPeerID: Swift.String?
-  public var webrtcState: Swift.Bool
-  public var centrifugeState: Swift.Bool
-  public var isTS: Swift.Bool
+@objc @_inheritsConvenienceInitializers @objcMembers public class MLYData : ObjectiveC.NSObject {
+  @objc public static var instance: MLYSDK.MLYData
+  @objc public var token: Swift.String?
+  @objc public var peerID: Swift.String?
+  @objc public var swarmID: Swift.String?
+  @objc public var swarmUserCount: Foundation.NSNumber?
+  @objc public var otherPeerID: Swift.String?
+  @objc public var webrtcState: Swift.Bool
+  @objc public var centrifugeState: Swift.Bool
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYDriver : ObjectiveC.NSObject {
@@ -107,20 +117,16 @@ public class MLYChart {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYPlayerManger : ObjectiveC.NSObject {
-  @objc public static var player: AVFoundation.AVPlayer?
-  @objc public static var vc: AVKit.AVPlayerViewController?
-  @objc public static var plugin: MLYSDK.MLYAVPlayerPlugin?
-  public var autoplay: Swift.Bool?
-  @objc public var url: Foundation.URL?
   @objc public func view() -> UIKit.UIView
   @objc public func src(_ src: Swift.String)
   @objc public func play()
   @objc public func controls(_ controls: Swift.Bool)
   @objc public func autoplay(_ autoplay: Swift.Bool)
   @objc public func muted(_ muted: Swift.Bool)
-  @objc public func playWith(_ src: Swift.String)
+  @objc public func play(src: Swift.String)
   @objc public func pause()
   @objc public func stop()
+  public static func initialize(_ clientID: Swift.String, _ server: Swift.String?, _ debug: Swift.Bool?) throws
   @objc override dynamic public init()
   @objc deinit
 }

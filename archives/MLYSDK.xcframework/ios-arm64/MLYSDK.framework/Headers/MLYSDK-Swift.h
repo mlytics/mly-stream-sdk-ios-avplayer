@@ -282,22 +282,49 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @class AVPlayerViewController;
+@class NSString;
 @class NSURL;
 
 SWIFT_CLASS("_TtC6MLYSDK17MLYAVPlayerPlugin")
 @interface MLYAVPlayerPlugin : NSObject
 @property (nonatomic) BOOL playWhenReady;
-- (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController;
+- (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController environmentKey:(NSString * _Nullable)environmentKey;
 - (void)deactivate;
 - (void)proxyPlayWithUrl:(NSURL * _Nonnull)url;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSString;
+@class MLYMuxModel;
+
+SWIFT_CLASS("_TtC6MLYSDK18MLYAliPlayerPlugin")
+@interface MLYAliPlayerPlugin : NSObject
+- (void)adaptWithMuxModel:(MLYMuxModel * _Null_unspecified)muxModel environmentKey:(NSString * _Nullable)environmentKey;
+- (void)proxyPlayWithUrl:(NSURL * _Nonnull)url environmentKey:(NSString * _Nullable)environmentKey;
+- (void)deactivate;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC6MLYSDK16MLYClientOptions")
 @interface MLYClientOptions : NSObject
 @property (nonatomic, copy) NSString * _Nullable id;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSNumber;
+
+SWIFT_CLASS("_TtC6MLYSDK7MLYData")
+@interface MLYData : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) MLYData * _Nonnull instance;)
++ (MLYData * _Nonnull)instance SWIFT_WARN_UNUSED_RESULT;
++ (void)setInstance:(MLYData * _Nonnull)value;
+@property (nonatomic, copy) NSString * _Nullable token;
+@property (nonatomic, copy) NSString * _Nullable peerID;
+@property (nonatomic, copy) NSString * _Nullable swarmID;
+@property (nonatomic, strong) NSNumber * _Nullable swarmUserCount;
+@property (nonatomic, copy) NSString * _Nullable otherPeerID;
+@property (nonatomic) BOOL webrtcState;
+@property (nonatomic) BOOL centrifugeState;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -327,28 +354,17 @@ SWIFT_CLASS("_TtC6MLYSDK16MLYDriverOptions")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class AVPlayer;
 @class UIView;
 
 SWIFT_CLASS("_TtC6MLYSDK15MLYPlayerManger")
 @interface MLYPlayerManger : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AVPlayer * _Nullable player;)
-+ (AVPlayer * _Nullable)player SWIFT_WARN_UNUSED_RESULT;
-+ (void)setPlayer:(AVPlayer * _Nullable)value;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) AVPlayerViewController * _Nullable vc;)
-+ (AVPlayerViewController * _Nullable)vc SWIFT_WARN_UNUSED_RESULT;
-+ (void)setVc:(AVPlayerViewController * _Nullable)value;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) MLYAVPlayerPlugin * _Nullable plugin;)
-+ (MLYAVPlayerPlugin * _Nullable)plugin SWIFT_WARN_UNUSED_RESULT;
-+ (void)setPlugin:(MLYAVPlayerPlugin * _Nullable)value;
-@property (nonatomic, copy) NSURL * _Nullable url;
 - (UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
 - (void)src:(NSString * _Nonnull)src;
 - (void)play;
 - (void)controls:(BOOL)controls;
 - (void)autoplay:(BOOL)autoplay;
 - (void)muted:(BOOL)muted;
-- (void)playWith:(NSString * _Nonnull)src;
+- (void)playWithSrc:(NSString * _Nonnull)src;
 - (void)pause;
 - (void)stop;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
