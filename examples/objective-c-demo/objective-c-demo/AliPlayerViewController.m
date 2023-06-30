@@ -10,10 +10,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupView];
+    
     NSError *error = nil;
     
     [MLYDriver initializeAndReturnError:  &error :^(MLYDriverOptions * option) {
         [[option client] setId: clientID];
+        
+        MLYMuxModel *muxModel = [self.mlyPlayer getMuxConfigModel];
+        [self.plugin adaptWithMuxModel:muxModel];
     }];
     
     if(error != nil){
@@ -22,13 +26,11 @@
 }
  
 - (void)setupView {
+    self.plugin = [[MLYAliPlayerPlugin alloc] init];
     CGRect playerViewFrame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height);
     UIView *playerView = [[UIView alloc] initWithFrame:playerViewFrame];
     self.mlyPlayer = [[MLYAliPlayer alloc] initWithView:self.view playerView:playerView videoURL:videoURL];
     self.player = self.mlyPlayer.player;
-    MLYMuxModel *muxModel = [self.mlyPlayer getMuxConfigModel];
-    self.plugin = [[MLYAliPlayerPlugin alloc] init];
-    [self.plugin adaptWithMuxModel:muxModel];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {

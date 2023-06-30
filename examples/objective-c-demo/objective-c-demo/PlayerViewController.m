@@ -19,6 +19,7 @@
     
     [MLYDriver initializeAndReturnError:  &error :^(MLYDriverOptions * option) {
         [[option client] setId: clientID];
+        
         [_plugin adapt:_avplayerController];
     }];
     

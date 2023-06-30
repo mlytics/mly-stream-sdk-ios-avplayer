@@ -17,6 +17,8 @@ class AliPlayerViewController: UIViewController {
             try MLYDriver.initialize { options in
                 options.client.id = clientID
             }
+            let muxModel = self.mlyPlayer.getMuxConfigModel()
+            self.plugin.adapt(muxModel: muxModel)
         } catch {
             print(error)
         }
@@ -26,8 +28,6 @@ class AliPlayerViewController: UIViewController {
         let playerView:UIView =  .init(frame: CGRect(x: 0, y: 0, width: UIView.screenWidth(), height: UIView.screenHeight()))
         self.mlyPlayer = MLYAliPlayer(view: self.view, playerView: playerView, videoURL: videoURL)
         self.player = self.mlyPlayer.player
-        let muxModel = self.mlyPlayer.getMuxConfigModel()
-        self.plugin.adapt(muxModel: muxModel)
     }
     
     override func viewDidDisappear(_ animated: Bool) {
