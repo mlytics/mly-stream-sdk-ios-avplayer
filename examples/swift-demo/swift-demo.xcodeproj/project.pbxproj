@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		062053C92A4E94A9001F5D1B /* AliPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062053C82A4E94A9001F5D1B /* AliPlayerViewController.swift */; };
-		062053CB2A4E957E001F5D1B /* HomeNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062053CA2A4E957E001F5D1B /* HomeNavViewController.swift */; };
 		062053CD2A4E9926001F5D1B /* License.crt in Resources */ = {isa = PBXBuildFile; fileRef = 062053CC2A4E9926001F5D1B /* License.crt */; };
 		28F230A629AF014C00D3B6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F230A529AF014C00D3B6BA /* AppDelegate.swift */; };
 		28F230AA29AF014C00D3B6BA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F230A929AF014C00D3B6BA /* PlayerViewController.swift */; };
@@ -19,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		062053C82A4E94A9001F5D1B /* AliPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliPlayerViewController.swift; sourceTree = "<group>"; };
-		062053CA2A4E957E001F5D1B /* HomeNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavViewController.swift; sourceTree = "<group>"; };
 		062053CC2A4E9926001F5D1B /* License.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.crt; sourceTree = "<group>"; };
 		28F230A229AF014C00D3B6BA /* swift-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F230A529AF014C00D3B6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,8 +73,6 @@
 			children = (
 				062053CC2A4E9926001F5D1B /* License.crt */,
 				28F230A529AF014C00D3B6BA /* AppDelegate.swift */,
-				062053CA2A4E957E001F5D1B /* HomeNavViewController.swift */,
-				062053C82A4E94A9001F5D1B /* AliPlayerViewController.swift */,
 				28F230A929AF014C00D3B6BA /* PlayerViewController.swift */,
 				28F230AB29AF014C00D3B6BA /* Main.storyboard */,
 				28F230AE29AF014D00D3B6BA /* Assets.xcassets */,
@@ -216,8 +210,6 @@
 			files = (
 				28F230AA29AF014C00D3B6BA /* PlayerViewController.swift in Sources */,
 				28F230A629AF014C00D3B6BA /* AppDelegate.swift in Sources */,
-				062053C92A4E94A9001F5D1B /* AliPlayerViewController.swift in Sources */,
-				062053CB2A4E957E001F5D1B /* HomeNavViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

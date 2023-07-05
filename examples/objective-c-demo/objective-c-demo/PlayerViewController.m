@@ -1,5 +1,4 @@
 #import "PlayerViewController.h"
-#import "HomeNavViewController.h"
 
 @interface PlayerViewController (){
     AVPlayer *_avplayer;
@@ -18,7 +17,7 @@
     NSError *error = nil;
     
     [MLYDriver initializeAndReturnError:  &error :^(MLYDriverOptions * option) {
-        [[option client] setId: clientID];
+        [[option client] setId: @"cegh8d9j11u91ba1u600"];
         
         [_plugin adapt:_avplayerController];
     }];
