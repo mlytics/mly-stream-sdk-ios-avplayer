@@ -293,38 +293,11 @@ SWIFT_CLASS("_TtC6MLYSDK17MLYAVPlayerPlugin")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class MLYMuxModel;
-
-SWIFT_CLASS("_TtC6MLYSDK18MLYAliPlayerPlugin")
-@interface MLYAliPlayerPlugin : NSObject
-- (void)adaptWithMuxModel:(MLYMuxModel * _Null_unspecified)muxModel;
-- (void)proxyPlayWithUrl:(NSURL * _Nonnull)url;
-- (void)deactivate;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class NSString;
 
 SWIFT_CLASS("_TtC6MLYSDK16MLYClientOptions")
 @interface MLYClientOptions : NSObject
 @property (nonatomic, copy) NSString * _Nullable id;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSNumber;
-
-SWIFT_CLASS("_TtC6MLYSDK7MLYData")
-@interface MLYData : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) MLYData * _Nonnull instance;)
-+ (MLYData * _Nonnull)instance SWIFT_WARN_UNUSED_RESULT;
-+ (void)setInstance:(MLYData * _Nonnull)value;
-@property (nonatomic, copy) NSString * _Nullable token;
-@property (nonatomic, copy) NSString * _Nullable peerID;
-@property (nonatomic, copy) NSString * _Nullable swarmID;
-@property (nonatomic, strong) NSNumber * _Nullable swarmUserCount;
-@property (nonatomic, copy) NSString * _Nullable otherPeerID;
-@property (nonatomic) BOOL webrtcState;
-@property (nonatomic) BOOL centrifugeState;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -351,6 +324,7 @@ SWIFT_CLASS("_TtC6MLYSDK16MLYDriverOptions")
 @property (nonatomic, strong) MLYClientOptions * _Nonnull client;
 @property (nonatomic, strong) MLYServerOptions * _Nonnull server;
 @property (nonatomic) BOOL debug;
+@property (nonatomic) double muxSampleRate;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

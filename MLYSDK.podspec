@@ -1,7 +1,7 @@
  
 Pod::Spec.new do |s|
   s.name                    = 'MLYSDK'
-  s.version                 = '0.1.29'
+  s.version                 = '0.1.30'
   s.summary                 = 'MLYSDK'
   s.description             =  'MLYSDK'                     
   s.homepage                = 'https://github.com/mlytics/mly-stream-sdk-avplayer' 
@@ -12,15 +12,8 @@ Pod::Spec.new do |s|
   s.swift_version           = '5.0'
   s.ios.deployment_target   = '14.0'
   s.ios.vendored_frameworks = 'archives/MLYSDK.xcframework'
-
-
-  s.pod_target_xcconfig = {
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'GENERATE_INFOPLIST_FILE' => 'YES'
-  }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'GENERATE_INFOPLIST_FILE' => 'YES' }
   
   s.dependency 'Mux-Stats-AVPlayer', '3.1.0' 
-  s.dependency 'MuxStatsAliPlayer'
  
   s.dependency 'GCDWebServer', '3.5.4'
   s.dependency 'Sentry', '7.31.3'

@@ -6,8 +6,7 @@ target 'objective-c-demo' do
   use_frameworks!
 
   # Pods for objective-c-demo
-pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
-pod 'MuxStatsAliPlayer', :git => 'https://github.com/BensonLetr/lib0612.git'
+pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git' 
 end
 post_install do |installer|
         installer.pods_project.targets.each do |target|

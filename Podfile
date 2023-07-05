@@ -10,8 +10,7 @@ use_frameworks!
 platform :ios, '14.0'
 project 'examples/swift-demo/swift-demo.xcodeproj'
 
-pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
-pod 'MuxStatsAliPlayer', :git => 'https://github.com/BensonLetr/lib0612.git'
+pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git' 
 pod 'SnapKit', '~> 5.6.0'
 end
 
@@ -22,8 +21,7 @@ use_frameworks!
 platform :ios, '14.0'
 project 'examples/objective-c-demo/objective-c-demo.xcodeproj'
 
-pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
-pod 'MuxStatsAliPlayer', :git => 'https://github.com/BensonLetr/lib0612.git'
+pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git' 
 end
 
 post_install do |installer|
