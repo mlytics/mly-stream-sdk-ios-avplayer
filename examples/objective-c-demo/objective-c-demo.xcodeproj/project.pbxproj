@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		062053CF2A4E994F001F5D1B /* License.crt in Resources */ = {isa = PBXBuildFile; fileRef = 062053CE2A4E994F001F5D1B /* License.crt */; };
 		28F230C729AF017400D3B6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F230C629AF017400D3B6BA /* AppDelegate.m */; };
 		28F230CD29AF017400D3B6BA /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F230CC29AF017400D3B6BA /* PlayerViewController.m */; };
 		28F230D029AF017400D3B6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F230CE29AF017400D3B6BA /* Main.storyboard */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		062053CE2A4E994F001F5D1B /* License.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.crt; sourceTree = "<group>"; };
 		1AA580691249FEDB88901F06 /* Pods-objective-c-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective-c-demo.release.xcconfig"; path = "Target Support Files/Pods-objective-c-demo/Pods-objective-c-demo.release.xcconfig"; sourceTree = "<group>"; };
 		28F230C229AF017400D3B6BA /* objective-c-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objective-c-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F230C529AF017400D3B6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 		28F230C429AF017400D3B6BA /* objective-c-demo */ = {
 			isa = PBXGroup;
 			children = (
-				062053CE2A4E994F001F5D1B /* License.crt */,
 				28F230C529AF017400D3B6BA /* AppDelegate.h */,
 				28F230C629AF017400D3B6BA /* AppDelegate.m */,
 				28F230CB29AF017400D3B6BA /* PlayerViewController.h */,
@@ -159,7 +156,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F230D529AF017500D3B6BA /* LaunchScreen.storyboard in Resources */,
-				062053CF2A4E994F001F5D1B /* License.crt in Resources */,
 				28F230D229AF017500D3B6BA /* Assets.xcassets in Resources */,
 				28F230D029AF017400D3B6BA /* Main.storyboard in Resources */,
 			);
@@ -367,6 +363,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
