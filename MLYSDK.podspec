@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.readme                  = "https://raw.githubusercontent.com/mlytics/mly-stream-sdk-avplayer/main/README.md"
   s.swift_version           = '5.0'
   s.ios.deployment_target   = '14.0'
-  s.ios.vendored_frameworks = 'archives/MLYSDK.xcframework'
+  s.ios.vendored_frameworks = 'Archives/MLYSDK.xcframework'
   
   s.dependency 'Mux-Stats-AVPlayer', '3.1.0' 
  
