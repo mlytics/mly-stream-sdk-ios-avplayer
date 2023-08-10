@@ -1,6 +1,6 @@
 platform :ios, '14.0'
 
-target 'Swift-AVPlayer' do 
+target 'Swift-Player' do 
   use_frameworks! 
   pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-ios-avplayer.git' 
 end

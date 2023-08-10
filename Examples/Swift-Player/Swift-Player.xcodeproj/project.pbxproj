@@ -7,83 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06EECE2B2A84E2140038E8FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EECE2A2A84E2140038E8FD /* AppDelegate.swift */; };
-		06EECE2F2A84E2140038E8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EECE2E2A84E2140038E8FD /* ViewController.swift */; };
-		06EECE322A84E2140038E8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE302A84E2140038E8FD /* Main.storyboard */; };
-		06EECE342A84E2150038E8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE332A84E2150038E8FD /* Assets.xcassets */; };
-		06EECE372A84E2150038E8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE352A84E2150038E8FD /* LaunchScreen.storyboard */; };
-		567A604D9A08CBDD51235363 /* Pods_Swift_AVPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C8E24376CB29D35F087D79 /* Pods_Swift_AVPlayer.framework */; };
+		06EECE832A84F79A0038E8FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EECE822A84F79A0038E8FD /* AppDelegate.swift */; };
+		06EECE8A2A84F79A0038E8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE882A84F79A0038E8FD /* Main.storyboard */; };
+		06EECE8C2A84F79B0038E8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE8B2A84F79B0038E8FD /* Assets.xcassets */; };
+		06EECE8F2A84F79B0038E8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE8D2A84F79B0038E8FD /* LaunchScreen.storyboard */; };
+		06EECEA72A85017E0038E8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EECEA62A85017E0038E8FD /* ViewController.swift */; };
+		0F2C5EAEC8C5AA288ECA8F36 /* Pods_Swift_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4274312CCFC6B619CEEE5EC7 /* Pods_Swift_Player.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03C8E24376CB29D35F087D79 /* Pods_Swift_AVPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_AVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06EECE272A84E2140038E8FD /* Swift-AVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-AVPlayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06EECE2A2A84E2140038E8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06EECE2E2A84E2140038E8FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		06EECE312A84E2140038E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		06EECE332A84E2150038E8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		06EECE362A84E2150038E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		06EECE382A84E2150038E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		817FA39FBB5263393731096D /* Pods-Swift-AVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-AVPlayer.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-Swift-AVPlayer/Pods-Swift-AVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		DF8428A1F7376931E469EF26 /* Pods-Swift-AVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-AVPlayer.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-Swift-AVPlayer/Pods-Swift-AVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		06EECE7F2A84F79A0038E8FD /* Swift-Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EECE822A84F79A0038E8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06EECE892A84F79A0038E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06EECE8B2A84F79B0038E8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06EECE8E2A84F79B0038E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06EECE902A84F79B0038E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06EECEA62A85017E0038E8FD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4274312CCFC6B619CEEE5EC7 /* Pods_Swift_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CFB6CCB2A9405C70FF7CC5 /* Pods-Swift-Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.release.xcconfig"; path = "Target Support Files/Pods-Swift-Player/Pods-Swift-Player.release.xcconfig"; sourceTree = "<group>"; };
+		C5557FCE3A5B2B6AD2BA3331 /* Pods-Swift-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.debug.xcconfig"; path = "Target Support Files/Pods-Swift-Player/Pods-Swift-Player.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06EECE242A84E2140038E8FD /* Frameworks */ = {
+		06EECE7C2A84F79A0038E8FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				567A604D9A08CBDD51235363 /* Pods_Swift_AVPlayer.framework in Frameworks */,
+				0F2C5EAEC8C5AA288ECA8F36 /* Pods_Swift_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06EECE1E2A84E2140038E8FD = {
+		06EECE762A84F79A0038E8FD = {
 			isa = PBXGroup;
 			children = (
-				06EECE292A84E2140038E8FD /* Swift-AVPlayer */,
-				06EECE282A84E2140038E8FD /* Products */,
-				7759851F91E29940BF8CBA70 /* Pods */,
-				33651A3DB7A3BD2FF4157BF8 /* Frameworks */,
+				06EECE812A84F79A0038E8FD /* Swift-Player */,
+				06EECE802A84F79A0038E8FD /* Products */,
+				CFBAFA1C7C71C129A1E391D8 /* Pods */,
+				67F032BFDA60F53FCBDA832E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		06EECE282A84E2140038E8FD /* Products */ = {
+		06EECE802A84F79A0038E8FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06EECE272A84E2140038E8FD /* Swift-AVPlayer.app */,
+				06EECE7F2A84F79A0038E8FD /* Swift-Player.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06EECE292A84E2140038E8FD /* Swift-AVPlayer */ = {
+		06EECE812A84F79A0038E8FD /* Swift-Player */ = {
 			isa = PBXGroup;
 			children = (
-				06EECE2A2A84E2140038E8FD /* AppDelegate.swift */,
-				06EECE2E2A84E2140038E8FD /* ViewController.swift */,
-				06EECE302A84E2140038E8FD /* Main.storyboard */,
-				06EECE332A84E2150038E8FD /* Assets.xcassets */,
-				06EECE352A84E2150038E8FD /* LaunchScreen.storyboard */,
-				06EECE382A84E2150038E8FD /* Info.plist */,
+				06EECE822A84F79A0038E8FD /* AppDelegate.swift */,
+				06EECEA62A85017E0038E8FD /* ViewController.swift */,
+				06EECE882A84F79A0038E8FD /* Main.storyboard */,
+				06EECE8B2A84F79B0038E8FD /* Assets.xcassets */,
+				06EECE8D2A84F79B0038E8FD /* LaunchScreen.storyboard */,
+				06EECE902A84F79B0038E8FD /* Info.plist */,
 			);
-			path = "Swift-AVPlayer";
+			path = "Swift-Player";
 			sourceTree = "<group>";
 		};
-		33651A3DB7A3BD2FF4157BF8 /* Frameworks */ = {
+		67F032BFDA60F53FCBDA832E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03C8E24376CB29D35F087D79 /* Pods_Swift_AVPlayer.framework */,
+				4274312CCFC6B619CEEE5EC7 /* Pods_Swift_Player.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7759851F91E29940BF8CBA70 /* Pods */ = {
+		CFBAFA1C7C71C129A1E391D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				817FA39FBB5263393731096D /* Pods-Swift-AVPlayer.debug.xcconfig */,
-				DF8428A1F7376931E469EF26 /* Pods-Swift-AVPlayer.release.xcconfig */,
+				C5557FCE3A5B2B6AD2BA3331 /* Pods-Swift-Player.debug.xcconfig */,
+				A7CFB6CCB2A9405C70FF7CC5 /* Pods-Swift-Player.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -91,41 +91,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06EECE262A84E2140038E8FD /* Swift-AVPlayer */ = {
+		06EECE7E2A84F79A0038E8FD /* Swift-Player */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06EECE3B2A84E2150038E8FD /* Build configuration list for PBXNativeTarget "Swift-AVPlayer" */;
+			buildConfigurationList = 06EECE932A84F79B0038E8FD /* Build configuration list for PBXNativeTarget "Swift-Player" */;
 			buildPhases = (
-				5B0F2F8AFFA878F2AD109633 /* [CP] Check Pods Manifest.lock */,
-				06EECE232A84E2140038E8FD /* Sources */,
-				06EECE242A84E2140038E8FD /* Frameworks */,
-				06EECE252A84E2140038E8FD /* Resources */,
-				327B1F77916FB76F2FE30216 /* [CP] Embed Pods Frameworks */,
+				653E91F3C3AFE79F7FF63B84 /* [CP] Check Pods Manifest.lock */,
+				06EECE7B2A84F79A0038E8FD /* Sources */,
+				06EECE7C2A84F79A0038E8FD /* Frameworks */,
+				06EECE7D2A84F79A0038E8FD /* Resources */,
+				BF0DB019022C08193120766C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Swift-AVPlayer";
-			productName = "Swift-AVPlayer";
-			productReference = 06EECE272A84E2140038E8FD /* Swift-AVPlayer.app */;
+			name = "Swift-Player";
+			productName = "Swift-Player";
+			productReference = 06EECE7F2A84F79A0038E8FD /* Swift-Player.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		06EECE1F2A84E2140038E8FD /* Project object */ = {
+		06EECE772A84F79A0038E8FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					06EECE262A84E2140038E8FD = {
+					06EECE7E2A84F79A0038E8FD = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 06EECE222A84E2140038E8FD /* Build configuration list for PBXProject "Swift-AVPlayer" */;
+			buildConfigurationList = 06EECE7A2A84F79A0038E8FD /* Build configuration list for PBXProject "Swift-Player" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,48 +133,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 06EECE1E2A84E2140038E8FD;
-			productRefGroup = 06EECE282A84E2140038E8FD /* Products */;
+			mainGroup = 06EECE762A84F79A0038E8FD;
+			productRefGroup = 06EECE802A84F79A0038E8FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06EECE262A84E2140038E8FD /* Swift-AVPlayer */,
+				06EECE7E2A84F79A0038E8FD /* Swift-Player */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		06EECE252A84E2140038E8FD /* Resources */ = {
+		06EECE7D2A84F79A0038E8FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06EECE372A84E2150038E8FD /* LaunchScreen.storyboard in Resources */,
-				06EECE342A84E2150038E8FD /* Assets.xcassets in Resources */,
-				06EECE322A84E2140038E8FD /* Main.storyboard in Resources */,
+				06EECE8F2A84F79B0038E8FD /* LaunchScreen.storyboard in Resources */,
+				06EECE8C2A84F79B0038E8FD /* Assets.xcassets in Resources */,
+				06EECE8A2A84F79A0038E8FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		327B1F77916FB76F2FE30216 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Swift-AVPlayer/Pods-Swift-AVPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Swift-AVPlayer/Pods-Swift-AVPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-AVPlayer/Pods-Swift-AVPlayer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5B0F2F8AFFA878F2AD109633 /* [CP] Check Pods Manifest.lock */ = {
+		653E91F3C3AFE79F7FF63B84 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,40 +172,57 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Swift-AVPlayer-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Swift-Player-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BF0DB019022C08193120766C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-Player/Pods-Swift-Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-Player/Pods-Swift-Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-Player/Pods-Swift-Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		06EECE232A84E2140038E8FD /* Sources */ = {
+		06EECE7B2A84F79A0038E8FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06EECE2F2A84E2140038E8FD /* ViewController.swift in Sources */,
-				06EECE2B2A84E2140038E8FD /* AppDelegate.swift in Sources */,
+				06EECEA72A85017E0038E8FD /* ViewController.swift in Sources */,
+				06EECE832A84F79A0038E8FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		06EECE302A84E2140038E8FD /* Main.storyboard */ = {
+		06EECE882A84F79A0038E8FD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				06EECE312A84E2140038E8FD /* Base */,
+				06EECE892A84F79A0038E8FD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		06EECE352A84E2150038E8FD /* LaunchScreen.storyboard */ = {
+		06EECE8D2A84F79B0038E8FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				06EECE362A84E2150038E8FD /* Base */,
+				06EECE8E2A84F79B0038E8FD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		06EECE392A84E2150038E8FD /* Debug */ = {
+		06EECE912A84F79B0038E8FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		06EECE3A2A84E2150038E8FD /* Release */ = {
+		06EECE922A84F79B0038E8FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,9 +344,9 @@
 			};
 			name = Release;
 		};
-		06EECE3C2A84E2150038E8FD /* Debug */ = {
+		06EECE942A84F79B0038E8FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 817FA39FBB5263393731096D /* Pods-Swift-AVPlayer.debug.xcconfig */;
+			baseConfigurationReference = C5557FCE3A5B2B6AD2BA3331 /* Pods-Swift-Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -354,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXKWR2LZDX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Swift-AVPlayer/Info.plist";
+				INFOPLIST_FILE = "Swift-Player/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -365,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.swift-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysit.Swift-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,9 +373,9 @@
 			};
 			name = Debug;
 		};
-		06EECE3D2A84E2150038E8FD /* Release */ = {
+		06EECE952A84F79B0038E8FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF8428A1F7376931E469EF26 /* Pods-Swift-AVPlayer.release.xcconfig */;
+			baseConfigurationReference = A7CFB6CCB2A9405C70FF7CC5 /* Pods-Swift-Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -383,7 +383,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXKWR2LZDX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Swift-AVPlayer/Info.plist";
+				INFOPLIST_FILE = "Swift-Player/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -394,7 +394,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysdk.example.swift-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlysit.Swift-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -405,25 +405,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06EECE222A84E2140038E8FD /* Build configuration list for PBXProject "Swift-AVPlayer" */ = {
+		06EECE7A2A84F79A0038E8FD /* Build configuration list for PBXProject "Swift-Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06EECE392A84E2150038E8FD /* Debug */,
-				06EECE3A2A84E2150038E8FD /* Release */,
+				06EECE912A84F79B0038E8FD /* Debug */,
+				06EECE922A84F79B0038E8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06EECE3B2A84E2150038E8FD /* Build configuration list for PBXNativeTarget "Swift-AVPlayer" */ = {
+		06EECE932A84F79B0038E8FD /* Build configuration list for PBXNativeTarget "Swift-Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06EECE3C2A84E2150038E8FD /* Debug */,
-				06EECE3D2A84E2150038E8FD /* Release */,
+				06EECE942A84F79B0038E8FD /* Debug */,
+				06EECE952A84F79B0038E8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 06EECE1F2A84E2140038E8FD /* Project object */;
+	rootObject = 06EECE772A84F79A0038E8FD /* Project object */;
 }
