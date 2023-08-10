@@ -1,8 +1,8 @@
 //
 //  main.m
-//  objective-c-demo
+//  ObjectiveC-Player
 //
-//  Created by vip on 2023/3/1.
+//  Created by G on 2023/8/10.
 //
 
 #import <UIKit/UIKit.h>

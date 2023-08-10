@@ -1,13 +1,14 @@
-#import "PlayerViewController.h"
+ 
+#import "ViewController.h"
 
-@interface PlayerViewController (){
+@interface ViewController (){
     AVPlayer *_avplayer;
     AVPlayerViewController *_avplayerController;
     MLYAVPlayerPlugin *_plugin;
 }
 @end
 
-@implementation PlayerViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -8,5 +8,5 @@ MLYSDK integration with `AVPlayer` for iOS native applications.
 Full integration instructions can be found here: [https://stream.mlytics.com/docs/avplayer](ttphs://stream.mlytics.com/docs/avplayer)
 
 ## Sample apps
-* Examples/objective-c-demo - Objective C demo
-* Examples/swift-demo - Swift demo
+* Examples/ObjectiveC-Player - Objective C demo
+* Examples/Swift-AVPlayer - Swift demo

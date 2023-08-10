@@ -1,10 +1,10 @@
 import AVFoundation
 import AVKit
 import MLYSDK
-import SnapKit
+import UIKit
 import UIKit
 
-class PlayerViewController: UIViewController {
+class ViewController: UIViewController {
     lazy var player = AVPlayer()
     lazy var playerViewController = {
         let controller = AVPlayerViewController()
@@ -38,8 +38,7 @@ class PlayerViewController: UIViewController {
         self.view.backgroundColor = .black
         self.addChild(self.playerViewController)
         self.view.addSubview(self.playerViewController.view)
-        self.playerViewController.view.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
+        self.playerViewController.view.frame = self.view.frame
     }
 }
+

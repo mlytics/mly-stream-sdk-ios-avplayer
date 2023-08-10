@@ -1,18 +1,18 @@
 #import "AppDelegate.h"
-#import "PlayerViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
-
+ 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[PlayerViewController alloc] init]];
-    [self.window makeKeyAndVisible];
+//    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 
+ 
 
 @end

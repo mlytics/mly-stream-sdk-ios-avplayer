@@ -95,3 +95,8 @@ Example/.DS_Store
 */.DS_Store
 *.xcworkspacedata
 *.lock
+*.xcworkspace
+*.vscode
+*.swiftpm
+*.github
+LICENSE

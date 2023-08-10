@@ -3,7 +3,7 @@
 @import AVFoundation;
 @import MLYSDK;
 
-@interface PlayerViewController : UIViewController
+@interface ViewController : UIViewController
 
 
 @end
