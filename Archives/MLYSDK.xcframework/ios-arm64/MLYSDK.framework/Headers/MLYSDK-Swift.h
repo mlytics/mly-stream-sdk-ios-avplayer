@@ -260,6 +260,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import GCDWebServer;
 @import ObjectiveC;
 #endif
 
@@ -281,16 +282,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class AVPlayerViewController;
-@class NSURL;
 
-SWIFT_CLASS("_TtC6MLYSDK17MLYAVPlayerPlugin")
-@interface MLYAVPlayerPlugin : NSObject
-@property (nonatomic) BOOL playWhenReady;
-- (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController;
-- (void)deactivate;
-- (void)proxyPlayWithUrl:(NSURL * _Nonnull)url;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC6MLYSDK12DownloadTask")
+@interface DownloadTask : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC6MLYSDK8HLSProxy")
+@interface HLSProxy : NSObject <GCDWebServerDelegate>
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class NSString;
@@ -325,22 +328,6 @@ SWIFT_CLASS("_TtC6MLYSDK16MLYDriverOptions")
 @property (nonatomic, strong) MLYServerOptions * _Nonnull server;
 @property (nonatomic) BOOL debug;
 @property (nonatomic) double muxSampleRate;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIView;
-
-SWIFT_CLASS("_TtC6MLYSDK15MLYPlayerManger")
-@interface MLYPlayerManger : NSObject
-- (UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
-- (void)src:(NSString * _Nonnull)src;
-- (void)play;
-- (void)controls:(BOOL)controls;
-- (void)autoplay:(BOOL)autoplay;
-- (void)muted:(BOOL)muted;
-- (void)playWithSrc:(NSString * _Nonnull)src;
-- (void)pause;
-- (void)stop;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
