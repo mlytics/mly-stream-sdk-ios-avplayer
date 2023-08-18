@@ -131,6 +131,7 @@ public class HLSRequest {
   public var isCompleted: Swift.Bool {
     get
   }
+  public static var isLoaderAllowed: Swift.Bool
   public init(_ url: Foundation.URL, _ id: Swift.String, _ requestHeaders: [Swift.String : Swift.String])
   public var swarmID: Swift.String!
   public var swarmURI: Swift.String!

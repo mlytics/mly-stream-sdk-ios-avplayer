@@ -1439,6 +1439,99 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isMonitorAllowed",
+            "printedName": "isMonitorAllowed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(py)isMonitorAllowed",
+            "mangledName": "$s11MLYAVPlayer0A6PluginC16isMonitorAllowedSbvp",
+            "moduleName": "MLYAVPlayer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(im)isMonitorAllowed",
+                "mangledName": "$s11MLYAVPlayer0A6PluginC16isMonitorAllowedSbvg",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(im)setIsMonitorAllowed:",
+                "mangledName": "$s11MLYAVPlayer0A6PluginC16isMonitorAllowedSbvs",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MLYAVPlayer0A6PluginC16isMonitorAllowedSbvM",
+                "mangledName": "$s11MLYAVPlayer0A6PluginC16isMonitorAllowedSbvM",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "setLatency",
             "printedName": "setLatency(_:)",
@@ -1909,6 +2002,60 @@
             "declKind": "Func",
             "usr": "c:@M@MLYAVPlayer@objc(cs)MLYPlayerManger(im)setLatency:",
             "mangledName": "$s11MLYAVPlayer15MLYPlayerMangerC10setLatencyyySdF",
+            "moduleName": "MLYAVPlayer",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isMonitorAllowed",
+            "printedName": "isMonitorAllowed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MLYAVPlayer@objc(cs)MLYPlayerManger(im)isMonitorAllowed:",
+            "mangledName": "$s11MLYAVPlayer15MLYPlayerMangerC16isMonitorAllowedyySbF",
+            "moduleName": "MLYAVPlayer",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isLoaderAllowed",
+            "printedName": "isLoaderAllowed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MLYAVPlayer@objc(cs)MLYPlayerManger(im)isLoaderAllowed:",
+            "mangledName": "$s11MLYAVPlayer15MLYPlayerMangerC15isLoaderAllowedyySbF",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "AccessControl",
@@ -4182,260 +4329,267 @@
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 207,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 201,
+      "offset": 240,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 601,
+      "offset": 649,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 629,
+      "offset": 677,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 695,
+      "offset": 743,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 800,
+      "offset": 848,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 820,
+      "offset": 868,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 910,
+      "offset": 958,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 930,
+      "offset": 978,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 964,
+      "offset": 1012,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 997,
+      "offset": 1045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1066,
+      "offset": 1114,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1107,
+      "offset": 1155,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 1301,
+      "offset": 1349,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 2458,
+      "offset": 2506,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 2535,
+      "offset": 2583,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 2821,
+      "offset": 2869,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3294,
+      "offset": 3342,
       "length": 14,
       "value": "\"asset change\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3709,
+      "offset": 3757,
       "length": 6,
       "value": "\"mly-\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 3720,
+      "offset": 3768,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3891,
+      "offset": 3939,
       "length": 5,
       "value": "\"mp4\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4125,
+      "offset": 4173,
       "length": 39,
       "value": "\"loader-- mp4 \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4163,
+      "offset": 4211,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4274,
+      "offset": 4322,
       "length": 30,
       "value": "\"mly-\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4303,
+      "offset": 4351,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 5354,
+      "offset": 5402,
       "length": 76,
       "value": "\"avplayer notifyPlayerItemNewAccessLogEntry：\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 5429,
+      "offset": 5477,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 6125,
+      "offset": 6230,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 6186,
+      "offset": 6291,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 6246,
+      "offset": 6351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 6326,
+      "offset": 6431,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 6606,
+      "offset": 6711,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 6893,
+      "offset": 6998,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 7015,
+      "offset": 7120,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 7042,
+      "offset": 7147,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 7089,
+      "offset": 7194,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 7124,
+      "offset": 7229,
       "length": 22,
       "value": "\"---- \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 7145,
+      "offset": 7250,
       "length": 2,
       "value": "\"\""
     },

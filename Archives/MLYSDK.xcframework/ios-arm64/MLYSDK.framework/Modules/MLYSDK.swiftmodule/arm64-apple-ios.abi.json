@@ -4586,6 +4586,106 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isLoaderAllowed",
+            "printedName": "isLoaderAllowed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK10HLSRequestC15isLoaderAllowedSbvpZ",
+            "mangledName": "$s6MLYSDK10HLSRequestC15isLoaderAllowedSbvpZ",
+            "moduleName": "MLYSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC15isLoaderAllowedSbvgZ",
+                "mangledName": "$s6MLYSDK10HLSRequestC15isLoaderAllowedSbvgZ",
+                "moduleName": "MLYSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC15isLoaderAllowedSbvsZ",
+                "mangledName": "$s6MLYSDK10HLSRequestC15isLoaderAllowedSbvsZ",
+                "moduleName": "MLYSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC15isLoaderAllowedSbvMZ",
+                "mangledName": "$s6MLYSDK10HLSRequestC15isLoaderAllowedSbvMZ",
+                "moduleName": "MLYSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(_:_:_:)",
@@ -18727,477 +18827,484 @@
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 756,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 937,
+      "offset": 987,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 1199,
+      "offset": 1249,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 1388,
+      "offset": 1438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1704,
+      "offset": 1754,
       "length": 118,
       "value": "\"request: done \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1753,
+      "offset": 1803,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1775,
+      "offset": 1825,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1840,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1796,
+      "offset": 1846,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1821,
+      "offset": 1871,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1897,
+      "offset": 1947,
       "length": 173,
       "value": "\"request: done error \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1952,
+      "offset": 2002,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1978,
+      "offset": 2028,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2017,
+      "offset": 2067,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2023,
+      "offset": 2073,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2088,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2044,
+      "offset": 2094,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2069,
+      "offset": 2119,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2438,
+      "offset": 2488,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 2993,
+      "offset": 3043,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 3183,
+      "offset": 3233,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 3377,
+      "offset": 3427,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3583,
+      "offset": 3633,
       "length": 57,
       "value": "\"set cached: id: \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3610,
+      "offset": 3660,
       "length": 11,
       "value": "\"  contentType: \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3639,
+      "offset": 3689,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 3896,
+      "offset": 3946,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3945,
+      "offset": 3995,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3979,
+      "offset": 4029,
       "length": 7,
       "value": "\"audio\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4010,
+      "offset": 4060,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4040,
+      "offset": 4090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 4150,
+      "offset": 4200,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4290,
+      "offset": 4340,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4514,
+      "offset": 4564,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4746,
+      "offset": 4796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4841,
+      "offset": 4891,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "FloatLiteral",
-      "offset": 4879,
+      "offset": 4929,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 5001,
+      "offset": 5051,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5033,
+      "offset": 5083,
       "length": 51,
       "value": "\"request: cdn time \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5058,
+      "offset": 5108,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5083,
+      "offset": 5133,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5204,
+      "offset": 5254,
       "length": 50,
       "value": "\"request: cdn new \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5228,
+      "offset": 5278,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5253,
+      "offset": 5303,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5383,
+      "offset": 5433,
       "length": 52,
       "value": "\"request: cdn score \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5409,
+      "offset": 5459,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5434,
+      "offset": 5484,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6402,
+      "offset": 6452,
       "length": 63,
       "value": "\"webrtc: send \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 6429,
+      "offset": 6479,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6435,
+      "offset": 6485,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6464,
+      "offset": 6514,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 6489,
+      "offset": 6539,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 6628,
+      "offset": 6678,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 6752,
+      "offset": 6802,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 6755,
+      "offset": 6805,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6813,
+      "offset": 6863,
       "length": 47,
       "value": "\"fromPeer error: \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6859,
+      "offset": 6909,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6957,
+      "offset": 7007,
       "length": 80,
       "value": "\"webrtc: resource size \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7012,
+      "offset": 7062,
       "length": 1,
       "value": "\" \/ \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7036,
+      "offset": 7086,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 7183,
+      "offset": 7233,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 7400,
+      "offset": 7450,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7946,
+      "offset": 7996,
       "length": 21,
       "value": "\"webrtc: stats empty\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 8110,
+      "offset": 8160,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8143,
+      "offset": 8193,
       "length": 30,
       "value": "\"webrtc: completion \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8172,
+      "offset": 8222,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 8401,
+      "offset": 8451,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 8597,
+      "offset": 8726,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 8883,
+      "offset": 9012,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 9217,
+      "offset": 9346,
       "length": 1,
       "value": "0"
     },

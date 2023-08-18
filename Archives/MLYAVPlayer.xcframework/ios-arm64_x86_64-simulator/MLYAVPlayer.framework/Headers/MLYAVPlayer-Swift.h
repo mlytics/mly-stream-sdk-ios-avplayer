@@ -351,6 +351,7 @@ SWIFT_PROTOCOL("_TtP11MLYAVPlayer22MLYPreviewViewDelegate_")
 SWIFT_CLASS("_TtC11MLYAVPlayer17MLYAVPlayerPlugin")
 @interface MLYAVPlayerPlugin : NSObject
 @property (nonatomic) BOOL playWhenReady;
+@property (nonatomic) BOOL isMonitorAllowed;
 - (void)setLatency:(double)latency;
 - (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController;
 - (void)deactivate;
@@ -371,6 +372,8 @@ SWIFT_CLASS("_TtC11MLYAVPlayer15MLYPlayerManger")
 - (void)pause;
 - (void)stop;
 - (void)setLatency:(double)latency;
+- (void)isMonitorAllowed:(BOOL)isMonitorAllowed;
+- (void)isLoaderAllowed:(BOOL)isLoaderAllowed;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -761,6 +764,7 @@ SWIFT_PROTOCOL("_TtP11MLYAVPlayer22MLYPreviewViewDelegate_")
 SWIFT_CLASS("_TtC11MLYAVPlayer17MLYAVPlayerPlugin")
 @interface MLYAVPlayerPlugin : NSObject
 @property (nonatomic) BOOL playWhenReady;
+@property (nonatomic) BOOL isMonitorAllowed;
 - (void)setLatency:(double)latency;
 - (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController;
 - (void)deactivate;
@@ -781,6 +785,8 @@ SWIFT_CLASS("_TtC11MLYAVPlayer15MLYPlayerManger")
 - (void)pause;
 - (void)stop;
 - (void)setLatency:(double)latency;
+- (void)isMonitorAllowed:(BOOL)isMonitorAllowed;
+- (void)isLoaderAllowed:(BOOL)isLoaderAllowed;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

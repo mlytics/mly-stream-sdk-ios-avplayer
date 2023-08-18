@@ -53,6 +53,7 @@ extension MLYAVPlayer.MLYAVPlayer : MLYAVPlayer.MLYPreviewViewClickListener {
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYAVPlayerPlugin : ObjectiveC.NSObject {
   @objc public var playWhenReady: Swift.Bool
+  @objc public var isMonitorAllowed: Swift.Bool
   @objc public func setLatency(_ latency: Swift.Double)
   @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController)
   @objc public func deactivate()
@@ -71,6 +72,8 @@ extension MLYAVPlayer.MLYAVPlayer : MLYAVPlayer.MLYPreviewViewClickListener {
   @objc public func pause()
   @objc public func stop()
   @objc public func setLatency(_ latency: Swift.Double)
+  @objc public func isMonitorAllowed(_ isMonitorAllowed: Swift.Bool)
+  @objc public func isLoaderAllowed(_ isLoaderAllowed: Swift.Bool)
   public static func initialize(_ clientID: Swift.String, _ server: Swift.String?, _ debug: Swift.Bool?) throws
   @objc override dynamic public init()
   @objc deinit
