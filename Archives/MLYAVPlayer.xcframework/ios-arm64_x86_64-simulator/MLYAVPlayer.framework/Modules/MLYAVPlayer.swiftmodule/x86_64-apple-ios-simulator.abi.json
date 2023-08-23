@@ -4302,21 +4302,21 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 9118,
+      "offset": 9141,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 9170,
+      "offset": 9193,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 9180,
+      "offset": 9203,
       "length": 6,
       "value": "\"play\""
     },
@@ -5603,71 +5603,64 @@
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
-      "kind": "StringLiteral",
-      "offset": 784,
-      "length": 27,
-      "value": "\"8b6qt5193roge01u0nhgdpetb\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 1461,
+      "offset": 1395,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3280,
+      "offset": 3214,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3334,
+      "offset": 3268,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3387,
+      "offset": 3321,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3441,
+      "offset": 3375,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3494,
+      "offset": 3428,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3548,
+      "offset": 3482,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3601,
+      "offset": 3535,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3655,
+      "offset": 3589,
       "length": 1,
       "value": "3"
     }
