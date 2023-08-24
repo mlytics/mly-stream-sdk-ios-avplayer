@@ -6145,16 +6145,20 @@
                 "kind": "TypeNominal",
                 "name": "MLYChart",
                 "printedName": "MLYSDK.MLYChart",
-                "usr": "s:6MLYSDK8MLYChartC"
+                "usr": "c:@M@MLYSDK@objc(cs)MLYChart"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6MLYSDK8MLYChartCACycfc",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYChart(im)init",
             "mangledName": "$s6MLYSDK8MLYChartCACycfc",
             "moduleName": "MLYSDK",
+            "overriding": true,
+            "objc_name": "init",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -6474,7 +6478,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6MLYSDK8MLYChartC8activateyyF",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYChart(im)activate",
             "mangledName": "$s6MLYSDK8MLYChartC8activateyyF",
             "moduleName": "MLYSDK",
             "declAttributes": [
@@ -6495,7 +6499,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6MLYSDK8MLYChartC10deactivateyyF",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYChart(im)deactivate",
             "mangledName": "$s6MLYSDK8MLYChartC10deactivateyyF",
             "moduleName": "MLYSDK",
             "declAttributes": [
@@ -6506,12 +6510,69 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:6MLYSDK8MLYChartC",
+        "usr": "c:@M@MLYSDK@objc(cs)MLYChart",
         "mangledName": "$s6MLYSDK8MLYChartC",
         "moduleName": "MLYSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjCMembers"
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -6858,11 +6919,11 @@
                 "kind": "TypeNominal",
                 "name": "MLYData",
                 "printedName": "MLYSDK.MLYData",
-                "usr": "s:6MLYSDK7MLYDataC"
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6MLYSDK7MLYDataC8instanceACvpZ",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYData(cpy)instance",
             "mangledName": "$s6MLYSDK7MLYDataC8instanceACvpZ",
             "moduleName": "MLYSDK",
             "static": true,
@@ -6870,7 +6931,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6883,17 +6945,18 @@
                     "kind": "TypeNominal",
                     "name": "MLYData",
                     "printedName": "MLYSDK.MLYData",
-                    "usr": "s:6MLYSDK7MLYDataC"
+                    "usr": "c:@M@MLYSDK@objc(cs)MLYData"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC8instanceACvgZ",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(cm)instance",
                 "mangledName": "$s6MLYSDK7MLYDataC8instanceACvgZ",
                 "moduleName": "MLYSDK",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "accessorKind": "get"
               },
@@ -6911,17 +6974,18 @@
                     "kind": "TypeNominal",
                     "name": "MLYData",
                     "printedName": "MLYSDK.MLYData",
-                    "usr": "s:6MLYSDK7MLYDataC"
+                    "usr": "c:@M@MLYSDK@objc(cs)MLYData"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC8instanceACvsZ",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(cm)setInstance:",
                 "mangledName": "$s6MLYSDK7MLYDataC8instanceACvsZ",
                 "moduleName": "MLYSDK",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "accessorKind": "set"
               },
@@ -6970,7 +7034,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6MLYSDK7MLYDataC5tokenSSSgvp",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYData(py)token",
             "mangledName": "$s6MLYSDK7MLYDataC5tokenSSSgvp",
             "moduleName": "MLYSDK",
             "declAttributes": [
@@ -7002,7 +7066,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC5tokenSSSgvg",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)token",
                 "mangledName": "$s6MLYSDK7MLYDataC5tokenSSSgvg",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7037,7 +7101,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC5tokenSSSgvs",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)setToken:",
                 "mangledName": "$s6MLYSDK7MLYDataC5tokenSSSgvs",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7087,7 +7151,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6MLYSDK7MLYDataC6peerIDSSSgvp",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYData(py)peerID",
             "mangledName": "$s6MLYSDK7MLYDataC6peerIDSSSgvp",
             "moduleName": "MLYSDK",
             "declAttributes": [
@@ -7119,7 +7183,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC6peerIDSSSgvg",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)peerID",
                 "mangledName": "$s6MLYSDK7MLYDataC6peerIDSSSgvg",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7154,7 +7218,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC6peerIDSSSgvs",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)setPeerID:",
                 "mangledName": "$s6MLYSDK7MLYDataC6peerIDSSSgvs",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7204,7 +7268,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6MLYSDK7MLYDataC7swarmIDSSSgvp",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYData(py)swarmID",
             "mangledName": "$s6MLYSDK7MLYDataC7swarmIDSSSgvp",
             "moduleName": "MLYSDK",
             "declAttributes": [
@@ -7236,7 +7300,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC7swarmIDSSSgvg",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)swarmID",
                 "mangledName": "$s6MLYSDK7MLYDataC7swarmIDSSSgvg",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7271,7 +7335,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC7swarmIDSSSgvs",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)setSwarmID:",
                 "mangledName": "$s6MLYSDK7MLYDataC7swarmIDSSSgvs",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7431,7 +7495,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6MLYSDK7MLYDataC11otherPeerIDSSSgvp",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYData(py)otherPeerID",
             "mangledName": "$s6MLYSDK7MLYDataC11otherPeerIDSSSgvp",
             "moduleName": "MLYSDK",
             "declAttributes": [
@@ -7463,7 +7527,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC11otherPeerIDSSSgvg",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)otherPeerID",
                 "mangledName": "$s6MLYSDK7MLYDataC11otherPeerIDSSSgvg",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7498,7 +7562,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC11otherPeerIDSSSgvs",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)setOtherPeerID:",
                 "mangledName": "$s6MLYSDK7MLYDataC11otherPeerIDSSSgvs",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7540,7 +7604,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6MLYSDK7MLYDataC11webrtcStateSbvp",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYData(py)webrtcState",
             "mangledName": "$s6MLYSDK7MLYDataC11webrtcStateSbvp",
             "moduleName": "MLYSDK",
             "declAttributes": [
@@ -7564,7 +7628,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC11webrtcStateSbvg",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)webrtcState",
                 "mangledName": "$s6MLYSDK7MLYDataC11webrtcStateSbvg",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7591,7 +7655,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC11webrtcStateSbvs",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)setWebrtcState:",
                 "mangledName": "$s6MLYSDK7MLYDataC11webrtcStateSbvs",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7633,7 +7697,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6MLYSDK7MLYDataC15centrifugeStateSbvp",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYData(py)centrifugeState",
             "mangledName": "$s6MLYSDK7MLYDataC15centrifugeStateSbvp",
             "moduleName": "MLYSDK",
             "declAttributes": [
@@ -7657,7 +7721,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC15centrifugeStateSbvg",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)centrifugeState",
                 "mangledName": "$s6MLYSDK7MLYDataC15centrifugeStateSbvg",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7684,7 +7748,7 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6MLYSDK7MLYDataC15centrifugeStateSbvs",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)setCentrifugeState:",
                 "mangledName": "$s6MLYSDK7MLYDataC15centrifugeStateSbvs",
                 "moduleName": "MLYSDK",
                 "implicit": true,
@@ -7712,17 +7776,99 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MLYData",
+                "printedName": "MLYSDK.MLYData",
+                "usr": "c:@M@MLYSDK@objc(cs)MLYData"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)init",
+            "mangledName": "$s6MLYSDK7MLYDataCACycfc",
+            "moduleName": "MLYSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:6MLYSDK7MLYDataC",
+        "usr": "c:@M@MLYSDK@objc(cs)MLYData",
         "mangledName": "$s6MLYSDK7MLYDataC",
         "moduleName": "MLYSDK",
         "declAttributes": [
           "AccessControl",
-          "ObjCMembers"
+          "ObjCMembers",
+          "ObjC"
         ],
-        "hasMissingDesignatedInitializers": true
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -21104,126 +21250,126 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "Dictionary",
-      "offset": 108,
+      "offset": 127,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "Dictionary",
-      "offset": 166,
+      "offset": 185,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "BooleanLiteral",
-      "offset": 188,
+      "offset": 207,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "BooleanLiteral",
-      "offset": 257,
+      "offset": 276,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "BooleanLiteral",
-      "offset": 476,
+      "offset": 495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "Array",
-      "offset": 660,
+      "offset": 679,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "Array",
-      "offset": 694,
+      "offset": 713,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 971,
+      "offset": 990,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 1109,
+      "offset": 1128,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 1287,
+      "offset": 1306,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "StringLiteral",
-      "offset": 1446,
+      "offset": 1465,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "StringLiteral",
-      "offset": 1457,
+      "offset": 1476,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "StringLiteral",
-      "offset": 1468,
+      "offset": 1487,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "StringLiteral",
-      "offset": 1543,
+      "offset": 1562,
       "length": 7,
       "value": "\"mm:ss\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "FloatLiteral",
-      "offset": 1585,
+      "offset": 1604,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYChart.swift",
       "kind": "IntegerLiteral",
-      "offset": 1860,
+      "offset": 1879,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYData.swift",
       "kind": "BooleanLiteral",
-      "offset": 348,
+      "offset": 358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYData.swift",
       "kind": "BooleanLiteral",
-      "offset": 403,
+      "offset": 413,
       "length": 5,
       "value": "false"
     },

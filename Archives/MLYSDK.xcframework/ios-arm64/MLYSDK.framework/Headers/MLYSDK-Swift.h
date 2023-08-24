@@ -289,11 +289,35 @@ SWIFT_CLASS("_TtC6MLYSDK8HLSProxy")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+SWIFT_CLASS("_TtC6MLYSDK8MLYChart")
+@interface MLYChart : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)activate;
+- (void)deactivate;
+@end
+
+
 @class NSString;
 
 SWIFT_CLASS("_TtC6MLYSDK16MLYClientOptions")
 @interface MLYClientOptions : NSObject
 @property (nonatomic, copy) NSString * _Nullable id;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6MLYSDK7MLYData")
+@interface MLYData : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) MLYData * _Nonnull instance;)
++ (MLYData * _Nonnull)instance SWIFT_WARN_UNUSED_RESULT;
++ (void)setInstance:(MLYData * _Nonnull)value;
+@property (nonatomic, copy) NSString * _Nullable token;
+@property (nonatomic, copy) NSString * _Nullable peerID;
+@property (nonatomic, copy) NSString * _Nullable swarmID;
+@property (nonatomic, copy) NSString * _Nullable otherPeerID;
+@property (nonatomic) BOOL webrtcState;
+@property (nonatomic) BOOL centrifugeState;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

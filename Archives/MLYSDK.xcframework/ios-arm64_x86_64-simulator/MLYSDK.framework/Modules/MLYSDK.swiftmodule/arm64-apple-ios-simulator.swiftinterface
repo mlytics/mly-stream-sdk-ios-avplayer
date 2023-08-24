@@ -160,8 +160,8 @@ public struct LogOptions : Swift.CustomStringConvertible {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@objcMembers public class MLYChart {
-  @objc public init()
+@objc @_inheritsConvenienceInitializers @objcMembers public class MLYChart : ObjectiveC.NSObject {
+  @objc override dynamic public init()
   public var chart: [Swift.String : [MLYSDK.MLYCharPoint]]
   public var chartScore: [Swift.String : [MLYSDK.MLYCharPoint]]
   @objc public func activate()
@@ -178,8 +178,8 @@ public struct LogOptions : Swift.CustomStringConvertible {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers @objcMembers public class MLYData {
-  public static var instance: MLYSDK.MLYData
+@objc @_inheritsConvenienceInitializers @objcMembers public class MLYData : ObjectiveC.NSObject {
+  @objc public static var instance: MLYSDK.MLYData
   @objc public var token: Swift.String?
   @objc public var peerID: Swift.String?
   @objc public var swarmID: Swift.String?
@@ -187,6 +187,7 @@ public struct LogOptions : Swift.CustomStringConvertible {
   @objc public var otherPeerID: Swift.String?
   @objc public var webrtcState: Swift.Bool
   @objc public var centrifugeState: Swift.Bool
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYDriver : ObjectiveC.NSObject {
