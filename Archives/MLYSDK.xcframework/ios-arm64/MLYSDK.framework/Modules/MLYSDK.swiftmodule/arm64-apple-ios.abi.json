@@ -435,11 +435,39 @@
         "moduleName": "MLYSDK"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MLYSDK"
+        "kind": "TypeDecl",
+        "name": "Condition",
+        "printedName": "Condition",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "done",
+            "printedName": "done()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK9ConditionC4doneyyYaF",
+            "mangledName": "$s6MLYSDK9ConditionC4doneyyYaF",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6MLYSDK9ConditionC",
+        "mangledName": "$s6MLYSDK9ConditionC",
+        "moduleName": "MLYSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -463,11 +491,1757 @@
         "moduleName": "MLYSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "MP4DownloadTaskDelegate",
+        "printedName": "MP4DownloadTaskDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "urlTaskSession",
+            "printedName": "urlTaskSession(_:task:didCompleteWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionTask",
+                "printedName": "Foundation.URLSessionTask",
+                "usr": "c:objc(cs)NSURLSessionTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK23MP4DownloadTaskDelegateP03urlD7Session_4task20didCompleteWithErrorySo12NSURLSessionC_So0mD0Cs0L0_pSgtF",
+            "mangledName": "$s6MLYSDK23MP4DownloadTaskDelegateP03urlD7Session_4task20didCompleteWithErrorySo12NSURLSessionC_So0mD0Cs0L0_pSgtF",
+            "moduleName": "MLYSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MLYSDK.MP4DownloadTaskDelegate>",
+            "sugared_genericSig": "<Self where Self : MLYSDK.MP4DownloadTaskDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlTaskSession",
+            "printedName": "urlTaskSession(_:dataTask:didReceive:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLResponse",
+                "printedName": "Foundation.URLResponse",
+                "usr": "c:objc(cs)NSURLResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URLSession.ResponseDisposition) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResponseDisposition",
+                    "printedName": "Foundation.URLSession.ResponseDisposition",
+                    "usr": "c:@E@NSURLSessionResponseDisposition"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK23MP4DownloadTaskDelegateP03urlD7Session_04dataD010didReceive17completionHandlerySo12NSURLSessionC_So0m4DataD0CSo13NSURLResponseCySo0M19ResponseDispositionVctF",
+            "mangledName": "$s6MLYSDK23MP4DownloadTaskDelegateP03urlD7Session_04dataD010didReceive17completionHandlerySo12NSURLSessionC_So0m4DataD0CSo13NSURLResponseCySo0M19ResponseDispositionVctF",
+            "moduleName": "MLYSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MLYSDK.MP4DownloadTaskDelegate>",
+            "sugared_genericSig": "<Self where Self : MLYSDK.MP4DownloadTaskDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlTaskSession",
+            "printedName": "urlTaskSession(_:dataTask:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK23MP4DownloadTaskDelegateP03urlD7Session_04dataD010didReceiveySo12NSURLSessionC_So0k4DataD0C10Foundation0L0VtF",
+            "mangledName": "$s6MLYSDK23MP4DownloadTaskDelegateP03urlD7Session_04dataD010didReceiveySo12NSURLSessionC_So0k4DataD0C10Foundation0L0VtF",
+            "moduleName": "MLYSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MLYSDK.MP4DownloadTaskDelegate>",
+            "sugared_genericSig": "<Self where Self : MLYSDK.MP4DownloadTaskDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6MLYSDK23MP4DownloadTaskDelegateP",
+        "mangledName": "$s6MLYSDK23MP4DownloadTaskDelegateP",
+        "moduleName": "MLYSDK",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DownloadTask",
+        "printedName": "DownloadTask",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "requestHeaders",
+            "printedName": "requestHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC14requestHeadersSDyS2SGvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC14requestHeadersSDyS2SGvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC14requestHeadersSDyS2SGvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC14requestHeadersSDyS2SGvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC14requestHeadersSDyS2SGvs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC14requestHeadersSDyS2SGvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC14requestHeadersSDyS2SGvM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC14requestHeadersSDyS2SGvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "response",
+            "printedName": "response",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.HTTPURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC8responseSo17NSHTTPURLResponseCSgvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC8responseSo17NSHTTPURLResponseCSgvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.HTTPURLResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC8responseSo17NSHTTPURLResponseCSgvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC8responseSo17NSHTTPURLResponseCSgvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.HTTPURLResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC8responseSo17NSHTTPURLResponseCSgvs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC8responseSo17NSHTTPURLResponseCSgvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC8responseSo17NSHTTPURLResponseCSgvM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC8responseSo17NSHTTPURLResponseCSgvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC5errors5Error_pSgvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC5errors5Error_pSgvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC5errors5Error_pSgvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC5errors5Error_pSgvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC5errors5Error_pSgvs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC5errors5Error_pSgvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC5errors5Error_pSgvM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC5errors5Error_pSgvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentType",
+            "printedName": "contentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC11contentTypeSSSgvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC11contentTypeSSSgvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC11contentTypeSSSgvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC11contentTypeSSSgvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC11contentTypeSSSgvs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC11contentTypeSSSgvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC11contentTypeSSSgvM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC11contentTypeSSSgvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentLength",
+            "printedName": "contentLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC13contentLengthSivp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC13contentLengthSivp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC13contentLengthSivg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC13contentLengthSivg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC13contentLengthSivs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC13contentLengthSivs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC13contentLengthSivM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC13contentLengthSivM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadTaskState",
+                "printedName": "MLYSDK.DownloadTaskState",
+                "usr": "s:6MLYSDK17DownloadTaskStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC6statusAA0bC5StateOvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC6statusAA0bC5StateOvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadTaskState",
+                    "printedName": "MLYSDK.DownloadTaskState",
+                    "usr": "s:6MLYSDK17DownloadTaskStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC6statusAA0bC5StateOvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC6statusAA0bC5StateOvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadTaskState",
+                    "printedName": "MLYSDK.DownloadTaskState",
+                    "usr": "s:6MLYSDK17DownloadTaskStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC6statusAA0bC5StateOvs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC6statusAA0bC5StateOvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC6statusAA0bC5StateOvM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC6statusAA0bC5StateOvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rangeCombiner",
+            "printedName": "rangeCombiner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RangeCombiner",
+                "printedName": "MLYSDK.RangeCombiner",
+                "usr": "s:6MLYSDK13RangeCombinerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC13rangeCombinerAA05RangeE0Cvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC13rangeCombinerAA05RangeE0Cvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RangeCombiner",
+                    "printedName": "MLYSDK.RangeCombiner",
+                    "usr": "s:6MLYSDK13RangeCombinerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC13rangeCombinerAA05RangeE0Cvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC13rangeCombinerAA05RangeE0Cvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RangeCombiner",
+                    "printedName": "MLYSDK.RangeCombiner",
+                    "usr": "s:6MLYSDK13RangeCombinerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC13rangeCombinerAA05RangeE0Cvs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC13rangeCombinerAA05RangeE0Cvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC13rangeCombinerAA05RangeE0CvM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC13rangeCombinerAA05RangeE0CvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MLYSDK.MP4DownloadTaskDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MP4DownloadTaskDelegate",
+                    "printedName": "MLYSDK.MP4DownloadTaskDelegate",
+                    "usr": "s:6MLYSDK23MP4DownloadTaskDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC8delegateAA03MP4bC8Delegate_pSgvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC8delegateAA03MP4bC8Delegate_pSgvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MLYSDK.MP4DownloadTaskDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MP4DownloadTaskDelegate",
+                        "printedName": "MLYSDK.MP4DownloadTaskDelegate",
+                        "usr": "s:6MLYSDK23MP4DownloadTaskDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC8delegateAA03MP4bC8Delegate_pSgvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC8delegateAA03MP4bC8Delegate_pSgvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MLYSDK.MP4DownloadTaskDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MP4DownloadTaskDelegate",
+                        "printedName": "MLYSDK.MP4DownloadTaskDelegate",
+                        "usr": "s:6MLYSDK23MP4DownloadTaskDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC8delegateAA03MP4bC8Delegate_pSgvs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC8delegateAA03MP4bC8Delegate_pSgvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC8delegateAA03MP4bC8Delegate_pSgvM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC8delegateAA03MP4bC8Delegate_pSgvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCompleted",
+            "printedName": "isCompleted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC11isCompletedSbvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC11isCompletedSbvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC11isCompletedSbvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC11isCompletedSbvg",
+                "moduleName": "MLYSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerReady",
+            "printedName": "headerReady",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AsyncValue",
+                "printedName": "MLYSDK.AsyncValue<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:6MLYSDK10AsyncValueC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC11headerReadyAA10AsyncValueCySbGvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC11headerReadyAA10AsyncValueCySbGvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AsyncValue",
+                    "printedName": "MLYSDK.AsyncValue<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:6MLYSDK10AsyncValueC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC11headerReadyAA10AsyncValueCySbGvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC11headerReadyAA10AsyncValueCySbGvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AsyncValue",
+                    "printedName": "MLYSDK.AsyncValue<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:6MLYSDK10AsyncValueC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC11headerReadyAA10AsyncValueCySbGvs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC11headerReadyAA10AsyncValueCySbGvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC11headerReadyAA10AsyncValueCySbGvM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC11headerReadyAA10AsyncValueCySbGvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyReady",
+            "printedName": "bodyReady",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AsyncValue",
+                "printedName": "MLYSDK.AsyncValue<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:6MLYSDK10AsyncValueC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK12DownloadTaskC9bodyReadyAA10AsyncValueCySbGvp",
+            "mangledName": "$s6MLYSDK12DownloadTaskC9bodyReadyAA10AsyncValueCySbGvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AsyncValue",
+                    "printedName": "MLYSDK.AsyncValue<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:6MLYSDK10AsyncValueC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC9bodyReadyAA10AsyncValueCySbGvg",
+                "mangledName": "$s6MLYSDK12DownloadTaskC9bodyReadyAA10AsyncValueCySbGvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AsyncValue",
+                    "printedName": "MLYSDK.AsyncValue<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:6MLYSDK10AsyncValueC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC9bodyReadyAA10AsyncValueCySbGvs",
+                "mangledName": "$s6MLYSDK12DownloadTaskC9bodyReadyAA10AsyncValueCySbGvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK12DownloadTaskC9bodyReadyAA10AsyncValueCySbGvM",
+                "mangledName": "$s6MLYSDK12DownloadTaskC9bodyReadyAA10AsyncValueCySbGvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadTask",
+                "printedName": "MLYSDK.DownloadTask",
+                "usr": "c:@M@MLYSDK@objc(cs)DownloadTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6MLYSDK12DownloadTaskCyAC10Foundation3URLV_SDyS2SGtcfc",
+            "mangledName": "$s6MLYSDK12DownloadTaskCyAC10Foundation3URLV_SDyS2SGtcfc",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK12DownloadTaskC6cancelyyF",
+            "mangledName": "$s6MLYSDK12DownloadTaskC6cancelyyF",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK12DownloadTaskC5startyyF",
+            "mangledName": "$s6MLYSDK12DownloadTaskC5startyyF",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadTask",
+                "printedName": "MLYSDK.DownloadTask",
+                "usr": "c:@M@MLYSDK@objc(cs)DownloadTask"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MLYSDK@objc(cs)DownloadTask(im)init",
+            "mangledName": "$s6MLYSDK12DownloadTaskCACycfc",
+            "moduleName": "MLYSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MLYSDK@objc(cs)DownloadTask",
+        "mangledName": "$s6MLYSDK12DownloadTaskC",
+        "moduleName": "MLYSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MLYSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MLYSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DownloadTaskState",
+        "printedName": "DownloadTaskState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknowed",
+            "printedName": "unknowed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYSDK.DownloadTaskState.Type) -> MLYSDK.DownloadTaskState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadTaskState",
+                    "printedName": "MLYSDK.DownloadTaskState",
+                    "usr": "s:6MLYSDK17DownloadTaskStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYSDK.DownloadTaskState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DownloadTaskState",
+                        "printedName": "MLYSDK.DownloadTaskState",
+                        "usr": "s:6MLYSDK17DownloadTaskStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MLYSDK17DownloadTaskStateO8unknowedyA2CmF",
+            "mangledName": "$s6MLYSDK17DownloadTaskStateO8unknowedyA2CmF",
+            "moduleName": "MLYSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "running",
+            "printedName": "running",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYSDK.DownloadTaskState.Type) -> MLYSDK.DownloadTaskState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadTaskState",
+                    "printedName": "MLYSDK.DownloadTaskState",
+                    "usr": "s:6MLYSDK17DownloadTaskStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYSDK.DownloadTaskState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DownloadTaskState",
+                        "printedName": "MLYSDK.DownloadTaskState",
+                        "usr": "s:6MLYSDK17DownloadTaskStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MLYSDK17DownloadTaskStateO7runningyA2CmF",
+            "mangledName": "$s6MLYSDK17DownloadTaskStateO7runningyA2CmF",
+            "moduleName": "MLYSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYSDK.DownloadTaskState.Type) -> MLYSDK.DownloadTaskState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadTaskState",
+                    "printedName": "MLYSDK.DownloadTaskState",
+                    "usr": "s:6MLYSDK17DownloadTaskStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYSDK.DownloadTaskState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DownloadTaskState",
+                        "printedName": "MLYSDK.DownloadTaskState",
+                        "usr": "s:6MLYSDK17DownloadTaskStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MLYSDK17DownloadTaskStateO7successyA2CmF",
+            "mangledName": "$s6MLYSDK17DownloadTaskStateO7successyA2CmF",
+            "moduleName": "MLYSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYSDK.DownloadTaskState.Type) -> MLYSDK.DownloadTaskState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadTaskState",
+                    "printedName": "MLYSDK.DownloadTaskState",
+                    "usr": "s:6MLYSDK17DownloadTaskStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYSDK.DownloadTaskState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DownloadTaskState",
+                        "printedName": "MLYSDK.DownloadTaskState",
+                        "usr": "s:6MLYSDK17DownloadTaskStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MLYSDK17DownloadTaskStateO5erroryA2CmF",
+            "mangledName": "$s6MLYSDK17DownloadTaskStateO5erroryA2CmF",
+            "moduleName": "MLYSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "cancelled",
+            "printedName": "cancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYSDK.DownloadTaskState.Type) -> MLYSDK.DownloadTaskState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadTaskState",
+                    "printedName": "MLYSDK.DownloadTaskState",
+                    "usr": "s:6MLYSDK17DownloadTaskStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYSDK.DownloadTaskState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DownloadTaskState",
+                        "printedName": "MLYSDK.DownloadTaskState",
+                        "usr": "s:6MLYSDK17DownloadTaskStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6MLYSDK17DownloadTaskStateO9cancelledyA2CmF",
+            "mangledName": "$s6MLYSDK17DownloadTaskStateO9cancelledyA2CmF",
+            "moduleName": "MLYSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadTaskState",
+                "printedName": "MLYSDK.DownloadTaskState",
+                "usr": "s:6MLYSDK17DownloadTaskStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadTaskState",
+                "printedName": "MLYSDK.DownloadTaskState",
+                "usr": "s:6MLYSDK17DownloadTaskStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK17DownloadTaskStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6MLYSDK17DownloadTaskStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "MLYSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK17DownloadTaskStateO9hashValueSivp",
+            "mangledName": "$s6MLYSDK17DownloadTaskStateO9hashValueSivp",
+            "moduleName": "MLYSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK17DownloadTaskStateO9hashValueSivg",
+                "mangledName": "$s6MLYSDK17DownloadTaskStateO9hashValueSivg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK17DownloadTaskStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6MLYSDK17DownloadTaskStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "MLYSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6MLYSDK17DownloadTaskStateO",
+        "mangledName": "$s6MLYSDK17DownloadTaskStateO",
+        "moduleName": "MLYSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2234,6 +4008,736 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MLYSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HLSRequest",
+        "printedName": "HLSRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rangeCombiner",
+            "printedName": "rangeCombiner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RangeCombiner",
+                "printedName": "MLYSDK.RangeCombiner",
+                "usr": "s:6MLYSDK13RangeCombinerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK10HLSRequestC13rangeCombinerAA05RangeD0Cvp",
+            "mangledName": "$s6MLYSDK10HLSRequestC13rangeCombinerAA05RangeD0Cvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RangeCombiner",
+                    "printedName": "MLYSDK.RangeCombiner",
+                    "usr": "s:6MLYSDK13RangeCombinerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC13rangeCombinerAA05RangeD0Cvg",
+                "mangledName": "$s6MLYSDK10HLSRequestC13rangeCombinerAA05RangeD0Cvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RangeCombiner",
+                    "printedName": "MLYSDK.RangeCombiner",
+                    "usr": "s:6MLYSDK13RangeCombinerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC13rangeCombinerAA05RangeD0Cvs",
+                "mangledName": "$s6MLYSDK10HLSRequestC13rangeCombinerAA05RangeD0Cvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC13rangeCombinerAA05RangeD0CvM",
+                "mangledName": "$s6MLYSDK10HLSRequestC13rangeCombinerAA05RangeD0CvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "response",
+            "printedName": "response",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.HTTPURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK10HLSRequestC8responseSo17NSHTTPURLResponseCSgvp",
+            "mangledName": "$s6MLYSDK10HLSRequestC8responseSo17NSHTTPURLResponseCSgvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.HTTPURLResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC8responseSo17NSHTTPURLResponseCSgvg",
+                "mangledName": "$s6MLYSDK10HLSRequestC8responseSo17NSHTTPURLResponseCSgvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.HTTPURLResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC8responseSo17NSHTTPURLResponseCSgvs",
+                "mangledName": "$s6MLYSDK10HLSRequestC8responseSo17NSHTTPURLResponseCSgvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC8responseSo17NSHTTPURLResponseCSgvM",
+                "mangledName": "$s6MLYSDK10HLSRequestC8responseSo17NSHTTPURLResponseCSgvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSuccess",
+            "printedName": "isSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK10HLSRequestC9isSuccessSbvp",
+            "mangledName": "$s6MLYSDK10HLSRequestC9isSuccessSbvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC9isSuccessSbvg",
+                "mangledName": "$s6MLYSDK10HLSRequestC9isSuccessSbvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC9isSuccessSbvs",
+                "mangledName": "$s6MLYSDK10HLSRequestC9isSuccessSbvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC9isSuccessSbvM",
+                "mangledName": "$s6MLYSDK10HLSRequestC9isSuccessSbvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCompleted",
+            "printedName": "isCompleted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK10HLSRequestC11isCompletedSbvp",
+            "mangledName": "$s6MLYSDK10HLSRequestC11isCompletedSbvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC11isCompletedSbvg",
+                "mangledName": "$s6MLYSDK10HLSRequestC11isCompletedSbvg",
+                "moduleName": "MLYSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLoaderAllowed",
+            "printedName": "isLoaderAllowed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK10HLSRequestC15isLoaderAllowedSbvpZ",
+            "mangledName": "$s6MLYSDK10HLSRequestC15isLoaderAllowedSbvpZ",
+            "moduleName": "MLYSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC15isLoaderAllowedSbvgZ",
+                "mangledName": "$s6MLYSDK10HLSRequestC15isLoaderAllowedSbvgZ",
+                "moduleName": "MLYSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC15isLoaderAllowedSbvsZ",
+                "mangledName": "$s6MLYSDK10HLSRequestC15isLoaderAllowedSbvsZ",
+                "moduleName": "MLYSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC15isLoaderAllowedSbvMZ",
+                "mangledName": "$s6MLYSDK10HLSRequestC15isLoaderAllowedSbvMZ",
+                "moduleName": "MLYSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HLSRequest",
+                "printedName": "MLYSDK.HLSRequest",
+                "usr": "s:6MLYSDK10HLSRequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6MLYSDK10HLSRequestCyAC10Foundation3URLV_SSSDyS2SGtcfc",
+            "mangledName": "$s6MLYSDK10HLSRequestCyAC10Foundation3URLV_SSSDyS2SGtcfc",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "swarmID",
+            "printedName": "swarmID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK10HLSRequestC7swarmIDSSSgvp",
+            "mangledName": "$s6MLYSDK10HLSRequestC7swarmIDSSSgvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC7swarmIDSSSgvg",
+                "mangledName": "$s6MLYSDK10HLSRequestC7swarmIDSSSgvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC7swarmIDSSSgvs",
+                "mangledName": "$s6MLYSDK10HLSRequestC7swarmIDSSSgvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC7swarmIDSSSgvM",
+                "mangledName": "$s6MLYSDK10HLSRequestC7swarmIDSSSgvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "swarmURI",
+            "printedName": "swarmURI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK10HLSRequestC8swarmURISSSgvp",
+            "mangledName": "$s6MLYSDK10HLSRequestC8swarmURISSSgvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC8swarmURISSSgvg",
+                "mangledName": "$s6MLYSDK10HLSRequestC8swarmURISSSgvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC8swarmURISSSgvs",
+                "mangledName": "$s6MLYSDK10HLSRequestC8swarmURISSSgvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSRequestC8swarmURISSSgvM",
+                "mangledName": "$s6MLYSDK10HLSRequestC8swarmURISSSgvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "from",
+            "printedName": "from()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK10HLSRequestC4fromSbyYaF",
+            "mangledName": "$s6MLYSDK10HLSRequestC4fromSbyYaF",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6MLYSDK10HLSRequestC",
+        "mangledName": "$s6MLYSDK10HLSRequestC",
+        "moduleName": "MLYSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -9199,6 +11703,221 @@
         "moduleName": "MLYSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "RangeCombiner",
+        "printedName": "RangeCombiner",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK13RangeCombinerC4data10Foundation4DataVvp",
+            "mangledName": "$s6MLYSDK13RangeCombinerC4data10Foundation4DataVvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK13RangeCombinerC4data10Foundation4DataVvg",
+                "mangledName": "$s6MLYSDK13RangeCombinerC4data10Foundation4DataVvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK13RangeCombinerC4data10Foundation4DataVvs",
+                "mangledName": "$s6MLYSDK13RangeCombinerC4data10Foundation4DataVvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK13RangeCombinerC4data10Foundation4DataVvM",
+                "mangledName": "$s6MLYSDK13RangeCombinerC4data10Foundation4DataVvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "condition",
+            "printedName": "condition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Condition",
+                "printedName": "MLYSDK.Condition",
+                "usr": "s:6MLYSDK9ConditionC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK13RangeCombinerC9conditionAA9ConditionCvp",
+            "mangledName": "$s6MLYSDK13RangeCombinerC9conditionAA9ConditionCvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Condition",
+                    "printedName": "MLYSDK.Condition",
+                    "usr": "s:6MLYSDK9ConditionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK13RangeCombinerC9conditionAA9ConditionCvg",
+                "mangledName": "$s6MLYSDK13RangeCombinerC9conditionAA9ConditionCvg",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Condition",
+                    "printedName": "MLYSDK.Condition",
+                    "usr": "s:6MLYSDK9ConditionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK13RangeCombinerC9conditionAA9ConditionCvs",
+                "mangledName": "$s6MLYSDK13RangeCombinerC9conditionAA9ConditionCvs",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK13RangeCombinerC9conditionAA9ConditionCvM",
+                "mangledName": "$s6MLYSDK13RangeCombinerC9conditionAA9ConditionCvM",
+                "moduleName": "MLYSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "more",
+            "printedName": "more(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MLYSDK13RangeCombinerC4morey10Foundation4DataVSiYaKF",
+            "mangledName": "$s6MLYSDK13RangeCombinerC4morey10Foundation4DataVSiYaKF",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6MLYSDK13RangeCombinerC",
+        "mangledName": "$s6MLYSDK13RangeCombinerC",
+        "moduleName": "MLYSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -13361,7 +16080,7 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/Condition.swift",
       "kind": "IntegerLiteral",
-      "offset": 1106,
+      "offset": 1120,
       "length": 1,
       "value": "0"
     },
@@ -13851,182 +16570,182 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 310,
+      "offset": 880,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 545,
+      "offset": 1129,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 587,
+      "offset": 1171,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 695,
+      "offset": 1279,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1065,
+      "offset": 1711,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "Dictionary",
-      "offset": 1359,
+      "offset": 2026,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 1541,
+      "offset": 2215,
       "length": 45,
       "value": "\"download: cancel \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
+      "offset": 2259,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "BooleanLiteral",
-      "offset": 1787,
+      "offset": 2461,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "BooleanLiteral",
-      "offset": 1825,
+      "offset": 2499,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 1989,
+      "offset": 2670,
       "length": 44,
       "value": "\"download: start \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 2032,
+      "offset": 2713,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 2770,
+      "offset": 3451,
       "length": 74,
       "value": "\"download: error \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 2813,
+      "offset": 3494,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 2843,
+      "offset": 3524,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 2947,
+      "offset": 3628,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 3058,
+      "offset": 3739,
       "length": 65,
       "value": "\"download: done \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 3100,
+      "offset": 3781,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 3122,
+      "offset": 3803,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "BooleanLiteral",
-      "offset": 3214,
+      "offset": 3895,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 3568,
+      "offset": 4249,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 3582,
+      "offset": 4263,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 3634,
+      "offset": 4315,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 3650,
+      "offset": 4331,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "IntegerLiteral",
-      "offset": 4278,
+      "offset": 4959,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/DownloadTask.swift",
       "kind": "StringLiteral",
-      "offset": 25,
+      "offset": 560,
       "length": 12,
       "value": "\"MLYSDK.DownloadTask\""
     },
@@ -15048,490 +17767,490 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 246,
+      "offset": 253,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 566,
+      "offset": 580,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 735,
+      "offset": 749,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 966,
+      "offset": 980,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 1228,
+      "offset": 1242,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
+      "offset": 1716,
       "length": 118,
       "value": "\"request: done \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1751,
+      "offset": 1765,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 1787,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1788,
+      "offset": 1802,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1794,
+      "offset": 1808,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1833,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1895,
+      "offset": 1909,
       "length": 173,
       "value": "\"request: done error \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1950,
+      "offset": 1964,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1976,
+      "offset": 1990,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2015,
+      "offset": 2029,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2035,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2036,
+      "offset": 2050,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2042,
+      "offset": 2056,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2067,
+      "offset": 2081,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2436,
+      "offset": 2450,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 2991,
+      "offset": 3005,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 3181,
+      "offset": 3195,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 3375,
+      "offset": 3389,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3581,
+      "offset": 3595,
       "length": 57,
       "value": "\"set cached: id: \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3608,
+      "offset": 3622,
       "length": 11,
       "value": "\"  contentType: \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3637,
+      "offset": 3651,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 3894,
+      "offset": 3908,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3943,
+      "offset": 3957,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3977,
+      "offset": 3991,
       "length": 7,
       "value": "\"audio\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4008,
+      "offset": 4022,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4038,
+      "offset": 4052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 4134,
+      "offset": 4162,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4267,
+      "offset": 4302,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4491,
+      "offset": 4526,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4723,
+      "offset": 4758,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 4818,
+      "offset": 4853,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "FloatLiteral",
-      "offset": 4856,
+      "offset": 4891,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 4978,
+      "offset": 5013,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5010,
+      "offset": 5045,
       "length": 51,
       "value": "\"request: cdn time \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5035,
+      "offset": 5070,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5060,
+      "offset": 5095,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5181,
+      "offset": 5216,
       "length": 50,
       "value": "\"request: cdn new \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5205,
+      "offset": 5240,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5230,
+      "offset": 5265,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5360,
+      "offset": 5395,
       "length": 52,
       "value": "\"request: cdn score \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5386,
+      "offset": 5421,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 5411,
+      "offset": 5446,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6379,
+      "offset": 6414,
       "length": 63,
       "value": "\"webrtc: send \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 6406,
+      "offset": 6441,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6412,
+      "offset": 6447,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6441,
+      "offset": 6476,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 6466,
+      "offset": 6501,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 6605,
+      "offset": 6640,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 6729,
+      "offset": 6764,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 6732,
+      "offset": 6767,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6790,
+      "offset": 6825,
       "length": 47,
       "value": "\"fromPeer error: \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6836,
+      "offset": 6871,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6934,
+      "offset": 6969,
       "length": 80,
       "value": "\"webrtc: resource size \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 6989,
+      "offset": 7024,
       "length": 1,
       "value": "\" \/ \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7013,
+      "offset": 7048,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 7160,
+      "offset": 7195,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 7377,
+      "offset": 7412,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 7923,
+      "offset": 7958,
       "length": 21,
       "value": "\"webrtc: stats empty\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 8087,
+      "offset": 8122,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8120,
+      "offset": 8155,
       "length": 30,
       "value": "\"webrtc: completion \""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "StringLiteral",
-      "offset": 8149,
+      "offset": 8184,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 8378,
+      "offset": 8413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 8653,
+      "offset": 8688,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 8939,
+      "offset": 8974,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/hls\/HLSRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 9273,
+      "offset": 9308,
       "length": 1,
       "value": "0"
     },
@@ -24176,35 +26895,35 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/RangeCombiner.swift",
       "kind": "Array",
-      "offset": 104,
+      "offset": 118,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/RangeCombiner.swift",
       "kind": "BooleanLiteral",
-      "offset": 1548,
+      "offset": 1576,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/RangeCombiner.swift",
       "kind": "BooleanLiteral",
-      "offset": 1635,
+      "offset": 1663,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/RangeCombiner.swift",
       "kind": "BooleanLiteral",
-      "offset": 1716,
+      "offset": 1744,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/util\/RangeCombiner.swift",
       "kind": "BooleanLiteral",
-      "offset": 2009,
+      "offset": 2037,
       "length": 5,
       "value": "false"
     },

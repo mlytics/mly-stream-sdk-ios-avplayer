@@ -28,6 +28,53 @@ import _StringProcessing
   public static func maxLoadedTime(_ currentItem: AVFoundation.AVPlayerItem?, _ currentTime: CoreMedia.CMTime) -> CoreMedia.CMTime
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class Condition {
+  @objc deinit
+  #if compiler(>=5.3) && $AsyncAwait
+  public func done() async
+  #endif
+}
+public protocol MP4DownloadTaskDelegate : ObjectiveC.NSObject {
+  func urlTaskSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  func urlTaskSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive response: Foundation.URLResponse, completionHandler: @escaping (Foundation.URLSession.ResponseDisposition) -> Swift.Void)
+  func urlTaskSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive data: Foundation.Data)
+}
+@objc public class DownloadTask : ObjectiveC.NSObject {
+  public var requestHeaders: [Swift.String : Swift.String]
+  public var response: Foundation.HTTPURLResponse?
+  public var error: (any Swift.Error)?
+  public var contentType: Swift.String?
+  public var contentLength: Swift.Int
+  public var status: MLYSDK.DownloadTaskState
+  public var rangeCombiner: MLYSDK.RangeCombiner {
+    get
+    set
+  }
+  public var delegate: (any MLYSDK.MP4DownloadTaskDelegate)?
+  public var isCompleted: Swift.Bool {
+    get
+  }
+  public var headerReady: MLYSDK.AsyncValue<Swift.Bool> {
+    get
+    set
+  }
+  public var bodyReady: MLYSDK.AsyncValue<Swift.Bool> {
+    get
+    set
+  }
+  public init(_ url: Foundation.URL, _ requestHeaders: [Swift.String : Swift.String] = [:])
+  public func cancel()
+  public func start()
+  @objc deinit
+}
+public enum DownloadTaskState {
+  case unknowed, running, success, error, cancelled
+  public static func == (a: MLYSDK.DownloadTaskState, b: MLYSDK.DownloadTaskState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYDriverOptions : ObjectiveC.NSObject {
   @objc public var client: MLYSDK.MLYClientOptions
   @objc public var server: MLYSDK.MLYServerOptions
@@ -66,6 +113,22 @@ public class HLSContext {
   public static var instance: MLYSDK.HLSProxy
   public var port: Swift.Int
   public func start()
+  @objc deinit
+}
+public class HLSRequest {
+  public var rangeCombiner: MLYSDK.RangeCombiner
+  public var response: Foundation.HTTPURLResponse?
+  public var isSuccess: Swift.Bool
+  public var isCompleted: Swift.Bool {
+    get
+  }
+  public static var isLoaderAllowed: Swift.Bool
+  public init(_ url: Foundation.URL, _ id: Swift.String, _ requestHeaders: [Swift.String : Swift.String])
+  public var swarmID: Swift.String!
+  public var swarmURI: Swift.String!
+  #if compiler(>=5.3) && $AsyncAwait
+  public func from() async -> Swift.Bool
+  #endif
   @objc deinit
 }
 public struct AssetSettings : Swift.Codable {
@@ -225,6 +288,14 @@ public enum ProxyURLModifierError : Swift.Error {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class RangeCombiner {
+  public var data: Foundation.Data
+  public var condition: MLYSDK.Condition
+  #if compiler(>=5.3) && $AsyncAwait
+  public func more(_ sent: Swift.Int) async throws -> Foundation.Data
+  #endif
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class StringTool {
   public static func format(_ format: Swift.String, _ value: Swift.Double) -> Swift.String
   @objc deinit
@@ -233,5 +304,7 @@ public enum ProxyURLModifierError : Swift.Error {
   public static func makeNowFstring(_ format: Swift.String) -> Swift.String
   @objc deinit
 }
+extension MLYSDK.DownloadTaskState : Swift.Equatable {}
+extension MLYSDK.DownloadTaskState : Swift.Hashable {}
 extension MLYSDK.ProxyURLModifierError : Swift.Equatable {}
 extension MLYSDK.ProxyURLModifierError : Swift.Hashable {}
