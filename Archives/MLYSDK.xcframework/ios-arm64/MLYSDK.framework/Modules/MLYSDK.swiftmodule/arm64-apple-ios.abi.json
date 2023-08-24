@@ -10282,6 +10282,28 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "getSwarmUserCount",
+            "printedName": "getSwarmUserCount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MLYSDK@objc(cs)MLYData(im)getSwarmUserCount",
+            "mangledName": "$s6MLYSDK7MLYDataC17getSwarmUserCountSo8NSNumberCyF",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -24081,16 +24103,23 @@
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYData.swift",
       "kind": "BooleanLiteral",
-      "offset": 358,
+      "offset": 364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYData.swift",
       "kind": "BooleanLiteral",
-      "offset": 413,
+      "offset": 419,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-sit\/MLYSDK\/Classes\/driver\/MLYDriver.swift",

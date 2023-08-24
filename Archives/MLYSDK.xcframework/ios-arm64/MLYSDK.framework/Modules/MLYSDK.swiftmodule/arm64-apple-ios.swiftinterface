@@ -250,6 +250,7 @@ public struct LogOptions : Swift.CustomStringConvertible {
   @objc public var otherPeerID: Swift.String?
   @objc public var webrtcState: Swift.Bool
   @objc public var centrifugeState: Swift.Bool
+  @objc public func getSwarmUserCount() -> Foundation.NSNumber
   @objc override dynamic public init()
   @objc deinit
 }

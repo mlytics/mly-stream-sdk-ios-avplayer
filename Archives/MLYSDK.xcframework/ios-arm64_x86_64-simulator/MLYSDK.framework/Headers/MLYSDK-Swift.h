@@ -313,6 +313,7 @@ SWIFT_CLASS("_TtC6MLYSDK16MLYClientOptions")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSNumber;
 
 SWIFT_CLASS("_TtC6MLYSDK7MLYData")
 @interface MLYData : NSObject
@@ -325,6 +326,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) MLYData * _Nonnull ins
 @property (nonatomic, copy) NSString * _Nullable otherPeerID;
 @property (nonatomic) BOOL webrtcState;
 @property (nonatomic) BOOL centrifugeState;
+- (NSNumber * _Nonnull)getSwarmUserCount SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -693,6 +695,7 @@ SWIFT_CLASS("_TtC6MLYSDK16MLYClientOptions")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSNumber;
 
 SWIFT_CLASS("_TtC6MLYSDK7MLYData")
 @interface MLYData : NSObject
@@ -705,6 +708,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) MLYData * _Nonnull ins
 @property (nonatomic, copy) NSString * _Nullable otherPeerID;
 @property (nonatomic) BOOL webrtcState;
 @property (nonatomic) BOOL centrifugeState;
+- (NSNumber * _Nonnull)getSwarmUserCount SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
