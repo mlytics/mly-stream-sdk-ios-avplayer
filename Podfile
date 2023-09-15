@@ -2,13 +2,13 @@
 workspace 'mly-stream-sdk-ios-avplayer.xcworkspace'
 
 
-project 'Swift-AVPlayer'
+project 'Swift-Player'
 
 
-target 'Swift-AVPlayer' do 
+target 'Swift-Player' do 
 use_frameworks!
 platform :ios, '14.0'
-project 'Examples/Swift-AVPlayer/Swift-AVPlayer.xcodeproj'
+project 'Examples/Swift-Player/Swift-Player.xcodeproj'
 
 pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-ios-avplayer.git' 
 pod 'SnapKit', '~> 5.6.0'

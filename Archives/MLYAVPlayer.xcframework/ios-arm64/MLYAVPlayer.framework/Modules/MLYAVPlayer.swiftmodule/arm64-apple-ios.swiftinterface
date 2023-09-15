@@ -54,11 +54,15 @@ extension MLYAVPlayer.MLYAVPlayer : MLYAVPlayer.MLYPreviewViewClickListener {
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYAVPlayerPlugin : ObjectiveC.NSObject {
   @objc public var playWhenReady: Swift.Bool
   @objc public var isMonitorAllowed: Swift.Bool
-  @objc public func setLatency(_ latency: Swift.Double)
+  @objc public var targetLatency: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public var maxLatency: Swift.Double
+  @objc public func catchUp()
   @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController)
   @objc public func deactivate()
   @objc deinit
-  @objc public func buildAssetPlayerItem(origin: Foundation.URL) throws -> AVFoundation.AVPlayerItem
   @objc override dynamic public init()
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYPlayerManger : ObjectiveC.NSObject {
@@ -81,6 +85,9 @@ extension MLYAVPlayer.MLYAVPlayer : MLYAVPlayer.MLYPreviewViewClickListener {
 public enum PlayerImageStringEnum : Swift.String {
   case PAUSE
   case PLAY
+  case ZOOM
+  case MUTE_OFF
+  case MUTE_ON
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -90,6 +97,8 @@ public enum PlayerImageStringEnum : Swift.String {
 public enum PlayerImageIntEnum : Swift.Int {
   case PLAY
   case ZOOM
+  case MUTE_OFF
+  case MUTE_ON
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -109,8 +118,18 @@ public enum PlayerImageIntEnum : Swift.Int {
 @objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class MLYPreviewView : UIKit.UIView {
   @objc @_Concurrency.MainActor(unsafe) public var delegate: (any MLYAVPlayer.MLYPreviewViewDelegate)?
   @objc @_Concurrency.MainActor(unsafe) public var onClickListener: (any MLYAVPlayer.MLYPreviewViewClickListener)?
-  @objc @_Concurrency.MainActor(unsafe) final public let playImageView: UIKit.UIImageView
-  @objc @_Concurrency.MainActor(unsafe) final public let zoomImageView: UIKit.UIImageView
+  @objc @_Concurrency.MainActor(unsafe) public var playImageView: UIKit.UIImageView {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var muteImageView: UIKit.UIImageView {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var zoomImageView: UIKit.UIImageView {
+    @objc get
+    @objc set
+  }
   @objc @_Concurrency.MainActor(unsafe) public var autoPlay: Swift.Bool {
     @objc get
     @objc set
@@ -142,6 +161,11 @@ public enum PlayerImageIntEnum : Swift.Int {
   @objc @_Concurrency.MainActor(unsafe) public func seekTo(value: Swift.Float)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func addOnClickListener(target: Swift.AnyObject, action: ObjectiveC.Selector)
+  @_Concurrency.MainActor(unsafe) public func parentViewController() -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) public func getImagePath() -> Foundation.Bundle?
 }
 extension MLYAVPlayer.PlayerImageStringEnum : Swift.Equatable {}
 extension MLYAVPlayer.PlayerImageStringEnum : Swift.Hashable {}

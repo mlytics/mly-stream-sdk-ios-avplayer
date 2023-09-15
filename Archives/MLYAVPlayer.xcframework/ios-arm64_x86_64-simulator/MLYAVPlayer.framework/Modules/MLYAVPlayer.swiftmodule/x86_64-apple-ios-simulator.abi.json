@@ -6,6 +6,20 @@
     "children": [
       {
         "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "MLYAVPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MLYAVPlayer"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1298,6 +1312,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -1328,15 +1349,15 @@
       },
       {
         "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
+        "name": "MLYSDK",
+        "printedName": "MLYSDK",
         "declKind": "Import",
         "moduleName": "MLYAVPlayer"
       },
       {
         "kind": "Import",
-        "name": "MLYSDK",
-        "printedName": "MLYSDK",
+        "name": "Network",
+        "printedName": "Network",
         "declKind": "Import",
         "moduleName": "MLYAVPlayer"
       },
@@ -1532,15 +1553,10 @@
             ]
           },
           {
-            "kind": "Function",
-            "name": "setLatency",
-            "printedName": "setLatency(_:)",
+            "kind": "Var",
+            "name": "targetLatency",
+            "printedName": "targetLatency",
             "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
               {
                 "kind": "TypeNominal",
                 "name": "Double",
@@ -1548,9 +1564,194 @@
                 "usr": "s:Sd"
               }
             ],
+            "declKind": "Var",
+            "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(py)targetLatency",
+            "mangledName": "$s11MLYAVPlayer0A6PluginC13targetLatencySdvp",
+            "moduleName": "MLYAVPlayer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(im)targetLatency",
+                "mangledName": "$s11MLYAVPlayer0A6PluginC13targetLatencySdvg",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(im)setTargetLatency:",
+                "mangledName": "$s11MLYAVPlayer0A6PluginC13targetLatencySdvs",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MLYAVPlayer0A6PluginC13targetLatencySdvM",
+                "mangledName": "$s11MLYAVPlayer0A6PluginC13targetLatencySdvM",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxLatency",
+            "printedName": "maxLatency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(py)maxLatency",
+            "mangledName": "$s11MLYAVPlayer0A6PluginC10maxLatencySdvp",
+            "moduleName": "MLYAVPlayer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(im)maxLatency",
+                "mangledName": "$s11MLYAVPlayer0A6PluginC10maxLatencySdvg",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(im)setMaxLatency:",
+                "mangledName": "$s11MLYAVPlayer0A6PluginC10maxLatencySdvs",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MLYAVPlayer0A6PluginC10maxLatencySdvM",
+                "mangledName": "$s11MLYAVPlayer0A6PluginC10maxLatencySdvM",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "catchUp",
+            "printedName": "catchUp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
             "declKind": "Func",
-            "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(im)setLatency:",
-            "mangledName": "$s11MLYAVPlayer0A6PluginC10setLatencyyySdF",
+            "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(im)catchUp",
+            "mangledName": "$s11MLYAVPlayer0A6PluginC7catchUpyyF",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "AccessControl",
@@ -1604,35 +1805,6 @@
               "AccessControl",
               "ObjC"
             ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "buildAssetPlayerItem",
-            "printedName": "buildAssetPlayerItem(origin:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AVPlayerItem",
-                "printedName": "AVFoundation.AVPlayerItem",
-                "usr": "c:objc(cs)AVPlayerItem"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MLYAVPlayer@objc(cs)MLYAVPlayerPlugin(im)buildAssetPlayerItemWithOrigin:error:",
-            "mangledName": "$s11MLYAVPlayer0A6PluginC20buildAssetPlayerItem6originSo08AVPlayerF0C10Foundation3URLV_tKF",
-            "moduleName": "MLYAVPlayer",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -2301,6 +2473,117 @@
           },
           {
             "kind": "Var",
+            "name": "ZOOM",
+            "printedName": "ZOOM",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYAVPlayer.PlayerImageStringEnum.Type) -> MLYAVPlayer.PlayerImageStringEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerImageStringEnum",
+                    "printedName": "MLYAVPlayer.PlayerImageStringEnum",
+                    "usr": "s:11MLYAVPlayer21PlayerImageStringEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYAVPlayer.PlayerImageStringEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayerImageStringEnum",
+                        "printedName": "MLYAVPlayer.PlayerImageStringEnum",
+                        "usr": "s:11MLYAVPlayer21PlayerImageStringEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11MLYAVPlayer21PlayerImageStringEnumO4ZOOMyA2CmF",
+            "mangledName": "$s11MLYAVPlayer21PlayerImageStringEnumO4ZOOMyA2CmF",
+            "moduleName": "MLYAVPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "MUTE_OFF",
+            "printedName": "MUTE_OFF",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYAVPlayer.PlayerImageStringEnum.Type) -> MLYAVPlayer.PlayerImageStringEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerImageStringEnum",
+                    "printedName": "MLYAVPlayer.PlayerImageStringEnum",
+                    "usr": "s:11MLYAVPlayer21PlayerImageStringEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYAVPlayer.PlayerImageStringEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayerImageStringEnum",
+                        "printedName": "MLYAVPlayer.PlayerImageStringEnum",
+                        "usr": "s:11MLYAVPlayer21PlayerImageStringEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11MLYAVPlayer21PlayerImageStringEnumO8MUTE_OFFyA2CmF",
+            "mangledName": "$s11MLYAVPlayer21PlayerImageStringEnumO8MUTE_OFFyA2CmF",
+            "moduleName": "MLYAVPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "MUTE_ON",
+            "printedName": "MUTE_ON",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYAVPlayer.PlayerImageStringEnum.Type) -> MLYAVPlayer.PlayerImageStringEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerImageStringEnum",
+                    "printedName": "MLYAVPlayer.PlayerImageStringEnum",
+                    "usr": "s:11MLYAVPlayer21PlayerImageStringEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYAVPlayer.PlayerImageStringEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayerImageStringEnum",
+                        "printedName": "MLYAVPlayer.PlayerImageStringEnum",
+                        "usr": "s:11MLYAVPlayer21PlayerImageStringEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11MLYAVPlayer21PlayerImageStringEnumO7MUTE_ONyA2CmF",
+            "mangledName": "$s11MLYAVPlayer21PlayerImageStringEnumO7MUTE_ONyA2CmF",
+            "moduleName": "MLYAVPlayer"
+          },
+          {
+            "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
             "children": [
@@ -2496,6 +2779,80 @@
             "declKind": "EnumElement",
             "usr": "s:11MLYAVPlayer18PlayerImageIntEnumO4ZOOMyA2CmF",
             "mangledName": "$s11MLYAVPlayer18PlayerImageIntEnumO4ZOOMyA2CmF",
+            "moduleName": "MLYAVPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "MUTE_OFF",
+            "printedName": "MUTE_OFF",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYAVPlayer.PlayerImageIntEnum.Type) -> MLYAVPlayer.PlayerImageIntEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerImageIntEnum",
+                    "printedName": "MLYAVPlayer.PlayerImageIntEnum",
+                    "usr": "s:11MLYAVPlayer18PlayerImageIntEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYAVPlayer.PlayerImageIntEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayerImageIntEnum",
+                        "printedName": "MLYAVPlayer.PlayerImageIntEnum",
+                        "usr": "s:11MLYAVPlayer18PlayerImageIntEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11MLYAVPlayer18PlayerImageIntEnumO8MUTE_OFFyA2CmF",
+            "mangledName": "$s11MLYAVPlayer18PlayerImageIntEnumO8MUTE_OFFyA2CmF",
+            "moduleName": "MLYAVPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "MUTE_ON",
+            "printedName": "MUTE_ON",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MLYAVPlayer.PlayerImageIntEnum.Type) -> MLYAVPlayer.PlayerImageIntEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerImageIntEnum",
+                    "printedName": "MLYAVPlayer.PlayerImageIntEnum",
+                    "usr": "s:11MLYAVPlayer18PlayerImageIntEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MLYAVPlayer.PlayerImageIntEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayerImageIntEnum",
+                        "printedName": "MLYAVPlayer.PlayerImageIntEnum",
+                        "usr": "s:11MLYAVPlayer18PlayerImageIntEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11MLYAVPlayer18PlayerImageIntEnumO7MUTE_ONyA2CmF",
+            "mangledName": "$s11MLYAVPlayer18PlayerImageIntEnumO7MUTE_ONyA2CmF",
             "moduleName": "MLYAVPlayer"
           },
           {
@@ -3140,15 +3497,11 @@
             "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09playImageC0So07UIImageC0Cvp",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
               "Custom",
+              "Lazy",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3168,10 +3521,146 @@
                 "moduleName": "MLYAVPlayer",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYPreviewView(im)setPlayImageView:",
+                "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09playImageC0So07UIImageC0Cvs",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MLYAVPlayer14MLYPreviewViewC09playImageC0So07UIImageC0CvM",
+                "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09playImageC0So07UIImageC0CvM",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "muteImageView",
+            "printedName": "muteImageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MLYAVPlayer@objc(cs)MLYPreviewView(py)muteImageView",
+            "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09muteImageC0So07UIImageC0Cvp",
+            "moduleName": "MLYAVPlayer",
+            "declAttributes": [
+              "Custom",
+              "Lazy",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYPreviewView(im)muteImageView",
+                "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09muteImageC0So07UIImageC0Cvg",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYPreviewView(im)setMuteImageView:",
+                "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09muteImageC0So07UIImageC0Cvs",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MLYAVPlayer14MLYPreviewViewC09muteImageC0So07UIImageC0CvM",
+                "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09muteImageC0So07UIImageC0CvM",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -3192,15 +3681,11 @@
             "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09zoomImageC0So07UIImageC0Cvp",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
-              "HasInitialValue",
-              "Final",
               "Custom",
-              "HasStorage",
+              "Lazy",
               "AccessControl",
               "ObjC"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3220,10 +3705,54 @@
                 "moduleName": "MLYAVPlayer",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MLYAVPlayer@objc(cs)MLYPreviewView(im)setZoomImageView:",
+                "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09zoomImageC0So07UIImageC0Cvs",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MLYAVPlayer14MLYPreviewViewC09zoomImageC0So07UIImageC0CvM",
+                "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC09zoomImageC0So07UIImageC0CvM",
+                "moduleName": "MLYAVPlayer",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -4043,17 +4572,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
         ]
       },
@@ -4091,1574 +4620,1985 @@
         "printedName": "MLYSDK",
         "declKind": "Import",
         "moduleName": "MLYAVPlayer"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addOnClickListener",
+            "printedName": "addOnClickListener(target:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC11MLYAVPlayerE18addOnClickListener6target6actionyyXl_10ObjectiveC8SelectorVtF",
+            "mangledName": "$sSo6UIViewC11MLYAVPlayerE18addOnClickListener6target6actionyyXl_10ObjectiveC8SelectorVtF",
+            "moduleName": "MLYAVPlayer",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "parentViewController",
+            "printedName": "parentViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC11MLYAVPlayerE20parentViewControllerSo0aE0CSgyF",
+            "mangledName": "$sSo6UIViewC11MLYAVPlayerE20parentViewControllerSo0aE0CSgyF",
+            "moduleName": "MLYAVPlayer",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getImagePath",
+            "printedName": "getImagePath()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC11MLYAVPlayerE12getImagePathSo8NSBundleCSgyF",
+            "mangledName": "$sSo6UIViewC11MLYAVPlayerE12getImagePathSo8NSBundleCSgyF",
+            "moduleName": "MLYAVPlayer",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/util\/ImageCache.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/FullScreenPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 14,
+      "value": "\"退出全屏\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/FullScreenPlayerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 768,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/FullScreenPlayerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 774,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/FullScreenPlayerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 784,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/FullScreenPlayerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 797,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/FullScreenPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1023,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/FullScreenPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1255,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/util\/ImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/util\/ImageCache.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/util\/ImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 798,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/util\/ImageCache.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/util\/ImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 871,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 744,
+      "offset": 852,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1699,
+      "offset": 1807,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1788,
+      "offset": 1896,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1967,
+      "offset": 2104,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1973,
+      "offset": 2110,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 2231,
+      "offset": 2375,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 2944,
+      "offset": 3088,
       "length": 35,
       "value": "\"width:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 2959,
+      "offset": 3103,
       "length": 6,
       "value": "\"   height:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 2978,
+      "offset": 3122,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 3205,
+      "offset": 3349,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3219,
+      "offset": 3363,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4153,
+      "offset": 4297,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4247,
+      "offset": 4391,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4331,
+      "offset": 4475,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4623,
+      "offset": 4802,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 5396,
+      "offset": 5575,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
       "offset": 87,
       "length": 11,
       "value": "\"MLYAVPlayer.MLYAVPlayer\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5770,
+      "offset": 5949,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5875,
+      "offset": 6054,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6132,
+      "offset": 6311,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6237,
+      "offset": 6416,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 7428,
+      "offset": 7607,
       "length": 37,
       "value": "\"onProgressBarDragEnded: \""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 7464,
+      "offset": 7643,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7546,
+      "offset": 7725,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7828,
+      "offset": 8007,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 8492,
+      "offset": 8671,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 9276,
+      "length": 19,
+      "value": "\"Player PLAY\/PAUSE\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 9141,
+      "offset": 9364,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 9193,
-      "length": 7,
-      "value": "\"pause\""
+      "offset": 9794,
+      "length": 13,
+      "value": "\"Player ZOOM\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 9203,
-      "length": 6,
-      "value": "\"play\""
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10102,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 10213,
+      "length": 13,
+      "value": "\"Mute OFF\/ON\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10344,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 168,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 207,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 240,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 649,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 677,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 743,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 848,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "FloatLiteral",
-      "offset": 868,
+      "offset": 281,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 958,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "FloatLiteral",
-      "offset": 978,
+      "offset": 393,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 461,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1012,
+      "offset": 518,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 951,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1016,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1053,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 1158,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 1178,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 1268,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 1288,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1322,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1045,
+      "offset": 1355,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1114,
+      "offset": 1424,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1155,
+      "offset": 1467,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 1349,
+      "offset": 2748,
       "length": 3,
-      "value": "0.3"
+      "value": "0.5"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "FloatLiteral",
-      "offset": 2506,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 2583,
+      "offset": 2762,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2869,
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3515,
+      "length": 22,
+      "value": "\"plugin-- play \""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3536,
       "length": 2,
-      "value": "20"
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3342,
-      "length": 14,
-      "value": "\"asset change\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 3757,
+      "offset": 3647,
       "length": 6,
       "value": "\"mly-\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 3768,
+      "offset": 3658,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 3939,
-      "length": 5,
-      "value": "\"mp4\""
+      "offset": 4006,
+      "length": 14,
+      "value": "\"asset change\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 4173,
-      "length": 39,
-      "value": "\"loader-- mp4 \""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 4211,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 4322,
-      "length": 30,
-      "value": "\"mly-\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 4351,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 5402,
-      "length": 76,
-      "value": "\"avplayer notifyPlayerItemNewAccessLogEntry：\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 5477,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 6230,
+      "offset": 5074,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 6291,
+      "offset": 5135,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 6351,
+      "offset": 5195,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 6431,
+      "offset": 5275,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 6711,
+      "offset": 5555,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 6998,
+      "offset": 5842,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 7120,
+      "offset": 5964,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 7147,
+      "offset": 5991,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 7194,
+      "offset": 6038,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 7229,
-      "length": 22,
-      "value": "\"---- \""
+      "offset": 6073,
+      "length": 32,
+      "value": "\"minBandwidth-- \""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 7250,
+      "offset": 6104,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 30,
       "value": "\"MLYPlayerManger src：\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
       "offset": 1390,
       "length": 40,
       "value": "\"MLYPlayerManger controls：\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
       "offset": 1429,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
       "offset": 1643,
       "length": 40,
       "value": "\"MLYPlayerManger autoplay：\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
       "offset": 1682,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
       "offset": 1777,
       "length": 34,
       "value": "\"MLYPlayerManger muted：\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
       "offset": 1810,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "BooleanLiteral",
       "offset": 2002,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "BooleanLiteral",
       "offset": 2113,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2324,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "StringLiteral",
       "offset": 75,
       "length": 7,
       "value": "\"pause\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "StringLiteral",
       "offset": 99,
       "length": 6,
       "value": "\"play\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "StringLiteral",
-      "offset": 75,
-      "length": 7,
-      "value": "\"pause\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 99,
-      "length": 6,
-      "value": "\"play\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 163,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 181,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 163,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 181,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 163,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 181,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "Array",
-      "offset": 1400,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1544,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1594,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 2311,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 2326,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1923,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 2736,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 2745,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2544,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2835,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3342,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 3371,
-      "length": 30,
-      "value": "\"Value must be greater than 0\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 3761,
-      "length": 12,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 3772,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3278,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3864,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4282,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4494,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4552,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4602,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4608,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5158,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5182,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5219,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5281,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5293,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5352,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5358,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5369,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5381,
-      "length": 2,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 5615,
+      "offset": 122,
       "length": 6,
       "value": "\"zoom\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6064,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 6145,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 6157,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6261,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6340,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "StringLiteral",
-      "offset": 6423,
+      "offset": 149,
+      "length": 10,
+      "value": "\"mute_off\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
       "length": 9,
-      "value": "\"#9f44b4\""
+      "value": "\"mute_on\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 6503,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 6515,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7025,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7081,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7140,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7152,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7165,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "StringLiteral",
-      "offset": 7274,
+      "offset": 75,
       "length": 7,
-      "value": "\"00:00\""
+      "value": "\"pause\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 7323,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 7335,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7387,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8084,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8150,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8201,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8205,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8210,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8629,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8635,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8646,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8658,
-      "length": 2,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8702,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8765,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8801,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8829,
-      "length": 2,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8926,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8963,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8991,
-      "length": 2,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "StringLiteral",
-      "offset": 753,
-      "length": 14,
-      "value": "\"MLYAVPlayer.MLYPreviewView\""
+      "offset": 99,
+      "length": 6,
+      "value": "\"play\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11102,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 11409,
-      "length": 5,
-      "value": "500.0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 11529,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12297,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12564,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12909,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13088,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13306,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13589,
-      "length": 4,
-      "value": "3600"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13627,
-      "length": 4,
-      "value": "3600"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13635,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13671,
-      "length": 4,
-      "value": "3600"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13679,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "StringLiteral",
-      "offset": 13721,
-      "length": 16,
-      "value": "\"%02d:%02d:%02d\""
+      "offset": 122,
+      "length": 6,
+      "value": "\"zoom\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 10,
+      "value": "\"mute_off\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 9,
+      "value": "\"mute_on\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13960,
+      "offset": 246,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13993,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 14578,
-      "length": 3,
-      "value": "\"#\""
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14682,
+      "offset": 264,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "Array",
+      "offset": 1939,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2083,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 2917,
+      "length": 16,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 2932,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2529,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14782,
-      "length": 8,
-      "value": "0xFF0000"
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 3342,
+      "length": 10,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 3351,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14795,
+      "offset": 3150,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3441,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3948,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 3977,
+      "length": 30,
+      "value": "\"Value must be greater than 0\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 4367,
+      "length": 12,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 4378,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3884,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4470,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4888,
       "length": 2,
-      "value": "16"
+      "value": "15"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 14801,
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5100,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5158,
       "length": 5,
-      "value": "255.0"
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14847,
-      "length": 8,
-      "value": "0x00FF00"
+      "offset": 5208,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14860,
+      "offset": 5214,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5768,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5792,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5829,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5895,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5907,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5959,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5965,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6001,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6064,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6076,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6162,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6169,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6180,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6192,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6423,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 14865,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14909,
-      "length": 8,
-      "value": "0x0000FF"
+      "offset": 6429,
+      "length": 2,
+      "value": "12"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 14921,
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6440,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6452,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7231,
       "length": 5,
-      "value": "255.0"
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
       "kind": "FloatLiteral",
-      "offset": 14989,
+      "offset": 7312,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7324,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7428,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7507,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 7590,
+      "length": 9,
+      "value": "\"#9f44b4\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7670,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7682,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8192,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8248,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8315,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8327,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8340,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 8449,
+      "length": 7,
+      "value": "\"00:00\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8498,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8510,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8562,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9395,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9461,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9516,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9520,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9525,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9944,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9950,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9961,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9973,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10017,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10080,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10116,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10144,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10245,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10282,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10310,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 879,
+      "length": 14,
+      "value": "\"MLYAVPlayer.MLYPreviewView\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12421,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12728,
+      "length": 5,
+      "value": "500.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12848,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13670,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14012,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14342,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14697,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14876,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15094,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15377,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15415,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15423,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15459,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15467,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 15509,
+      "length": 16,
+      "value": "\"%02d:%02d:%02d\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15757,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15790,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 16235,
+      "length": 21,
+      "value": "\"\/MLYAVPlayer.bundle\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 16314,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 16539,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16743,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16756,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 16762,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16808,
+      "length": 8,
+      "value": "0x00FF00"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16821,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 16826,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16870,
+      "length": 8,
+      "value": "0x0000FF"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 16882,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/view\/MLYPreviewView.swift",
+      "kind": "FloatLiteral",
+      "offset": 16950,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "Array",
       "offset": 193,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 567,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 1469,
       "length": 146,
       "value": "\"loader-- count:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 1508,
       "length": 3,
       "value": "\" req offset:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 1545,
       "length": 3,
       "value": "\" req len:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 1579,
       "length": 3,
       "value": "\" cur offset:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 1614,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 1706,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 2589,
       "length": 16,
       "value": "\"loader-- start\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 3301,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 3643,
       "length": 24,
       "value": "\"loader-- cancel \""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 3666,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 3993,
       "length": 23,
       "value": "\"loader-- taskComplete\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 4263,
       "length": 19,
       "value": "\"loader-- response\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "IntegerLiteral",
       "offset": 4866,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "Dictionary",
       "offset": 5020,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 5223,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 5683,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 6502,
       "length": 146,
       "value": "\"loader-- count:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 6541,
       "length": 3,
       "value": "\" req offset:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 6578,
       "length": 3,
       "value": "\" req len:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 6612,
       "length": 3,
       "value": "\" cur offset:\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 6647,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 6727,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 7541,
       "length": 24,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 7548,
       "length": 1,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 7557,
       "length": 1,
       "value": "\"-\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 7564,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
       "kind": "StringLiteral",
       "offset": 7591,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "StringLiteral",
       "offset": 84,
       "length": 10,
       "value": "\"AVPlayer\""
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "BooleanLiteral",
       "offset": 605,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 746,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "BooleanLiteral",
       "offset": 1395,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 3214,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 3268,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 3321,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 3375,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 3428,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 3482,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 3535,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/g\/Downloads\/GitHub\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
+      "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MuxComponent.swift",
       "kind": "IntegerLiteral",
       "offset": 3589,
       "length": 1,

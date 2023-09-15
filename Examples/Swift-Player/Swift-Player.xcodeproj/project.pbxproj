@@ -24,8 +24,8 @@
 		06EECE902A84F79B0038E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06EECEA62A85017E0038E8FD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4274312CCFC6B619CEEE5EC7 /* Pods_Swift_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7CFB6CCB2A9405C70FF7CC5 /* Pods-Swift-Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.release.xcconfig"; path = "Target Support Files/Pods-Swift-Player/Pods-Swift-Player.release.xcconfig"; sourceTree = "<group>"; };
-		C5557FCE3A5B2B6AD2BA3331 /* Pods-Swift-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.debug.xcconfig"; path = "Target Support Files/Pods-Swift-Player/Pods-Swift-Player.debug.xcconfig"; sourceTree = "<group>"; };
+		A7CFB6CCB2A9405C70FF7CC5 /* Pods-Swift-Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-Swift-Player/Pods-Swift-Player.release.xcconfig"; sourceTree = "<group>"; };
+		C5557FCE3A5B2B6AD2BA3331 /* Pods-Swift-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-Swift-Player/Pods-Swift-Player.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

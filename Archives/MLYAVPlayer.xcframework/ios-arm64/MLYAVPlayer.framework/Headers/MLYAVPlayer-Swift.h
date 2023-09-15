@@ -352,10 +352,11 @@ SWIFT_CLASS("_TtC11MLYAVPlayer17MLYAVPlayerPlugin")
 @interface MLYAVPlayerPlugin : NSObject
 @property (nonatomic) BOOL playWhenReady;
 @property (nonatomic) BOOL isMonitorAllowed;
-- (void)setLatency:(double)latency;
+@property (nonatomic) double targetLatency;
+@property (nonatomic) double maxLatency;
+- (void)catchUp;
 - (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController;
 - (void)deactivate;
-- (AVPlayerItem * _Nullable)buildAssetPlayerItemWithOrigin:(NSURL * _Nonnull)origin error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -382,8 +383,9 @@ SWIFT_CLASS("_TtC11MLYAVPlayer14MLYPreviewView")
 @interface MLYPreviewView : UIView
 @property (nonatomic, strong) id <MLYPreviewViewDelegate> _Nullable delegate;
 @property (nonatomic, strong) id <MLYPreviewViewClickListener> _Nullable onClickListener;
-@property (nonatomic, readonly, strong) UIImageView * _Nonnull playImageView;
-@property (nonatomic, readonly, strong) UIImageView * _Nonnull zoomImageView;
+@property (nonatomic, strong) UIImageView * _Nonnull playImageView;
+@property (nonatomic, strong) UIImageView * _Nonnull muteImageView;
+@property (nonatomic, strong) UIImageView * _Nonnull zoomImageView;
 @property (nonatomic) BOOL autoPlay;
 @property (nonatomic) float progressValue;
 @property (nonatomic) float remainingPlaybackValue;

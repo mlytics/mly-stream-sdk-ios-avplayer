@@ -27,8 +27,8 @@
 		06EECE592A84E2900038E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06EECE5B2A84E2900038E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06EECE5C2A84E2900038E8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8CD4619804B0837388E464B7 /* Pods-ObjectiveC-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC-Player.debug.xcconfig"; path = "Target Support Files/Pods-ObjectiveC-Player/Pods-ObjectiveC-Player.debug.xcconfig"; sourceTree = "<group>"; };
-		D5A38D4D7C47DEC9780C2539 /* Pods-ObjectiveC-Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC-Player.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveC-Player/Pods-ObjectiveC-Player.release.xcconfig"; sourceTree = "<group>"; };
+		8CD4619804B0837388E464B7 /* Pods-ObjectiveC-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC-Player.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-ObjectiveC-Player/Pods-ObjectiveC-Player.debug.xcconfig"; sourceTree = "<group>"; };
+		D5A38D4D7C47DEC9780C2539 /* Pods-ObjectiveC-Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC-Player.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-ObjectiveC-Player/Pods-ObjectiveC-Player.release.xcconfig"; sourceTree = "<group>"; };
 		DCB950D417CD777FD966BC39 /* Pods_ObjectiveC_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveC_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
