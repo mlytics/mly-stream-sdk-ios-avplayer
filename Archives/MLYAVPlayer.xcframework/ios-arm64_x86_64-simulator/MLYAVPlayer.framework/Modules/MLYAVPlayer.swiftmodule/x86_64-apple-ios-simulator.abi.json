@@ -5284,84 +5284,84 @@
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4006,
+      "offset": 3969,
       "length": 14,
       "value": "\"asset change\""
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 5074,
+      "offset": 5076,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 5135,
+      "offset": 5137,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 5195,
+      "offset": 5197,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 5275,
+      "offset": 5277,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 5555,
+      "offset": 5557,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 5842,
+      "offset": 5844,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 5964,
+      "offset": 5966,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "FloatLiteral",
-      "offset": 5991,
+      "offset": 5993,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 6038,
+      "offset": 6040,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 6073,
+      "offset": 6075,
       "length": 32,
       "value": "\"minBandwidth-- \""
     },
     {
       "filePath": "\/Users\/blue\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 6104,
+      "offset": 6106,
       "length": 2,
       "value": "\"\""
     },

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MLYAVPlayer'
-  s.version          = '0.1.40'
+  s.version          = '0.1.41'
   s.summary          = 'A short description of MLYAVPlayer.'
   s.description      = 'MLYAVPlayer'
   s.homepage         = 'https://github.com/mlytics/p2sp-sdk-ios-avplayer'

@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bS74OwhF0PsjPJnmXhPiDku2K/U=
+		npn5x7piQJ65blzHSlKzvDpIDqE=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bS74OwhF0PsjPJnmXhPiDku2K/U=
+		npn5x7piQJ65blzHSlKzvDpIDqE=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -119,11 +119,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bS74OwhF0PsjPJnmXhPiDku2K/U=
+			npn5x7piQJ65blzHSlKzvDpIDqE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nK1pgtyWgCULllBTZGWRHGevDgw/55wkM0MJvGY79Q0=
+			1zCgd89EdwuJDJhlPTpsvNKv4KJdleAfiZ1Z2kWqinM=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -174,11 +174,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bS74OwhF0PsjPJnmXhPiDku2K/U=
+			npn5x7piQJ65blzHSlKzvDpIDqE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nK1pgtyWgCULllBTZGWRHGevDgw/55wkM0MJvGY79Q0=
+			1zCgd89EdwuJDJhlPTpsvNKv4KJdleAfiZ1Z2kWqinM=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
