@@ -13,11 +13,10 @@
 		06EECE8F2A84F79B0038E8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE8D2A84F79B0038E8FD /* LaunchScreen.storyboard */; };
 		06EECEA72A85017E0038E8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EECEA62A85017E0038E8FD /* ViewController.swift */; };
 		CFE675462B5772E500109FCC /* MLYSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE675402B5772B200109FCC /* MLYSDK.xcframework */; };
-		F29494D44CA6F35E6A5D4275 /* Pods_Swift_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E315B0E803113D0E6454ACD /* Pods_Swift_Player.framework */; };
+		DBC3F29CCAD1AAF123D3265E /* Pods_Swift_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3B22CFB5B06312A686B24F /* Pods_Swift_Player.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02867E3D93CB50CD22C04F90 /* Pods-Swift-Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.release.xcconfig"; path = "Target Support Files/Pods-Swift-Player/Pods-Swift-Player.release.xcconfig"; sourceTree = "<group>"; };
 		06EECE7F2A84F79A0038E8FD /* Swift-Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EECE822A84F79A0038E8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06EECE892A84F79A0038E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -25,10 +24,11 @@
 		06EECE8E2A84F79B0038E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06EECE902A84F79B0038E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06EECEA62A85017E0038E8FD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E315B0E803113D0E6454ACD /* Pods_Swift_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19062A4AA83BFDCFF137F529 /* Pods-Swift-Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.release.xcconfig"; path = "Target Support Files/Pods-Swift-Player/Pods-Swift-Player.release.xcconfig"; sourceTree = "<group>"; };
 		CFE6753F2B5772B200109FCC /* MLYAVPlayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MLYAVPlayer.xcframework; path = Pods/MLYAVPlayer/Archives/MLYAVPlayer.xcframework; sourceTree = "<group>"; };
 		CFE675402B5772B200109FCC /* MLYSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MLYSDK.xcframework; path = Pods/MLYSDK/Archives/MLYSDK.xcframework; sourceTree = "<group>"; };
-		DF01759118EAE4283A3D5882 /* Pods-Swift-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.debug.xcconfig"; path = "Target Support Files/Pods-Swift-Player/Pods-Swift-Player.debug.xcconfig"; sourceTree = "<group>"; };
+		EA3B22CFB5B06312A686B24F /* Pods_Swift_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD14E5F47A22479FD0DF37 /* Pods-Swift-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Player.debug.xcconfig"; path = "Target Support Files/Pods-Swift-Player/Pods-Swift-Player.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE675462B5772E500109FCC /* MLYSDK.xcframework in Frameworks */,
-				F29494D44CA6F35E6A5D4275 /* Pods_Swift_Player.framework in Frameworks */,
+				DBC3F29CCAD1AAF123D3265E /* Pods_Swift_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,7 @@
 			children = (
 				CFE6753F2B5772B200109FCC /* MLYAVPlayer.xcframework */,
 				CFE675402B5772B200109FCC /* MLYSDK.xcframework */,
-				7E315B0E803113D0E6454ACD /* Pods_Swift_Player.framework */,
+				EA3B22CFB5B06312A686B24F /* Pods_Swift_Player.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,8 +88,8 @@
 		CFBAFA1C7C71C129A1E391D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF01759118EAE4283A3D5882 /* Pods-Swift-Player.debug.xcconfig */,
-				02867E3D93CB50CD22C04F90 /* Pods-Swift-Player.release.xcconfig */,
+				ECCD14E5F47A22479FD0DF37 /* Pods-Swift-Player.debug.xcconfig */,
+				19062A4AA83BFDCFF137F529 /* Pods-Swift-Player.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,11 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06EECE932A84F79B0038E8FD /* Build configuration list for PBXNativeTarget "Swift-Player" */;
 			buildPhases = (
-				4F849B7D03020B1B8D51A86F /* [CP] Check Pods Manifest.lock */,
+				A3D080E8F3DAC2EFFCC34D8E /* [CP] Check Pods Manifest.lock */,
 				06EECE7B2A84F79A0038E8FD /* Sources */,
 				06EECE7C2A84F79A0038E8FD /* Frameworks */,
 				06EECE7D2A84F79A0038E8FD /* Resources */,
-				CC105B9AAE51667518AC049B /* [CP] Embed Pods Frameworks */,
+				1F847829D472BF82D5B96E88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,7 +163,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4F849B7D03020B1B8D51A86F /* [CP] Check Pods Manifest.lock */ = {
+		1F847829D472BF82D5B96E88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-Player/Pods-Swift-Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-Player/Pods-Swift-Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-Player/Pods-Swift-Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D080E8F3DAC2EFFCC34D8E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,23 +200,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CC105B9AAE51667518AC049B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Swift-Player/Pods-Swift-Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Swift-Player/Pods-Swift-Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-Player/Pods-Swift-Player-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -352,7 +352,7 @@
 		};
 		06EECE942A84F79B0038E8FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF01759118EAE4283A3D5882 /* Pods-Swift-Player.debug.xcconfig */;
+			baseConfigurationReference = ECCD14E5F47A22479FD0DF37 /* Pods-Swift-Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -381,7 +381,7 @@
 		};
 		06EECE952A84F79B0038E8FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02867E3D93CB50CD22C04F90 /* Pods-Swift-Player.release.xcconfig */;
+			baseConfigurationReference = 19062A4AA83BFDCFF137F529 /* Pods-Swift-Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
