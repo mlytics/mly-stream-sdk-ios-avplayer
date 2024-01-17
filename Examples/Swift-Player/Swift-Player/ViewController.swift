@@ -2,7 +2,7 @@ import AVFoundation
 import AVKit
 import MLYSDK
 import UIKit
-import UIKit
+import MLYAVPlayer
 
 class ViewController: UIViewController {
     lazy var player = AVPlayer()
