@@ -1,0 +1,124 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MLYAVPlayer
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import Foundation
+@_exported import MLYAVPlayer
+import MLYSDK
+import MUXSDKStats
+import Network
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class MLYAVPlayer : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) public var playerViewController: AVKit.AVPlayerViewController!
+  @objc @_Concurrency.MainActor(unsafe) public var playerItem: AVFoundation.AVPlayerItem?
+  @objc @_Concurrency.MainActor(unsafe) public var imagePage: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, _ url: Swift.String? = nil)
+  @objc @_Concurrency.MainActor(unsafe) public func play()
+  @objc @_Concurrency.MainActor(unsafe) public func pause()
+  @objc @_Concurrency.MainActor(unsafe) public func fastForward(_ seconds: Swift.Double = 10)
+  @objc @_Concurrency.MainActor(unsafe) public func rewind(_ seconds: Swift.Double = 10)
+  @objc @_Concurrency.MainActor(unsafe) public func snapshot() -> UIKit.UIImage?
+  @objc @_Concurrency.MainActor(unsafe) public func deView()
+  @objc @_Concurrency.MainActor(unsafe) public func replaceCurrentItem(playerItem: AVFoundation.AVPlayerItem)
+  @objc deinit
+}
+extension MLYAVPlayer.MLYAVPlayer : MLYAVPlayer.MLYPreviewViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onProgressBarDragEnded(sender: UIKit.UISlider)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onProgressBarTouchUpOutside(sender: UIKit.UISlider)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onProgressBarSlideValueChanged(sender: UIKit.UISlider, thumbnailImageView: UIKit.UIImageView, thumbnailX: CoreFoundation.CGFloat, progress: Swift.Float)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onCurrentPositionUpdate(sender: UIKit.UISlider, progress: Swift.Float)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBufferPositionUpdate(sender: UIKit.UISlider, progress: Swift.Float)
+}
+extension MLYAVPlayer.MLYAVPlayer : MLYAVPlayer.MLYPreviewViewClickListener {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onClick(sender: UIKit.UIView?)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class MLYAVPlayerPlugin : ObjectiveC.NSObject {
+  @objc public var playWhenReady: Swift.Bool
+  @objc public func setLatency(_ latency: Swift.Double = 0)
+  @objc public func adapt(_ playerViewController: AVKit.AVPlayerViewController)
+  @objc public func deactivate()
+  @objc deinit
+  @objc public func buildAssetPlayerItem(origin: Foundation.URL) throws -> AVFoundation.AVPlayerItem
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class MLYPlayerManger : ObjectiveC.NSObject {
+  @objc public func view() -> UIKit.UIView
+  @objc public func src(_ src: Swift.String)
+  @objc public func play()
+  @objc public func controls(_ controls: Swift.Bool)
+  @objc public func autoplay(_ autoplay: Swift.Bool)
+  @objc public func muted(_ muted: Swift.Bool)
+  @objc public func play(src: Swift.String)
+  @objc public func pause()
+  @objc public func stop()
+  @objc public func setLatency(_ value: Swift.Double)
+  @objc public func isMonitorAllowed(_ value: Swift.Bool)
+  @objc public func isLoaderAllowed(_ value: Swift.Bool)
+  public static func initialize(_ clientID: Swift.String, _ server: Swift.String?, _ debug: Swift.Bool?) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum PlayerImageStringEnum : Swift.String {
+  case pause
+  case play
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public protocol MLYPreviewViewDelegate {
+  @objc func onProgressBarDragEnded(sender: UIKit.UISlider)
+  @objc func onProgressBarTouchUpOutside(sender: UIKit.UISlider)
+  @objc func onProgressBarSlideValueChanged(sender: UIKit.UISlider, thumbnailImageView: UIKit.UIImageView, thumbnailX: CoreFoundation.CGFloat, progress: Swift.Float)
+  @objc func onCurrentPositionUpdate(sender: UIKit.UISlider, progress: Swift.Float)
+  @objc func onBufferPositionUpdate(sender: UIKit.UISlider, progress: Swift.Float)
+}
+@objc public protocol MLYPreviewViewClickListener {
+  @objc func onClick(sender: UIKit.UIView?)
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class MLYPreviewView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) public var delegate: (any MLYAVPlayer.MLYPreviewViewDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var onClickListener: (any MLYAVPlayer.MLYPreviewViewClickListener)?
+  @objc @_Concurrency.MainActor(unsafe) final public let playImageView: UIKit.UIImageView
+  @objc @_Concurrency.MainActor(unsafe) public var autoPlay: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var progressValue: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var remainingPlaybackValue: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var progressBufferValue: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var progressMaximumValue: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var showsPlaybackControls: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var autoHidePlaybackControlsTimeInterval: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public func seekTo(value: Swift.Float)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+extension MLYAVPlayer.PlayerImageStringEnum : Swift.Equatable {}
+extension MLYAVPlayer.PlayerImageStringEnum : Swift.Hashable {}
+extension MLYAVPlayer.PlayerImageStringEnum : Swift.RawRepresentable {}
