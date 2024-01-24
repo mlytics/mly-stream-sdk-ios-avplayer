@@ -12,7 +12,6 @@
 		06EECE8C2A84F79B0038E8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE8B2A84F79B0038E8FD /* Assets.xcassets */; };
 		06EECE8F2A84F79B0038E8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EECE8D2A84F79B0038E8FD /* LaunchScreen.storyboard */; };
 		06EECEA72A85017E0038E8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EECEA62A85017E0038E8FD /* ViewController.swift */; };
-		CFE675462B5772E500109FCC /* MLYSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE675402B5772B200109FCC /* MLYSDK.xcframework */; };
 		DBC3F29CCAD1AAF123D3265E /* Pods_Swift_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3B22CFB5B06312A686B24F /* Pods_Swift_Player.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE675462B5772E500109FCC /* MLYSDK.xcframework in Frameworks */,
 				DBC3F29CCAD1AAF123D3265E /* Pods_Swift_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
