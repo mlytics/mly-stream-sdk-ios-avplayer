@@ -19968,188 +19968,188 @@
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
       "offset": 1395,
-      "length": 17,
-      "value": "\"vsp.mlytics.com\""
+      "length": 22,
+      "value": "\"vsp.cloud-button.com\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1444,
       "length": 4,
       "value": "\"v1\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "Array",
-      "offset": 1498,
+      "offset": 1503,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1527,
+      "offset": 1532,
       "length": 4,
       "value": "\"v1\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1852,
+      "offset": 1857,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1888,
+      "offset": 1893,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1948,
+      "offset": 1953,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 1989,
+      "offset": 1994,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 2020,
+      "offset": 2025,
       "length": 4,
       "value": "8192"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 2078,
+      "offset": 2083,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "FloatLiteral",
-      "offset": 2113,
+      "offset": 2118,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 2175,
+      "offset": 2180,
       "length": 4,
       "value": "8192"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "FloatLiteral",
-      "offset": 2216,
+      "offset": 2221,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 2263,
+      "offset": 2268,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 2310,
+      "offset": 2315,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 2367,
+      "offset": 2372,
       "length": 5,
       "value": "34567"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2408,
       "length": 11,
       "value": "\"127.0.0.1\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2440,
+      "offset": 2445,
       "length": 6,
       "value": "\"http\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2501,
+      "offset": 2506,
       "length": 16,
       "value": "\"YYYYMMDDHHmmss\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 2554,
+      "offset": 2559,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2760,
+      "offset": 2765,
       "length": 35,
       "value": "\"session-\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2780,
+      "offset": 2785,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2794,
+      "offset": 2799,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2977,
+      "offset": 2982,
       "length": 16,
       "value": "\"^[0-9a-z]{20}$\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 2995,
+      "offset": 3000,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "StringLiteral",
-      "offset": 3037,
+      "offset": 3042,
       "length": 16,
       "value": "\"^[0-9a-z]{32}$\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/kernel\/core\/KernelSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 3055,
+      "offset": 3060,
       "length": 4,
       "value": "true"
     },
