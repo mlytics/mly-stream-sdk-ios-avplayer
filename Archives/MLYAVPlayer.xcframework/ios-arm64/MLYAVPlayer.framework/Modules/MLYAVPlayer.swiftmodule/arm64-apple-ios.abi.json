@@ -3894,112 +3894,175 @@
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
-      "offset": 692,
-      "length": 28,
-      "value": "\"MLYPlayerManger src:\""
+      "offset": 687,
+      "length": 30,
+      "value": "\"MLYPlayerManger.src():\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
-      "offset": 719,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
-      "kind": "StringLiteral",
-      "offset": 1388,
-      "length": 38,
-      "value": "\"MLYPlayerManger controls:\""
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
-      "kind": "StringLiteral",
-      "offset": 1425,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
-      "kind": "StringLiteral",
-      "offset": 1639,
-      "length": 38,
-      "value": "\"MLYPlayerManger autoplay:\""
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
-      "kind": "StringLiteral",
-      "offset": 1676,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
-      "kind": "StringLiteral",
-      "offset": 1771,
-      "length": 32,
-      "value": "\"MLYPlayerManger muted:\""
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
-      "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 716,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1994,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2104,
+      "offset": 927,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
-      "offset": 2240,
+      "offset": 996,
+      "length": 24,
+      "value": "\"MLYPlayerManger.play()\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
+      "length": 62,
+      "value": "\"MLYPlayerManger.play(), error: \""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1210,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1260,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 40,
+      "value": "\"MLYPlayerManger.controls():\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1413,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1548,
+      "length": 40,
+      "value": "\"MLYPlayerManger.autoplay():\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1587,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1764,
+      "length": 34,
+      "value": "\"MLYPlayerManger.muted():\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1797,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1909,
+      "length": 35,
+      "value": "\"MLYPlayerManger.play(:src):\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 1943,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 2032,
+      "length": 25,
+      "value": "\"MLYPlayerManger.pause()\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2096,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 2193,
+      "length": 24,
+      "value": "\"MLYPlayerManger.stop()\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2256,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
+      "kind": "StringLiteral",
+      "offset": 2396,
       "length": 37,
       "value": "\"MLYPlayerManger setLatency:\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
-      "offset": 2276,
+      "offset": 2432,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
-      "offset": 2362,
+      "offset": 2522,
       "length": 43,
       "value": "\"MLYPlayerManger isMonitorAllowed:\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
-      "offset": 2404,
+      "offset": 2564,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
-      "offset": 2489,
+      "offset": 2653,
       "length": 42,
       "value": "\"MLYPlayerManger isLoaderAllowed:\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPlayerManger.swift",
       "kind": "StringLiteral",
-      "offset": 2530,
+      "offset": 2694,
       "length": 2,
       "value": "\"\""
     },
