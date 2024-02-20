@@ -117,6 +117,9 @@ public class HLSContext {
   public init()
   @objc deinit
   public func setOrigin(_ url: Foundation.URL)
+  public var originString: Swift.String {
+    get
+  }
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HLSProxy : ObjectiveC.NSObject, GCDWebServerDelegate {
   public static var instance: MLYSDK.HLSProxy

@@ -45,6 +45,9 @@ extension MLYAVPlayer : MLYPreviewViewClickListener {
   @objc public func deactivate()
   @objc deinit
   @objc public func buildAssetPlayerItem(origin: Foundation.URL) throws -> AVFoundation.AVPlayerItem
+  @objc public func getProxyUrl(_ uri: Swift.String) -> Foundation.URL?
+  @objc public func startProxy(_ playerItem: AVFoundation.AVPlayerItem)
+  @objc public func startMonitor(_ playerLayer: AVFoundation.AVPlayerLayer? = nil, _ playerVC: AVKit.AVPlayerViewController? = nil)
   @objc override dynamic public init()
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MLYPlayerManger : ObjectiveC.NSObject {
