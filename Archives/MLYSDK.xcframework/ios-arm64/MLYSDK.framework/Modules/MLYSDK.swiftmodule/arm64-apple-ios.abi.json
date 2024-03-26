@@ -3825,6 +3825,46 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "originString",
+            "printedName": "originString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6MLYSDK10HLSContextC12originStringSSvp",
+            "mangledName": "$s6MLYSDK10HLSContextC12originStringSSvp",
+            "moduleName": "MLYSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6MLYSDK10HLSContextC12originStringSSvg",
+                "mangledName": "$s6MLYSDK10HLSContextC12originStringSSvg",
+                "moduleName": "MLYSDK",
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -18446,184 +18486,226 @@
       "value": "8"
     },
     {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/hls\/HLSContext.swift",
+      "kind": "StringLiteral",
+      "offset": 901,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "BooleanLiteral",
-      "offset": 214,
+      "offset": 215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "IntegerLiteral",
-      "offset": 272,
+      "offset": 273,
       "length": 6,
       "value": "12345"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "IntegerLiteral",
-      "offset": 356,
+      "offset": 357,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "IntegerLiteral",
-      "offset": 615,
+      "offset": 616,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 806,
+      "offset": 807,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 1011,
       "length": 47,
       "value": "\"proxy: start \""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 1056,
+      "offset": 1057,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 1260,
+      "offset": 1261,
       "length": 59,
       "value": "\"proxy: error illegal url \""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
+      "offset": 1319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 1484,
+      "offset": 1485,
       "length": 53,
       "value": "\"proxy: done cached \""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 1536,
+      "offset": 1537,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 1986,
+      "offset": 1987,
       "length": 101,
       "value": "\"proxy: done \""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 2032,
+      "offset": 2033,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 2053,
+      "offset": 2054,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 2086,
+      "offset": 2087,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 2301,
+      "offset": 2302,
       "length": 81,
       "value": "\"proxy: error \""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 2348,
+      "offset": 2349,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 2381,
+      "offset": 2382,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "StringLiteral",
-      "offset": 2607,
+      "offset": 2608,
       "length": 19,
       "value": "\"proxy: server nil\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2784,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2850,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "BooleanLiteral",
-      "offset": 2689,
+      "offset": 2902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2750,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 3122,
+      "length": 57,
+      "value": "\"proxy: server started successfully on port \""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2898,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 3178,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 3265,
+      "length": 65,
+      "value": "\"proxy: failed to start server on port \""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 3316,
+      "length": 1,
+      "value": "\", retrying...\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "FloatLiteral",
-      "offset": 2983,
+      "offset": 3382,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3112,
-      "length": 4,
-      "value": "true"
+      "kind": "IntegerLiteral",
+      "offset": 3548,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
-      "kind": "FloatLiteral",
-      "offset": 3197,
-      "length": 4,
-      "value": "0.05"
+      "kind": "StringLiteral",
+      "offset": 3681,
+      "length": 63,
+      "value": "\"proxy: failed to start server after \""
+    },
+    {
+      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 3734,
+      "length": 8,
+      "value": "\" attempts\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-ios\/MLYSDK\/Classes\/proxy\/HLSProxy.swift",
       "kind": "BooleanLiteral",
-      "offset": 3275,
+      "offset": 3790,
       "length": 5,
       "value": "false"
     },

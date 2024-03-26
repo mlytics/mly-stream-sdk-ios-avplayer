@@ -357,6 +357,7 @@ SWIFT_PROTOCOL("_TtP11MLYAVPlayer22MLYPreviewViewDelegate_")
 @end
 
 @class NSURL;
+@class AVPlayerLayer;
 
 SWIFT_CLASS("_TtC11MLYAVPlayer17MLYAVPlayerPlugin")
 @interface MLYAVPlayerPlugin : NSObject
@@ -365,6 +366,9 @@ SWIFT_CLASS("_TtC11MLYAVPlayer17MLYAVPlayerPlugin")
 - (void)adapt:(AVPlayerViewController * _Nonnull)playerViewController;
 - (void)deactivate;
 - (AVPlayerItem * _Nullable)buildAssetPlayerItemWithOrigin:(NSURL * _Nonnull)origin error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+- (NSURL * _Nullable)getProxyUrl:(NSString * _Nonnull)uri SWIFT_WARN_UNUSED_RESULT;
+- (void)startProxy:(AVPlayerItem * _Nonnull)playerItem;
+- (void)startMonitor:(AVPlayerLayer * _Nullable)playerLayer :(AVPlayerViewController * _Nullable)playerVC;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
