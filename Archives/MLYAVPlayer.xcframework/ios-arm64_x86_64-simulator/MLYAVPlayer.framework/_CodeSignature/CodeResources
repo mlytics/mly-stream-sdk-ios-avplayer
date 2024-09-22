@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MLYAVPlayer-Swift.h</key>
 		<data>
-		rWgQQZV67bDDM5cCnn1g0HwgJZg=
+		6H2t0KK1FHHKCRgLILrsydDzlq0=
 		</data>
 		<key>Headers/MLYAVPlayer-umbrella.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		I465GZAD76QDaJBtp6ptXRv94DY=
+		Zsa7cmitryETrCsPS8eodbpK6+A=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rHgecrE/FN7SpxUR31vdLdY6Sr8=
+		IZXMwEzdSDcpAu3FBnn3jN/CqIE=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		flhOb+f8CWtkNP1ysGI97mavt1k=
+		0JMEANLvyexlsC3EGEz78u8T5i4=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XDEjrvkmk0UdtX/n5ohiQIguTT8=
+		n2R6RwCCzKsXqT6hktW8RwkPX7k=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		flhOb+f8CWtkNP1ysGI97mavt1k=
+		0JMEANLvyexlsC3EGEz78u8T5i4=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PEgIT6YDS/GtKCPiObyBu85/16U=
+		9Frj2/ACw2pgwgnxoC7Ve2NhvZo=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rHgecrE/FN7SpxUR31vdLdY6Sr8=
+		IZXMwEzdSDcpAu3FBnn3jN/CqIE=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZFvlmggxBTsbigK6gXZTcITJWmE=
+		VZ6qZKR1dFCKsnx3G6qI1GVaipE=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8Kp5LiiFfG1T8Qlvfaxk/wesoXk=
+		FM7WgDQHK5A9EGWmx+KD8tTFKNY=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZFvlmggxBTsbigK6gXZTcITJWmE=
+		VZ6qZKR1dFCKsnx3G6qI1GVaipE=
 		</data>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9z8AsGcJzp7Zz/tZOWlEODcjjJc=
+		ktDxfVYyfFnsKAFN5vQiMDKkIQs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rWgQQZV67bDDM5cCnn1g0HwgJZg=
+			6H2t0KK1FHHKCRgLILrsydDzlq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			7LNlXhPQ2Wc62Gx3b4QuIiO4diBsxHiqhNvDCOQU8Cc=
+			g9eWRrKF7FAPSJyvI4K9Mti+NMLy+4iP/k7b0mKrgJw=
 			</data>
 		</dict>
 		<key>Headers/MLYAVPlayer-umbrella.h</key>
@@ -89,110 +89,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rHgecrE/FN7SpxUR31vdLdY6Sr8=
+			IZXMwEzdSDcpAu3FBnn3jN/CqIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FvqX4JdyYhyXMOxGGjpis+MbHNBwpskwi1J3bYKF3So=
+			oI6ye9vWaoOeIoY5+r/N8ePF5bSbMQLn//47wvYpoYY=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			flhOb+f8CWtkNP1ysGI97mavt1k=
+			0JMEANLvyexlsC3EGEz78u8T5i4=
 			</data>
 			<key>hash2</key>
 			<data>
-			P6cWlKAJVkt3LPgVyRBT+IvE8+vqn0KIqxbW+3Y1t0Y=
+			qzrA/Z/kuRwbITg49vM7wM5TSRk6M9b/mkbnFT3aTAA=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XDEjrvkmk0UdtX/n5ohiQIguTT8=
+			n2R6RwCCzKsXqT6hktW8RwkPX7k=
 			</data>
 			<key>hash2</key>
 			<data>
-			tpOy6Q8T9dXGRWeI4fY/Ylo0rnr5uODQPmqwTb8URtE=
+			SbCavf5FXqxrLlb2qrKhbQ3jHCjkyubyO8mihOtIgoc=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			flhOb+f8CWtkNP1ysGI97mavt1k=
+			0JMEANLvyexlsC3EGEz78u8T5i4=
 			</data>
 			<key>hash2</key>
 			<data>
-			P6cWlKAJVkt3LPgVyRBT+IvE8+vqn0KIqxbW+3Y1t0Y=
+			qzrA/Z/kuRwbITg49vM7wM5TSRk6M9b/mkbnFT3aTAA=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PEgIT6YDS/GtKCPiObyBu85/16U=
+			9Frj2/ACw2pgwgnxoC7Ve2NhvZo=
 			</data>
 			<key>hash2</key>
 			<data>
-			37Tbn9QP/Z47XV1lGOrJrzdzbHt2sr4jsWrXXMA88rE=
+			bpw3QuSD8jcdTcq9hPSeTG7kojCxz5ikB3+/hD8gu44=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rHgecrE/FN7SpxUR31vdLdY6Sr8=
+			IZXMwEzdSDcpAu3FBnn3jN/CqIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FvqX4JdyYhyXMOxGGjpis+MbHNBwpskwi1J3bYKF3So=
+			oI6ye9vWaoOeIoY5+r/N8ePF5bSbMQLn//47wvYpoYY=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZFvlmggxBTsbigK6gXZTcITJWmE=
+			VZ6qZKR1dFCKsnx3G6qI1GVaipE=
 			</data>
 			<key>hash2</key>
 			<data>
-			1+e2P3kLZ/QxFUNLwqMCNd7g7VvkOqrd1wVMKduOGrM=
+			rC8k3uQWoodjNOhLMoHa68OvY0WhCiwkl86ss0kH+z8=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8Kp5LiiFfG1T8Qlvfaxk/wesoXk=
+			FM7WgDQHK5A9EGWmx+KD8tTFKNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/GKWaDtDwcgfuXCeL4y4rhB06X+bX0PW8dQ4p3DKxTI=
+			QSbKmm4GzH7APNHiVz9yUc7yDijBCQNrLUASQ3ryvV4=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZFvlmggxBTsbigK6gXZTcITJWmE=
+			VZ6qZKR1dFCKsnx3G6qI1GVaipE=
 			</data>
 			<key>hash2</key>
 			<data>
-			1+e2P3kLZ/QxFUNLwqMCNd7g7VvkOqrd1wVMKduOGrM=
+			rC8k3uQWoodjNOhLMoHa68OvY0WhCiwkl86ss0kH+z8=
 			</data>
 		</dict>
 		<key>Modules/MLYAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9z8AsGcJzp7Zz/tZOWlEODcjjJc=
+			ktDxfVYyfFnsKAFN5vQiMDKkIQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			h5UBvxvww1Yx8bb4j5KZ96uWV8RxSIBOXHYqTP9MZUI=
+			2zdc1Tb99dF7hqxowfnqyDwQYXJ70N9JhyUOJ4h4Nec=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

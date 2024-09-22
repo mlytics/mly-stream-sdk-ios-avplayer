@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MLYAVPlayer",
+    "printedName": "MLYAVPlayer",
     "children": [
       {
         "kind": "Import",
@@ -63,8 +63,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -181,8 +182,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -291,8 +293,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -406,6 +409,7 @@
             "moduleName": "MLYAVPlayer",
             "objc_name": "initWithFrame::",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -428,6 +432,7 @@
             "mangledName": "$s11MLYAVPlayerAAC4playyyF",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -450,6 +455,7 @@
             "mangledName": "$s11MLYAVPlayerAAC5pauseyyF",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -479,6 +485,7 @@
             "mangledName": "$s11MLYAVPlayerAAC11fastForwardyySdF",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -508,6 +515,7 @@
             "mangledName": "$s11MLYAVPlayerAAC6rewindyySdF",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -539,6 +547,7 @@
             "mangledName": "$s11MLYAVPlayerAAC8snapshotSo7UIImageCSgyF",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -561,6 +570,7 @@
             "mangledName": "$s11MLYAVPlayerAAC6deViewyyF",
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -590,6 +600,7 @@
             "moduleName": "MLYAVPlayer",
             "objc_name": "replaceCurrentItemWithPlayerItem:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -624,6 +635,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -654,6 +666,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -685,6 +698,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -734,6 +748,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -771,6 +786,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -808,6 +824,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -847,6 +864,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -859,6 +877,7 @@
         "mangledName": "$s11MLYAVPlayerAAC",
         "moduleName": "MLYAVPlayer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjCMembers",
@@ -874,17 +893,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "MLYPreviewViewDelegate",
-            "printedName": "MLYPreviewViewDelegate",
-            "usr": "c:@M@MLYAVPlayer@objc(pl)MLYPreviewViewDelegate",
-            "mangledName": "$s11MLYAVPlayer22MLYPreviewViewDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "MLYPreviewViewClickListener",
-            "printedName": "MLYPreviewViewClickListener",
-            "usr": "c:@M@MLYAVPlayer@objc(pl)MLYPreviewViewClickListener",
-            "mangledName": "$s11MLYAVPlayer27MLYPreviewViewClickListenerP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -948,6 +967,20 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MLYPreviewViewDelegate",
+            "printedName": "MLYPreviewViewDelegate",
+            "usr": "c:@M@MLYAVPlayer@objc(pl)MLYPreviewViewDelegate",
+            "mangledName": "$s11MLYAVPlayer22MLYPreviewViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MLYPreviewViewClickListener",
+            "printedName": "MLYPreviewViewClickListener",
+            "usr": "c:@M@MLYAVPlayer@objc(pl)MLYPreviewViewClickListener",
+            "mangledName": "$s11MLYAVPlayer27MLYPreviewViewClickListenerP"
           }
         ]
       },
@@ -1366,6 +1399,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1853,6 +1900,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2070,6 +2131,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2303,6 +2378,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2358,6 +2449,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2391,8 +2498,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2509,8 +2617,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2620,8 +2729,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2671,8 +2781,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2765,8 +2876,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2859,8 +2971,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2953,8 +3066,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -3047,8 +3161,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -3141,8 +3256,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -3235,8 +3351,9 @@
             "moduleName": "MLYAVPlayer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -3334,6 +3451,7 @@
             "moduleName": "MLYAVPlayer",
             "objc_name": "seekToValue:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3360,6 +3478,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3394,6 +3513,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3405,6 +3525,7 @@
         "mangledName": "$s11MLYAVPlayer14MLYPreviewViewC",
         "moduleName": "MLYAVPlayer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjCMembers",
@@ -3418,6 +3539,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3558,13 +3693,6 @@
       "value": "10"
     },
     {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-script\/.build\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 87,
-      "length": 11,
-      "value": "\"MLYAVPlayer.MLYAVPlayer\""
-    },
-    {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-script\/.build\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYAVPlayerPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 168,
@@ -3584,20 +3712,6 @@
       "offset": 265,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-script\/.build\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 75,
-      "length": 7,
-      "value": "\"pause\""
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-script\/.build\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 99,
-      "length": 6,
-      "value": "\"play\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-script\/.build\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPreviewView.swift",
@@ -3738,13 +3852,6 @@
       "offset": 4331,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-script\/.build\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/MLYPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 644,
-      "length": 14,
-      "value": "\"MLYAVPlayer.MLYPreviewView\""
     },
     {
       "filePath": "\/Users\/ivanlin\/Documents\/Project\/mlytics\/p2sp-sdk-script\/.build\/p2sp-sdk-ios-avplayer\/MLYAVPlayer\/Classes\/Mp4ResourceLoader.swift",
