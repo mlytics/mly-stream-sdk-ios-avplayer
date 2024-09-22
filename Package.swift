@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/swisspol/GCDWebServer.git", .upToNextMajor(from: "3.5.4")),
         .package(url: "https://github.com/muxinc/mux-stats-sdk-avplayer.git", .upToNextMajor(from: "3.1.0")),
-        .package(url: "https://github.com/getsentry/sentry-cocoa.git", .upToNextMajor(from: "7.31.3"))
+        .package(url: "https://github.com/getsentry/sentry-cocoa.git", .upToNextMajor(from: "8.3.0"))
     ],
     targets: [
         .binaryTarget(

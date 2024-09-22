@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency 'Mux-Stats-AVPlayer', '3.1.0' 
  
   s.dependency 'GCDWebServer', '3.5.4'
-  s.dependency 'Sentry', '7.31.3'
+  s.dependency 'Sentry', '8.36.0'
   s.dependency 'WebRTC-SDK', '=104.5112.16' 
   s.dependency 'SwiftCentrifuge', '0.5.5'
   s.dependency 'SwiftProtobuf', '1.21.0'
