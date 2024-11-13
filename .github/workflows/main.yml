@@ -1,0 +1,44 @@
+name: iOS Simulator Build
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+    - cron: '0 0 * * MON'    
+
+jobs:
+  build:
+    name: Build for iOS Simulator
+    runs-on: macos-latest
+
+    strategy:
+      matrix:
+        project_dir:
+          - Examples/ObjectiveC-Player
+          - Examples/Swift-Player
+        scheme:
+          - ObjectiveC-Player
+          - Swift-Player
+        os: [latest]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+
+      - name: Install CocoaPods dependencies
+        run: |
+          sudo gem install cocoapods
+          pod install --project-directory=${{ matrix.project_dir }}
+
+      - name: Build for iOS Simulator
+        run: |
+          xcodebuild -workspace "${{ matrix.project_dir }}/${{ matrix.scheme }}.xcworkspace" \
+                     -scheme "${{ matrix.scheme }}" \
+                     -sdk iphonesimulator \
+                     -destination 'platform=iOS Simulator' \
+                     clean build
