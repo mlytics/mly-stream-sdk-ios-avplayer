@@ -40,8 +40,12 @@ jobs:
 
       - name: Verify Pods installation
         run: |
-          cd ${{ matrix.project_dir }}
-          pod list | grep SwiftProtobuf          
+          if [ -d "${{ matrix.project_dir }}/Pods/SwiftProtobuf" ]; then
+            echo "SwiftProtobuf is installed."
+          else
+            echo "SwiftProtobuf is not installed."
+            exit 1
+          fi
 
       - name: Build for iOS Simulator
         run: |
