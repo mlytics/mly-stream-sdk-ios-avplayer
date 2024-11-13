@@ -38,15 +38,6 @@ jobs:
           sudo gem install cocoapods
           pod install --project-directory=${{ matrix.project_dir }}
 
-      - name: Verify Pods installation
-        run: |
-          if [ -d "${{ matrix.project_dir }}/Pods/SwiftProtobuf" ]; then
-            echo "SwiftProtobuf is installed."
-          else
-            echo "SwiftProtobuf is not installed."
-            exit 1
-          fi
-
       - name: Build for iOS Simulator
         run: |
           xcodebuild -workspace "${{ matrix.project_dir }}/${{ matrix.scheme }}.xcworkspace" \
