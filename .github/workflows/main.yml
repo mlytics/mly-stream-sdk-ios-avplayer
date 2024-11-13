@@ -14,10 +14,8 @@ jobs:
     strategy:
       matrix:
         project_dir:
-          - Examples/ObjectiveC-Player
           - Examples/Swift-Player
         scheme:
-          - ObjectiveC-Player
           - Swift-Player
         os: [latest]
 
@@ -25,10 +23,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Ruby
+      - name: Set up Ruby 3.1
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: '3.1'
 
       - name: Install CocoaPods dependencies
         run: |
