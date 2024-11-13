@@ -39,4 +39,5 @@ jobs:
                      -scheme "${{ matrix.scheme }}" \
                      -sdk iphonesimulator \
                      -destination 'platform=iOS Simulator' \
+                     CODE_SIGNING_ALLOWED=NO \
                      clean build
