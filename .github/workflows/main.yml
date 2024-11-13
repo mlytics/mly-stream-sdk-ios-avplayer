@@ -47,4 +47,5 @@ jobs:
                      -UseModernBuildSystem=YES \
                      CODE_SIGNING_ALLOWED=NO \
                      EXCLUDED_ARCHS=arm64 \
+                     ONLY_ACTIVE_ARCH=YES \
                      clean build
