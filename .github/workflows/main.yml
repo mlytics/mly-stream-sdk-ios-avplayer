@@ -44,7 +44,7 @@ jobs:
                      -scheme "${{ matrix.scheme }}" \
                      -sdk iphonesimulator \
                      -destination 'platform=iOS Simulator' \
-                     -UseModernBuildSystem=YES \                     
+                     -UseModernBuildSystem=YES \
                      CODE_SIGNING_ALLOWED=NO \
                      EXCLUDED_ARCHS=arm64 \
                      clean build
