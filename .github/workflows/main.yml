@@ -28,10 +28,20 @@ jobs:
         with:
           ruby-version: '3.1'
 
+      - name: Clean old Pods and DerivedData
+        run: |
+          rm -rf "${{ matrix.project_dir }}/Pods"
+          rm -rf ~/Library/Developer/Xcode/DerivedData/*          
+
       - name: Install CocoaPods dependencies
         run: |
           sudo gem install cocoapods
           pod install --project-directory=${{ matrix.project_dir }}
+
+      - name: Verify Pods installation
+        run: |
+          cd ${{ matrix.project_dir }}
+          pod list | grep SwiftProtobuf          
 
       - name: Build for iOS Simulator
         run: |
@@ -39,6 +49,7 @@ jobs:
                      -scheme "${{ matrix.scheme }}" \
                      -sdk iphonesimulator \
                      -destination 'platform=iOS Simulator' \
+                     -UseModernBuildSystem=YES \                     
                      CODE_SIGNING_ALLOWED=NO \
                      EXCLUDED_ARCHS=arm64 \
                      clean build
