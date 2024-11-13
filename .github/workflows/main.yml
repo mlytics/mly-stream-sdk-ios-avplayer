@@ -1,0 +1,64 @@
+name: iOS CI for ObjectiveC and Swift Players
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+    - cron: '0 0 * * MON'
+
+jobs:
+  build-objectivec-player:
+    name: Build ObjectiveC Player
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Xcode environment
+        run: |
+          sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+          xcodebuild -version
+
+      - name: Install CocoaPods for ObjectiveC Player
+        run: |
+          cd Examples/ObjectiveC-Player
+          pod install
+
+      - name: Build ObjectiveC Player
+        run: |
+          xcodebuild clean build \
+            -workspace Examples/ObjectiveC-Player/ObjectiveC-Player.xcworkspace \
+            -scheme "ObjectiveC-Player" \
+            -sdk iphonesimulator \
+            -configuration Debug \
+            -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0' \
+            CODE_SIGNING_ALLOWED=NO
+
+  build-swift-player:
+    name: Build Swift Player
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Xcode environment
+        run: |
+          sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+          xcodebuild -version
+
+      - name: Install CocoaPods for Swift Player
+        run: |
+          cd Examples/Swift-Player
+          pod install
+
+      - name: Build Swift Player
+        run: |
+          xcodebuild clean build \
+            -workspace Examples/Swift-Player/Swift-Player.xcworkspace \
+            -scheme "Swift-Player" \
+            -sdk iphonesimulator \
+            -configuration Debug \
+            -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0' \
+            CODE_SIGNING_ALLOWED=NO
