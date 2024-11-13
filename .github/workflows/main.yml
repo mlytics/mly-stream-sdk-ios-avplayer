@@ -43,9 +43,12 @@ jobs:
           xcodebuild -workspace "${{ matrix.project_dir }}/${{ matrix.scheme }}.xcworkspace" \
                      -scheme "${{ matrix.scheme }}" \
                      -sdk iphonesimulator \
-                     -destination 'platform=iOS Simulator' \
-                     -UseModernBuildSystem=YES \
+                     -destination 'platform=iOS Simulator,name=iPad (10th generation),OS=18.1' \
+                     CODE_SIGN_IDENTITY="" \
+                     PROVISIONING_PROFILE_SPECIFIER="" \
                      CODE_SIGNING_ALLOWED=NO \
                      EXCLUDED_ARCHS=arm64 \
                      ONLY_ACTIVE_ARCH=YES \
+                     SDKROOT=iphonesimulator \
+                     -UseModernBuildSystem=YES \
                      clean build
