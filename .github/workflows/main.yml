@@ -40,4 +40,5 @@ jobs:
                      -sdk iphonesimulator \
                      -destination 'platform=iOS Simulator' \
                      CODE_SIGNING_ALLOWED=NO \
+                     EXCLUDED_ARCHS=arm64 \
                      clean build
