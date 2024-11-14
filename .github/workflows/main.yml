@@ -40,6 +40,17 @@ jobs:
           sudo gem install cocoapods
           pod install --project-directory=${{ matrix.project_dir }}
 
-      - name: List simulator devices
+      - name: Build for iOS Simulator
         run: |
-          xcrun simctl list devices
+          xcodebuild -workspace "${{ matrix.project_dir }}/${{ matrix.scheme }}.xcworkspace" \
+                     -scheme "${{ matrix.scheme }}" \
+                     -sdk iphonesimulator \
+                     -destination 'platform=iOS Simulator,name=iPad (10th generation),OS=18.1' \
+                     CODE_SIGN_IDENTITY="" \
+                     PROVISIONING_PROFILE_SPECIFIER="" \
+                     CODE_SIGNING_ALLOWED=NO \
+                     EXCLUDED_ARCHS=arm64 \
+                     ONLY_ACTIVE_ARCH=YES \
+                     SDKROOT=iphonesimulator \
+                     -UseModernBuildSystem=YES \
+                     clean build
