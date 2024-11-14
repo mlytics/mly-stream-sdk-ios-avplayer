@@ -49,7 +49,7 @@ jobs:
                      CODE_SIGN_IDENTITY="" \
                      PROVISIONING_PROFILE_SPECIFIER="" \
                      CODE_SIGNING_ALLOWED=NO \
-                     EXCLUDED_ARCHS=arm64 \
+                     EXCLUDED_ARCHS=x86_64 \
                      ONLY_ACTIVE_ARCH=YES \
                      SDKROOT=iphonesimulator \
                      -UseModernBuildSystem=YES \
