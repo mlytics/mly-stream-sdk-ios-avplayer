@@ -28,27 +28,18 @@ jobs:
         with:
           ruby-version: '3.1'
 
-      - name: Clean old Pods and DerivedData
+      - name: Clean Pods
         run: |
+          pod deintegrate "${{ matrix.project_dir }}/${{ matrix.scheme }}.xcodeproj"
           rm -rf "${{ matrix.project_dir }}/Pods"
-          rm -rf ~/Library/Developer/Xcode/DerivedData/*          
+          rm -rf "${{ matrix.project_dir }}/${{ matrix.scheme }}.xcworkspace"
+          rm -rf "${{ matrix.project_dir }}/Podfile.lock"
 
       - name: Install CocoaPods dependencies
         run: |
           sudo gem install cocoapods
           pod install --project-directory=${{ matrix.project_dir }}
 
-      - name: Build for iOS Simulator
+      - name: List simulator devices
         run: |
-          xcodebuild -workspace "${{ matrix.project_dir }}/${{ matrix.scheme }}.xcworkspace" \
-                     -scheme "${{ matrix.scheme }}" \
-                     -sdk iphonesimulator \
-                     -destination 'platform=iOS Simulator,name=iPad (10th generation),OS=18.1' \
-                     CODE_SIGN_IDENTITY="" \
-                     PROVISIONING_PROFILE_SPECIFIER="" \
-                     CODE_SIGNING_ALLOWED=NO \
-                     EXCLUDED_ARCHS=arm64 \
-                     ONLY_ACTIVE_ARCH=YES \
-                     SDKROOT=iphonesimulator \
-                     -UseModernBuildSystem=YES \
-                     clean build
+          xcrun simctl list devices
