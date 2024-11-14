@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build for iOS Simulator
-    runs-on: macos-latest-xlarge
+    runs-on: macos-latest
 
     strategy:
       matrix:
