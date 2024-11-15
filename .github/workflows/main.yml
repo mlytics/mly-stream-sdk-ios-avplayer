@@ -53,6 +53,4 @@ jobs:
                      -sdk iphonesimulator \
                      -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.5' \
                      CODE_SIGNING_ALLOWED=NO \
-                     ONLY_ACTIVE_ARCH=NO \
-                     -verbose \
                      clean build
