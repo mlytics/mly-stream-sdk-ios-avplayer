@@ -4,6 +4,8 @@ target 'Swift-Player' do
   use_frameworks! 
   pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-ios-avplayer.git'
   pod 'MLYAVPlayer',:git => 'https://github.com/mlytics/mly-stream-sdk-ios-avplayer.git'
+
+  pod 'Sentry', :modular_headers => true
 end
 
 post_install do |installer|
