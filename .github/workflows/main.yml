@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build for iOS Simulator
-    runs-on: macos-latest
+    runs-on: macos-14
 
     strategy:
       matrix:
@@ -25,7 +25,14 @@ jobs:
       - name: Set up Ruby 3.1
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.1.3'
+
+      - name: Check environment
+        run: |
+          echo "Architecture: $(uname -m)"
+          echo "OS Version: $(sw_vers)"
+          echo "Xcode Version: $(xcodebuild -version)"
+          echo "Swift Version: $(swift --version)"
 
       - name: Clean Pods
         run: |
