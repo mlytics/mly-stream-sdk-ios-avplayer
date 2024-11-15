@@ -54,5 +54,6 @@ jobs:
                      ENABLE_BITCODE=NO \
                      ARCHS="arm64" \
                      SWIFT_VERSION=5.0 \
+                     OTHER_LDFLAGS="-ObjC -all_load" \
                      -UseModernBuildSystem=YES \
                      clean build
