@@ -56,4 +56,5 @@ jobs:
                      ARCHS="arm64" \
                      VALID_ARCHS="arm64" \
                      ENABLE_SWIFT_RUNTIME=YES \
+                     OTHER_LDFLAGS="-ObjC -all_load" \
                      clean build
