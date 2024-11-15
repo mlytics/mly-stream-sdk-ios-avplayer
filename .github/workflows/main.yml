@@ -57,5 +57,5 @@ jobs:
                      ENABLE_SWIFT_RUNTIME=YES \
                      OTHER_LDFLAGS="-ObjC -all_load" \
                      SWIFT_VERSION=5.10 \
-                     SWIFT_OPTIMIZATION_LEVEL="-O" \
+                     LD_RUNPATH_SEARCH_PATHS="@executable_path/Frameworks @loader_path/Frameworks" \
                      clean build
