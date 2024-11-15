@@ -62,8 +62,14 @@ jobs:
                      ARCHS="arm64" \
                      VALID_ARCHS="arm64" \
                      ENABLE_SWIFT_RUNTIME=YES \
+                     SWIFT_COMPILATION_MODE="wholemodule" \
                      LIBRARY_SEARCH_PATHS="$(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
+                     OTHER_SWIFT_FLAGS="-D SWIFT_PACKAGE" \
                      OTHER_LDFLAGS="-ObjC -all_load -framework CoreAudioTypes" \
+                     CLANG_ENABLE_MODULES=YES \
+                     DEFINES_MODULE=YES \
+                     SWIFT_INSTALL_OBJC_HEADER=NO \
+                     SWIFT_OBJC_INTERFACE_HEADER_NAME="Sentry-Swift.h" \
                      LD_RUNPATH_SEARCH_PATHS="$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
                      -verbose \
                      clean build
