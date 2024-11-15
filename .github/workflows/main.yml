@@ -53,5 +53,6 @@ jobs:
                      BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
                      ENABLE_BITCODE=NO \
                      ARCHS="arm64" \
+                     SWIFT_VERSION=5.0 \
                      -UseModernBuildSystem=YES \
                      clean build
