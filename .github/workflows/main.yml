@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build for iOS Simulator
-    runs-on: macos-latest
+    runs-on: macos-14
 
     strategy:
       matrix:
@@ -17,16 +17,15 @@ jobs:
           - Examples/Swift-Player
         scheme:
           - Swift-Player
-        os: [latest]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Ruby 3.1
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.1.3'
 
       - name: Clean Pods
         run: |
@@ -61,12 +60,15 @@ jobs:
                      ONLY_ACTIVE_ARCH=NO \
                      BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
                      ENABLE_BITCODE=NO \
-                     SWIFT_VERSION=5.0 \
+                     SWIFT_VERSION=5.9 \
                      ARCHS="arm64" \
                      VALID_ARCHS="arm64" \
                      ENABLE_SWIFT_RUNTIME=YES \
-                     SWIFT_RUNTIME_PATH="$(xcode-select -p)/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift" \
-                     OTHER_LDFLAGS="-ObjC -all_load -L$(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
-                     LD_RUNPATH_SEARCH_PATHS="$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
+                     SWIFT_INSTALL_OBJC_HEADER=NO \
+                     EMBEDDED_CONTENT_CONTAINS_SWIFT=YES \
+                     ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=YES \
+                     LIBRARY_SEARCH_PATHS="$(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
+                     OTHER_LDFLAGS="-ObjC -all_load $(inherited)" \
+                     LD_RUNPATH_SEARCH_PATHS="$(inherited) @executable_path/Frameworks @loader_path/Frameworks" \
                      -verbose \
                      clean build
