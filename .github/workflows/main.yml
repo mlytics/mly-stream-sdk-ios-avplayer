@@ -51,17 +51,19 @@ jobs:
           xcodebuild -workspace "${{ matrix.project_dir }}/${{ matrix.scheme }}.xcworkspace" \
                      -scheme "${{ matrix.scheme }}" \
                      -sdk iphonesimulator \
-                     -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.2' \
+                     -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.5' \
                      CODE_SIGN_IDENTITY="" \
                      PROVISIONING_PROFILE_SPECIFIER="" \
                      CODE_SIGNING_ALLOWED=NO \
                      ONLY_ACTIVE_ARCH=NO \
                      BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
                      ENABLE_BITCODE=NO \
-                     SWIFT_VERSION=5.0 \
+                     SWIFT_VERSION=5.10 \
                      ARCHS="arm64" \
                      VALID_ARCHS="arm64" \
                      ENABLE_SWIFT_RUNTIME=YES \
-                     SWIFT_RUNTIME_PATH="$(xcode-select -p)/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift" \
+                     LIBRARY_SEARCH_PATHS="$(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
+                     OTHER_LDFLAGS="-ObjC -all_load -framework CoreAudioTypes" \
+                     LD_RUNPATH_SEARCH_PATHS="$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
                      -verbose \
                      clean build
