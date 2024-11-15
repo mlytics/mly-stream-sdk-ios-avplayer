@@ -58,4 +58,5 @@ jobs:
                      OTHER_LDFLAGS="-ObjC -all_load" \
                      SWIFT_VERSION=5.10 \
                      LD_RUNPATH_SEARCH_PATHS="@executable_path/Frameworks @loader_path/Frameworks" \
+                     LIBRARY_SEARCH_PATHS="$(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
                      clean build
