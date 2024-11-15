@@ -40,6 +40,15 @@ jobs:
           sudo gem install cocoapods
           pod install --project-directory=${{ matrix.project_dir }}
 
+      - name: Check environment
+        run: |
+          echo "Architecture: $(uname -m)"
+          echo "OS Version: $(sw_vers)"
+          echo "Xcode Version: $(xcodebuild -version)"
+          echo "Swift Version: $(swift --version)"
+          echo "SDK Path: $(xcrun --show-sdk-path)"
+          echo "Swift lib Path: $(xcrun --find swift)"
+
       - name: Build for iOS Simulator
         run: |
           xcodebuild -workspace "${{ matrix.project_dir }}/${{ matrix.scheme }}.xcworkspace" \
@@ -54,11 +63,10 @@ jobs:
                      ENABLE_BITCODE=NO \
                      SWIFT_VERSION=5.0 \
                      ARCHS="arm64" \
+                     VALID_ARCHS="arm64" \
                      ENABLE_SWIFT_RUNTIME=YES \
                      SWIFT_RUNTIME_PATH="$(xcode-select -p)/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift" \
-                     FRAMEWORK_SEARCH_PATHS="$(SDKROOT)/System/Library/Frameworks" \
-                     OTHER_LDFLAGS="-ObjC -all_load -L$(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator -framework CoreAudioTypes" \
-                     SWIFT_OPTIMIZATION_LEVEL="-Onone" \
+                     OTHER_LDFLAGS="-ObjC -all_load -L$(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
                      LD_RUNPATH_SEARCH_PATHS="$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(TOOLCHAIN_DIR)/usr/lib/swift/iphonesimulator" \
                      -verbose \
                      clean build
